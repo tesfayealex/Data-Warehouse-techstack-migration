@@ -1,0 +1,26 @@
+[2022-07-22 14:12:16,626] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: load_data.load_dataset manual__2022-07-22T11:06:07.186523+00:00 [queued]>
+[2022-07-22 14:12:16,629] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: load_data.load_dataset manual__2022-07-22T11:06:07.186523+00:00 [queued]>
+[2022-07-22 14:12:16,629] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-22 14:12:16,629] {taskinstance.py:1377} INFO - Starting attempt 4 of 6
+[2022-07-22 14:12:16,629] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-22 14:12:16,638] {taskinstance.py:1397} INFO - Executing <Task(PostgresOperator): load_dataset> on 2022-07-22 11:06:07.186523+00:00
+[2022-07-22 14:12:16,640] {standard_task_runner.py:52} INFO - Started process 18807 to run task
+[2022-07-22 14:12:16,641] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'load_data', 'load_dataset', 'manual__2022-07-22T11:06:07.186523+00:00', '--job-id', '28', '--raw', '--subdir', 'DAGS_FOLDER/create_dag_data_loader.py', '--cfg-path', '/tmp/tmp4e3n9nsl', '--error-file', '/tmp/tmpuppp3rqa']
+[2022-07-22 14:12:16,641] {standard_task_runner.py:80} INFO - Job 28: Subtask load_dataset
+[2022-07-22 14:12:16,651] {logging_mixin.py:115} WARNING - /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/configuration.py:532 DeprecationWarning: The sql_engine_encoding option in [core] has been moved to the sql_engine_encoding option in [database] - the old setting has been used, but please update your config.
+[2022-07-22 14:12:16,666] {task_command.py:371} INFO - Running <TaskInstance: load_data.load_dataset manual__2022-07-22T11:06:07.186523+00:00 [running]> on host hp-HP-Pavilion-Laptop-15-eg0xxx
+[2022-07-22 14:12:16,693] {taskinstance.py:1589} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=tesfaye
+AIRFLOW_CTX_DAG_ID=load_data
+AIRFLOW_CTX_TASK_ID=load_dataset
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-22T11:06:07.186523+00:00
+AIRFLOW_CTX_TRY_NUMBER=4
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-07-22T11:06:07.186523+00:00
+[2022-07-22 14:12:16,707] {base.py:68} INFO - Using connection ID 'postgres_connection' for task execution.
+[2022-07-22 14:12:16,713] {sql.py:255} INFO - Running statement: COPY import_data FROM '/home/hp/Downloads/t_data.csv' WITH DELIMITER AS ';' NULL AS '\null' CSV HEADER;, parameters: None
+[2022-07-22 14:12:18,187] {sql.py:264} INFO - Rows affected: 785
+[2022-07-22 14:12:18,200] {taskinstance.py:1415} INFO - Marking task as SUCCESS. dag_id=load_data, task_id=load_dataset, execution_date=20220722T110607, start_date=20220722T111216, end_date=20220722T111218
+[2022-07-22 14:12:18,218] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-07-22 14:12:18,233] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

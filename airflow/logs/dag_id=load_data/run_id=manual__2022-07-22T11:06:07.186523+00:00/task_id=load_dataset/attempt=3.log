@@ -1,0 +1,39 @@
+[2022-07-22 14:10:15,449] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: load_data.load_dataset manual__2022-07-22T11:06:07.186523+00:00 [queued]>
+[2022-07-22 14:10:15,451] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: load_data.load_dataset manual__2022-07-22T11:06:07.186523+00:00 [queued]>
+[2022-07-22 14:10:15,451] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-22 14:10:15,452] {taskinstance.py:1377} INFO - Starting attempt 3 of 6
+[2022-07-22 14:10:15,452] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-22 14:10:15,460] {taskinstance.py:1397} INFO - Executing <Task(PostgresOperator): load_dataset> on 2022-07-22 11:06:07.186523+00:00
+[2022-07-22 14:10:15,462] {standard_task_runner.py:52} INFO - Started process 18057 to run task
+[2022-07-22 14:10:15,463] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'load_data', 'load_dataset', 'manual__2022-07-22T11:06:07.186523+00:00', '--job-id', '22', '--raw', '--subdir', 'DAGS_FOLDER/create_dag_data_loader.py', '--cfg-path', '/tmp/tmpe81k5gs1', '--error-file', '/tmp/tmp87xyn5eu']
+[2022-07-22 14:10:15,464] {standard_task_runner.py:80} INFO - Job 22: Subtask load_dataset
+[2022-07-22 14:10:15,473] {logging_mixin.py:115} WARNING - /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/configuration.py:532 DeprecationWarning: The sql_engine_encoding option in [core] has been moved to the sql_engine_encoding option in [database] - the old setting has been used, but please update your config.
+[2022-07-22 14:10:15,488] {task_command.py:371} INFO - Running <TaskInstance: load_data.load_dataset manual__2022-07-22T11:06:07.186523+00:00 [running]> on host hp-HP-Pavilion-Laptop-15-eg0xxx
+[2022-07-22 14:10:15,513] {taskinstance.py:1589} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=tesfaye
+AIRFLOW_CTX_DAG_ID=load_data
+AIRFLOW_CTX_TASK_ID=load_dataset
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-22T11:06:07.186523+00:00
+AIRFLOW_CTX_TRY_NUMBER=3
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-07-22T11:06:07.186523+00:00
+[2022-07-22 14:10:15,527] {base.py:68} INFO - Using connection ID 'postgres_connection' for task execution.
+[2022-07-22 14:10:15,534] {sql.py:255} INFO - Running statement: COPY raw_data FROM '/home/hp/Downloads/t_data.csv' WITH DELIMITER AS ';' NULL AS '\null' CSV HEADER;, parameters: None
+[2022-07-22 14:10:15,535] {taskinstance.py:1909} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/providers/postgres/operators/postgres.py", line 92, in execute
+    self.hook.run(self.sql, self.autocommit, parameters=self.parameters)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 234, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 260, in _run_command
+    cur.execute(sql_statement)
+psycopg2.errors.InvalidTextRepresentation: invalid input syntax for type bigint: " Motorcycle"
+CONTEXT:  COPY raw_data, line 2, column track_id: " Motorcycle"
+
+[2022-07-22 14:10:15,537] {taskinstance.py:1415} INFO - Marking task as UP_FOR_RETRY. dag_id=load_data, task_id=load_dataset, execution_date=20220722T110607, start_date=20220722T111015, end_date=20220722T111015
+[2022-07-22 14:10:15,544] {standard_task_runner.py:92} ERROR - Failed to execute job 22 for task load_dataset (invalid input syntax for type bigint: " Motorcycle"
+CONTEXT:  COPY raw_data, line 2, column track_id: " Motorcycle"
+; 18057)
+[2022-07-22 14:10:15,555] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-07-22 14:10:15,566] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

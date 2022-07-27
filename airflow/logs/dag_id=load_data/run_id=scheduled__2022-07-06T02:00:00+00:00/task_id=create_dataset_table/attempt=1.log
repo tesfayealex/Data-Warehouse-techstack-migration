@@ -1,0 +1,40 @@
+[2022-07-22 14:06:02,106] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: load_data.create_dataset_table scheduled__2022-07-06T02:00:00+00:00 [queued]>
+[2022-07-22 14:06:02,117] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: load_data.create_dataset_table scheduled__2022-07-06T02:00:00+00:00 [queued]>
+[2022-07-22 14:06:02,117] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-22 14:06:02,117] {taskinstance.py:1377} INFO - Starting attempt 1 of 6
+[2022-07-22 14:06:02,117] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-22 14:06:02,142] {taskinstance.py:1397} INFO - Executing <Task(PostgresOperator): create_dataset_table> on 2022-07-06 02:00:00+00:00
+[2022-07-22 14:06:02,146] {standard_task_runner.py:52} INFO - Started process 15767 to run task
+[2022-07-22 14:06:02,148] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'load_data', 'create_dataset_table', 'scheduled__2022-07-06T02:00:00+00:00', '--job-id', '13', '--raw', '--subdir', 'DAGS_FOLDER/create_dag_data_loader.py', '--cfg-path', '/tmp/tmpec8hv7os', '--error-file', '/tmp/tmplmxgug4r']
+[2022-07-22 14:06:02,149] {standard_task_runner.py:80} INFO - Job 13: Subtask create_dataset_table
+[2022-07-22 14:06:02,180] {logging_mixin.py:115} WARNING - /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/configuration.py:532 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2022-07-22 14:06:02,182] {logging_mixin.py:115} WARNING - /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/configuration.py:532 DeprecationWarning: The sql_engine_encoding option in [core] has been moved to the sql_engine_encoding option in [database] - the old setting has been used, but please update your config.
+[2022-07-22 14:06:02,270] {task_command.py:371} INFO - Running <TaskInstance: load_data.create_dataset_table scheduled__2022-07-06T02:00:00+00:00 [running]> on host hp-HP-Pavilion-Laptop-15-eg0xxx
+[2022-07-22 14:06:02,306] {taskinstance.py:1589} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=tesfaye
+AIRFLOW_CTX_DAG_ID=load_data
+AIRFLOW_CTX_TASK_ID=create_dataset_table
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-06T02:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-07-06T02:00:00+00:00
+[2022-07-22 14:06:02,332] {base.py:68} INFO - Using connection ID 'postgres_connection' for task execution.
+[2022-07-22 14:06:02,342] {sql.py:255} INFO - Running statement: CREATE TABLE IF NOT EXISTS raw_data
+(
+    id bigint,
+    track_id bigint,
+    " type" text COLLATE pg_catalog."default",
+    " traveled_d" double precision,
+    " avg_speed" double precision,
+    " lat" double precision,
+    " lon" double precision,
+    " speed" double precision,
+    " lon_acc" double precision,
+    " lat_acc" double precision,
+    "time" double precision,
+    other_data text COLLATE pg_catalog."default"
+), parameters: None
+[2022-07-22 14:06:02,356] {taskinstance.py:1415} INFO - Marking task as SUCCESS. dag_id=load_data, task_id=create_dataset_table, execution_date=20220706T020000, start_date=20220722T110602, end_date=20220722T110602
+[2022-07-22 14:06:02,400] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-07-22 14:06:02,421] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check
