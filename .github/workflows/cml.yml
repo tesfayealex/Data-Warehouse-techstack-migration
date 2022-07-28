@@ -1,0 +1,17 @@
+name: model-metrics
+on: [push]
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+      - uses: iterative/setup-cml@v1
+      - name: Metrics
+
+        env:
+          REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |     
+          echo "## Project Images" >> report.md
+          cml publish ./images/migration_diagram.png --md >> report.md
+          cml send-comment report.md
