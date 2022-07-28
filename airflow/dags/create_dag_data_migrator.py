@@ -98,3 +98,26 @@ def create_table_query(table,columns):
 
 def create_db_query(name):
        db_query = f"CREATE DATABSE IF NOT EXISTS {name}"
+
+for s in schemas:
+       query = f"SELECT column_name , is_nullable , data_type  FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_SCHEMA= '{str(s[0])}' and TABLE_NAME = '{str(s[1])}'"
+       print(query)
+       cursor.execute(query)
+       columns = cursor.fetchall()
+       print (columns)
+       connection = f'mysql://admin:admin@127.0.0.1:3306/trial'
+       engine = create_engine(connection)
+       conn = engine.connect()
+       db_query  = create_db_query(s[0])
+       db = conn.execute(db_query)
+       create_query = create_table_query(s,columns)
+       print(create_query)
+       # cursor.execute(create_query)
+       # print(cursor.fetchall())
+     
+       query = text(f'show tables')
+       result = conn.execute(create_query)
+       print(result.fetchall())
+       # conn = pymysql.connect("localhost", "admin", "admin")
+       # print(conn)
+       break;
