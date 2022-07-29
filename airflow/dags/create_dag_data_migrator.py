@@ -2,6 +2,7 @@ from datetime import timedelta,datetime
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 import psycopg2 as db_connect
+from sqlalchemy import create_engine, types, text
 from airflow.providers.postgres.operators.postgres import PostgresOperator
 import logging
 log: logging.log = logging.getLogger("airflow")
@@ -55,6 +56,7 @@ log.setLevel(logging.INFO)
 
 
 import subprocess
+from sqlalchemy.orm import sessionmaker
 host_name="localhost"
 db_user="admin"
 db_password="admin"
@@ -64,6 +66,7 @@ connection = db_connect.connect(host=host_name,user=db_user,password=db_password
     
 cursor = connection.cursor()
 query = "SELECT table_schema,table_name FROM information_schema.tables WHERE table_schema != 'pg_catalog' and table_schema != 'information_schema' ORDER BY table_schema"
+postgres_engine = create_engine('postgresql+psycopg2://admin:admin@localhost/trial')
 cursor.execute(query)
 schemas = cursor.fetchall()
 print(schemas)
@@ -78,14 +81,16 @@ def convert_type(type):
        elif type == "double precision":
               return "double"
        elif type == "character varying":
-              return "text"
+              return "LONGTEXT"
+       elif type == "text":
+              return "LONGTEXT"
        else:
               return type
        #  func=switcher.get(type,lambda : type)
        #  return func
 
 def create_table_query(table,columns):
-       create_query = f"CREATE TABLE IF NOT EXISTS {table[1]}("
+       create_query = f"USE {table[0]}; CREATE TABLE IF NOT EXISTS {table[1]}("
        for index , c in enumerate(columns):
         data_type = convert_type(c[2])
         print(data_type)
@@ -97,7 +102,9 @@ def create_table_query(table,columns):
        return create_query
 
 def create_db_query(name):
-       db_query = f"CREATE DATABSE IF NOT EXISTS {name}"
+       db_query = f"CREATE DATABASE IF NOT EXISTS {name}"
+       return db_query
+
 
 for s in schemas:
        if s[0] == "public":
@@ -163,7 +170,6 @@ import pymysql
 
 conn = pymysql.connect("localhost", "admin", "admin")
 print(conn)
-import file
 proc = subprocess.Popen(["mysql", "--user=%s" % "admin", "--password=%s" % "admin", "trial"],
                         stdin=subprocess.PIPE,
                         stdout=subprocess.PIPE)
