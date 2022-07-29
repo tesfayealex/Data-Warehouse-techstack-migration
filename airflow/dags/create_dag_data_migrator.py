@@ -100,27 +100,38 @@ def create_db_query(name):
        db_query = f"CREATE DATABSE IF NOT EXISTS {name}"
 
 for s in schemas:
-       query = f"SELECT column_name , is_nullable , data_type  FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_SCHEMA= '{str(s[0])}' and TABLE_NAME = '{str(s[1])}'"
-       print(query)
-       cursor.execute(query)
-       columns = cursor.fetchall()
-       print (columns)
-       connection = f'mysql://admin:admin@127.0.0.1:3306/trial'
-       engine = create_engine(connection)
-       conn = engine.connect()
-       db_query  = create_db_query(s[0])
-       db = conn.execute(db_query)
-       create_query = create_table_query(s,columns)
-       print(create_query)
-       # cursor.execute(create_query)
-       # print(cursor.fetchall())
-     
-       query = text(f'show tables')
-       result = conn.execute(create_query)
-       print(result.fetchall())
-       # conn = pymysql.connect("localhost", "admin", "admin")
-       # print(conn)
-       break;
+       if s[0] == "public":
+              query = f"SELECT column_name , is_nullable , data_type  FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_SCHEMA= '{str(s[0])}' and TABLE_NAME = '{str(s[1])}'"
+              print(query)
+              cursor.execute(query)
+              columns = cursor.fetchall()
+              print (columns)
+              mysql_connection = f'mysql://admin:admin@127.0.0.1:3306/trial'
+              engine = create_engine(mysql_connection)
+              conn = engine.connect()
+              db_query  = create_db_query(s[0])
+              print(db_query)
+              db = conn.execute(db_query)
+              singe_db_connection = f'mysql://admin:admin@127.0.0.1:3306/{s[0]}'
+              single_db_engine = create_engine(singe_db_connection)
+              single_db_conn = engine.connect()
+              # print(db.fetchall())
+              create_query = create_table_query(s,columns)
+              print(create_query)
+              conn.execute(create_query)
+              # print(cursor.fetchall())
+              the_data = pd.read_sql(f'SELECT * FROM {s[0]}.{s[1]}',postgres_engine)
+              # query = text(f'show tables')
+              print(the_data)
+              x = the_data.to_sql(s[1], con=single_db_engine, if_exists='append', index=False)
+              print(x)
+              get_data_query = f'select * from {s[0]}.{s[1]};'
+              # print(get_data_query)
+              # result = conn.execute(get_data_query)
+              # print(result.fetchall())
+              # conn = pymysql.connect("localhost", "admin", "admin")
+              # print(conn)
+              # break;
 
      
 query = "pg_dump mydb > db.sql"
