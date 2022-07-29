@@ -35,7 +35,7 @@ with DAG(
     start_date=datetime(2022,7,6,2),
     schedule_interval='@once'
 )as dag:
-    task1 = PostgresOperator(
+    task1 = PythonOperator(
         task_id='change_raw_file',
         python_callable=modify_raw_data,
         op_kwargs={'location':"/data/dataset.csv"}
