@@ -111,4 +111,38 @@ def migrate_privilages(database_name):
                             excuted = conn.execute(query)
 
 
+default_args={
+    'owner':'tesfaye',
+    'retries':5,
+    'retry_delay':timedelta(minutes=1)
+}
 
+with DAG(
+    dag_id='migrate_data',
+    default_args=default_args,
+    description='migrate data from postgres to mysql',
+    start_date=datetime(2022,7,6,2),
+    schedule_interval='@once'
+)as dag:
+    task1 = PythonOperator(
+       task_id='create_schema_and_migrate_data',
+       python_callable=start_workflow,
+       op_kwargs={'database_name': 'Warehouse' },
+    )
+    task2 = PythonOperator(
+       task_id='create_dataset_table',
+       python_callable=migrate_privilages,
+       op_kwargs={'database_name': 'Warehouse' },
+    )
+    task3 = PythonOperator(
+       task_id='create_schema_and_migrate_data',
+       python_callable=start_workflow,
+       op_kwargs={'database_name': 'trial' },
+    )
+    task4 = PythonOperator(
+       task_id='create_dataset_table',
+       python_callable=migrate_privilages,
+       op_kwargs={'database_name': 'trial' },
+    )
+
+    task1 >> task2 >> task3 >> task4
