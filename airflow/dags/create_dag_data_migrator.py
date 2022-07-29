@@ -3,6 +3,7 @@ from airflow import DAG
 from airflow.operators.python import PythonOperator
 import psycopg2 as db_connect
 from sqlalchemy import create_engine, types, text
+import pandas as pd
 from airflow.providers.postgres.operators.postgres import PostgresOperator
 import logging
 log: logging.log = logging.getLogger("airflow")
@@ -140,46 +141,73 @@ for s in schemas:
               # print(conn)
               # break;
 
+def migrate_privilages():
+      
+       query = f"SELECT * FROM information_schema.table_privileges"
+       print(query)
+       cursor.execute(query)
+       columns = cursor.fetchall()
+       print(columns)
+       for c in columns:
+              if c[1] == 'try_user':
+                     check_user_existance = f'SELECT user,host FROM mysql.user where user = "{c[1]}"'
+                     query = f'GRANT {c[5]} on {c[3]}.{c[4]} to {c[1]}@`localhost`;' 
+                     mysql_connection = f'mysql://admin:admin@127.0.0.1:3306/{c[3]}'
+                     engine = create_engine(mysql_connection)
+                     conn = engine.connect()
+                     excuted = conn.execute(check_user_existance)
+                     if len(excuted.fetchall()) == 0:
+                            create_user_query = f'CREATE USER {c[1]}@`localhost` IDENTIFIED WITH mysql_native_password BY "password";'
+                            excuted = conn.execute(create_user_query)
+                     print(query)
+                     if c[5] != "TRUNCATE":
+                            excuted = conn.execute(query)
+
+
+
+
+migrate_privilages()
+
      
-query = "pg_dump mydb > db.sql"
+# query = "pg_dump mydb > db.sql"
 
 
-cursor.execute(query)
-# schemas = cursor.fetchall()
-print(cursor.fetchall())
+# cursor.execute(query)
+# # schemas = cursor.fetchall()
+# print(cursor.fetchall())
 
-try:
-            process = subprocess.Popen(
-                ['pg_dump',
-                 '--dbname=postgresql://{}:{}@{}:{}/{}'.format("admin", 'admin', "localhost", "5432", "trial"),
-                 '-Fc',
-                 '-f', "db.sql",
-                 '-v'],
-                stdout=subprocess.PIPE
-            )
-            output = process.communicate()[0]
-            if int(process.returncode) != 0:
-                print('Command failed. Return code : {}'.format(process.returncode))
-                exit(1)
-            print(output)
-except Exception as e:
-            print(e)
-            exit(1)
+# try:
+#             process = subprocess.Popen(
+#                 ['pg_dump',
+#                  '--dbname=postgresql://{}:{}@{}:{}/{}'.format("admin", 'admin', "localhost", "5432", "trial"),
+#                  '-Fc',
+#                  '-f', "db.sql",
+#                  '-v'],
+#                 stdout=subprocess.PIPE
+#             )
+#             output = process.communicate()[0]
+#             if int(process.returncode) != 0:
+#                 print('Command failed. Return code : {}'.format(process.returncode))
+#                 exit(1)
+#             print(output)
+# except Exception as e:
+#             print(e)
+#             exit(1)
 
-import pymysql
+# import pymysql
 
-conn = pymysql.connect("localhost", "admin", "admin")
-print(conn)
-proc = subprocess.Popen(["mysql", "--user=%s" % "admin", "--password=%s" % "admin", "trial"],
-                        stdin=subprocess.PIPE,
-                        stdout=subprocess.PIPE)
-f = open("./db.sql", "r")
-out, err = proc.communicate(f.read())
-print(out)
-print(err)
+# conn = pymysql.connect("localhost", "admin", "admin")
+# print(conn)
+# proc = subprocess.Popen(["mysql", "--user=%s" % "admin", "--password=%s" % "admin", "trial"],
+#                         stdin=subprocess.PIPE,
+#                         stdout=subprocess.PIPE)
+# f = open("./db.sql", "r")
+# out, err = proc.communicate(f.read())
+# print(out)
+# print(err)
 
-with open('db.sql', 'r') as f: 
-       command = ["mysql", "--user=%s" % "admin", "--password=%s" % "admin", "trial"]
-       proc = subprocess.Popen(command, stdin = f)
-       stdout, stderr = proc.communicate()
-       print(stdout)
+# with open('db.sql', 'r') as f: 
+#        command = ["mysql", "--user=%s" % "admin", "--password=%s" % "admin", "trial"]
+#        proc = subprocess.Popen(command, stdin = f)
+#        stdout, stderr = proc.communicate()
+#        print(stdout)
