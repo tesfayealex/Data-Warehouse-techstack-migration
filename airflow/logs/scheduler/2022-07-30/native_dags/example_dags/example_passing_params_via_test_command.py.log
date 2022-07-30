@@ -1,0 +1,356 @@
+[2022-07-30 21:47:45,311] {processor.py:153} INFO - Started process (PID=31555) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 21:47:45,312] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2022-07-30 21:47:45,313] {logging_mixin.py:115} INFO - [2022-07-30 21:47:45,312] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 21:47:45,329] {processor.py:651} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 21:47:45,337] {logging_mixin.py:115} INFO - [2022-07-30 21:47:45,336] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:47:45,346] {logging_mixin.py:115} INFO - [2022-07-30 21:47:45,346] {dag.py:2968} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2022-07-30T18:46:00+00:00, run_after=2022-07-30T18:47:00+00:00
+[2022-07-30 21:47:45,354] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.047 seconds
+[2022-07-30 21:48:29,822] {processor.py:153} INFO - Started process (PID=31956) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 21:48:29,823] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2022-07-30 21:48:29,823] {logging_mixin.py:115} INFO - [2022-07-30 21:48:29,823] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 21:48:29,834] {processor.py:651} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 21:48:29,841] {logging_mixin.py:115} INFO - [2022-07-30 21:48:29,841] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:48:29,851] {logging_mixin.py:115} INFO - [2022-07-30 21:48:29,850] {dag.py:2968} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2022-07-30T18:47:00+00:00, run_after=2022-07-30T18:48:00+00:00
+[2022-07-30 21:48:29,858] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.037 seconds
+[2022-07-30 21:49:09,738] {processor.py:153} INFO - Started process (PID=32120) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 21:49:09,739] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2022-07-30 21:49:09,740] {logging_mixin.py:115} INFO - [2022-07-30 21:49:09,740] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 21:49:09,759] {processor.py:651} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 21:49:09,767] {logging_mixin.py:115} INFO - [2022-07-30 21:49:09,767] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:49:09,779] {logging_mixin.py:115} INFO - [2022-07-30 21:49:09,779] {dag.py:2968} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2022-07-30T18:48:00+00:00, run_after=2022-07-30T18:49:00+00:00
+[2022-07-30 21:49:09,787] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.050 seconds
+[2022-07-30 21:49:49,784] {processor.py:153} INFO - Started process (PID=32338) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 21:49:49,785] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2022-07-30 21:49:49,786] {logging_mixin.py:115} INFO - [2022-07-30 21:49:49,785] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 21:49:49,803] {processor.py:651} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 21:49:49,810] {logging_mixin.py:115} INFO - [2022-07-30 21:49:49,810] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:49:49,820] {logging_mixin.py:115} INFO - [2022-07-30 21:49:49,820] {dag.py:2968} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2022-07-30T18:48:00+00:00, run_after=2022-07-30T18:49:00+00:00
+[2022-07-30 21:49:49,828] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.048 seconds
+[2022-07-30 21:50:32,098] {processor.py:153} INFO - Started process (PID=32671) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 21:50:32,099] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2022-07-30 21:50:32,099] {logging_mixin.py:115} INFO - [2022-07-30 21:50:32,099] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 21:50:32,113] {processor.py:651} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 21:50:32,121] {logging_mixin.py:115} INFO - [2022-07-30 21:50:32,121] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:50:32,131] {logging_mixin.py:115} INFO - [2022-07-30 21:50:32,131] {dag.py:2968} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2022-07-30T18:49:00+00:00, run_after=2022-07-30T18:50:00+00:00
+[2022-07-30 21:50:32,139] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.042 seconds
+[2022-07-30 21:51:13,127] {processor.py:153} INFO - Started process (PID=32915) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 21:51:13,127] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2022-07-30 21:51:13,127] {logging_mixin.py:115} INFO - [2022-07-30 21:51:13,127] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 21:51:13,139] {processor.py:651} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 21:51:13,148] {logging_mixin.py:115} INFO - [2022-07-30 21:51:13,148] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:51:13,158] {logging_mixin.py:115} INFO - [2022-07-30 21:51:13,158] {dag.py:2968} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2022-07-30T18:50:00+00:00, run_after=2022-07-30T18:51:00+00:00
+[2022-07-30 21:51:13,167] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.042 seconds
+[2022-07-30 21:51:54,521] {processor.py:153} INFO - Started process (PID=33281) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 21:51:54,521] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2022-07-30 21:51:54,521] {logging_mixin.py:115} INFO - [2022-07-30 21:51:54,521] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 21:51:54,532] {processor.py:651} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 21:51:54,540] {logging_mixin.py:115} INFO - [2022-07-30 21:51:54,540] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:51:54,550] {logging_mixin.py:115} INFO - [2022-07-30 21:51:54,550] {dag.py:2968} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2022-07-30T18:50:00+00:00, run_after=2022-07-30T18:51:00+00:00
+[2022-07-30 21:51:54,559] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.040 seconds
+[2022-07-30 21:52:36,769] {processor.py:153} INFO - Started process (PID=33787) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 21:52:36,770] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2022-07-30 21:52:36,771] {logging_mixin.py:115} INFO - [2022-07-30 21:52:36,771] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 21:52:36,788] {processor.py:651} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 21:52:36,796] {logging_mixin.py:115} INFO - [2022-07-30 21:52:36,796] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:52:36,805] {logging_mixin.py:115} INFO - [2022-07-30 21:52:36,805] {dag.py:2968} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2022-07-30T18:51:00+00:00, run_after=2022-07-30T18:52:00+00:00
+[2022-07-30 21:52:36,813] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.048 seconds
+[2022-07-30 21:53:17,484] {processor.py:153} INFO - Started process (PID=34158) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 21:53:17,484] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2022-07-30 21:53:17,485] {logging_mixin.py:115} INFO - [2022-07-30 21:53:17,485] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 21:53:17,502] {processor.py:651} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 21:53:17,509] {logging_mixin.py:115} INFO - [2022-07-30 21:53:17,509] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:53:17,519] {logging_mixin.py:115} INFO - [2022-07-30 21:53:17,519] {dag.py:2968} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2022-07-30T18:52:00+00:00, run_after=2022-07-30T18:53:00+00:00
+[2022-07-30 21:53:17,532] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.052 seconds
+[2022-07-30 21:53:57,398] {processor.py:153} INFO - Started process (PID=34424) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 21:53:57,398] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2022-07-30 21:53:57,399] {logging_mixin.py:115} INFO - [2022-07-30 21:53:57,398] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 21:53:57,412] {processor.py:651} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 21:53:57,421] {logging_mixin.py:115} INFO - [2022-07-30 21:53:57,421] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:53:57,432] {logging_mixin.py:115} INFO - [2022-07-30 21:53:57,432] {dag.py:2968} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2022-07-30T18:52:00+00:00, run_after=2022-07-30T18:53:00+00:00
+[2022-07-30 21:53:57,443] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.046 seconds
+[2022-07-30 21:54:37,636] {processor.py:153} INFO - Started process (PID=34747) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 21:54:37,637] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2022-07-30 21:54:37,637] {logging_mixin.py:115} INFO - [2022-07-30 21:54:37,637] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 21:54:37,656] {processor.py:651} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 21:54:37,663] {logging_mixin.py:115} INFO - [2022-07-30 21:54:37,663] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:54:37,673] {logging_mixin.py:115} INFO - [2022-07-30 21:54:37,673] {dag.py:2968} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2022-07-30T18:53:00+00:00, run_after=2022-07-30T18:54:00+00:00
+[2022-07-30 21:54:37,681] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.049 seconds
+[2022-07-30 21:55:18,950] {processor.py:153} INFO - Started process (PID=34993) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 21:55:18,951] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2022-07-30 21:55:18,952] {logging_mixin.py:115} INFO - [2022-07-30 21:55:18,952] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 21:55:18,971] {processor.py:651} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 21:55:18,980] {logging_mixin.py:115} INFO - [2022-07-30 21:55:18,980] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:55:18,990] {logging_mixin.py:115} INFO - [2022-07-30 21:55:18,990] {dag.py:2968} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2022-07-30T18:54:00+00:00, run_after=2022-07-30T18:55:00+00:00
+[2022-07-30 21:55:18,999] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.053 seconds
+[2022-07-30 21:55:58,683] {processor.py:153} INFO - Started process (PID=35246) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 21:55:58,684] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2022-07-30 21:55:58,685] {logging_mixin.py:115} INFO - [2022-07-30 21:55:58,685] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 21:55:58,702] {processor.py:651} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 21:55:58,710] {logging_mixin.py:115} INFO - [2022-07-30 21:55:58,709] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:55:58,719] {logging_mixin.py:115} INFO - [2022-07-30 21:55:58,719] {dag.py:2968} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2022-07-30T18:54:00+00:00, run_after=2022-07-30T18:55:00+00:00
+[2022-07-30 21:55:58,727] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.047 seconds
+[2022-07-30 21:56:41,853] {processor.py:153} INFO - Started process (PID=35664) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 21:56:41,853] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2022-07-30 21:56:41,853] {logging_mixin.py:115} INFO - [2022-07-30 21:56:41,853] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 21:56:41,864] {processor.py:651} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 21:56:41,872] {logging_mixin.py:115} INFO - [2022-07-30 21:56:41,872] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:56:41,881] {logging_mixin.py:115} INFO - [2022-07-30 21:56:41,881] {dag.py:2968} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2022-07-30T18:55:00+00:00, run_after=2022-07-30T18:56:00+00:00
+[2022-07-30 21:56:41,889] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.038 seconds
+[2022-07-30 21:57:24,290] {processor.py:153} INFO - Started process (PID=35966) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 21:57:24,291] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2022-07-30 21:57:24,292] {logging_mixin.py:115} INFO - [2022-07-30 21:57:24,291] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 21:57:24,308] {processor.py:651} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 21:57:24,316] {logging_mixin.py:115} INFO - [2022-07-30 21:57:24,316] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:57:24,325] {logging_mixin.py:115} INFO - [2022-07-30 21:57:24,325] {dag.py:2968} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2022-07-30T18:56:00+00:00, run_after=2022-07-30T18:57:00+00:00
+[2022-07-30 21:57:24,334] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.048 seconds
+[2022-07-30 21:57:48,074] {processor.py:153} INFO - Started process (PID=36200) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 21:57:48,075] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2022-07-30 21:57:48,076] {logging_mixin.py:115} INFO - [2022-07-30 21:57:48,076] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 21:57:48,093] {processor.py:651} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 21:57:48,112] {logging_mixin.py:115} INFO - [2022-07-30 21:57:48,112] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:57:48,121] {logging_mixin.py:115} INFO - [2022-07-30 21:57:48,121] {dag.py:2968} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2022-07-30T18:56:00+00:00, run_after=2022-07-30T18:57:00+00:00
+[2022-07-30 21:57:48,131] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.061 seconds
+[2022-07-30 21:58:05,389] {processor.py:153} INFO - Started process (PID=36382) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 21:58:05,389] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2022-07-30 21:58:05,390] {logging_mixin.py:115} INFO - [2022-07-30 21:58:05,389] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 21:58:05,402] {processor.py:651} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 21:58:05,406] {logging_mixin.py:115} INFO - [2022-07-30 21:58:05,406] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:58:05,417] {logging_mixin.py:115} INFO - [2022-07-30 21:58:05,416] {dag.py:2968} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2022-07-30T18:57:00+00:00, run_after=2022-07-30T18:58:00+00:00
+[2022-07-30 21:58:05,425] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.038 seconds
+[2022-07-30 21:58:29,468] {processor.py:153} INFO - Started process (PID=36593) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 21:58:29,469] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2022-07-30 21:58:29,470] {logging_mixin.py:115} INFO - [2022-07-30 21:58:29,470] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 21:58:29,488] {processor.py:651} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 21:58:29,498] {logging_mixin.py:115} WARNING - /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py:610 DeprecationWarning: DAG.full_filepath is deprecated in favour of fileloc
+[2022-07-30 21:58:29,501] {logging_mixin.py:115} INFO - [2022-07-30 21:58:29,498] {dagbag.py:610} ERROR - Failed to write serialized DAG: /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+Traceback (most recent call last):
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 605, in _serialize_dag_capturing_errors
+    self._sync_perm_for_dag(dag, session=session)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/utils/session.py", line 68, in wrapper
+    return func(*args, **kwargs)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 660, in _sync_perm_for_dag
+    if dag.access_control or needs_perms(root_dag_id):
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 650, in needs_perms
+    session.query(Permission)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2046, in query
+    return self._query_cls(entities, self, **kwargs)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 173, in __init__
+    self._set_entities(entities)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 180, in _set_entities
+    self._raw_columns = [
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 181, in <listcomp>
+    coercions.expect(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/coercions.py", line 160, in expect
+    insp._post_inspect
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 1162, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 2097, in _post_inspect
+    self._check_configure()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 1874, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 3381, in _configure_registries
+    _do_configure_registries(registries, cascade)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 3420, in _do_configure_registries
+    mapper._post_configure_properties()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 1891, in _post_configure_properties
+    prop.init()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/interfaces.py", line 227, in init
+    self.do_init()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2133, in do_init
+    self._setup_join_conditions()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2229, in _setup_join_conditions
+    self._join_condition = jc = JoinCondition(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2624, in __init__
+    self._determine_joins()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2720, in _determine_joins
+    self.secondaryjoin = join_condition(
+  File "<string>", line 2, in join_condition
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/selectable.py", line 1186, in _join_condition
+    constraints = cls._joincond_scan_left_right(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/selectable.py", line 1255, in _joincond_scan_left_right
+    col = fk.get_referent(left)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/schema.py", line 2232, in get_referent
+    return table.corresponding_column(self.column)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 1095, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/schema.py", line 2373, in column
+    raise exc.NoReferencedTableError(
+sqlalchemy.exc.NoReferencedTableError: Foreign key associated with column 'ab_permission_view_role.permission_view_id' could not find table 'ab_permission_view' with which to generate a foreign key to target column 'id'
+[2022-07-30 21:58:29,501] {logging_mixin.py:115} INFO - [2022-07-30 21:58:29,501] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:58:29,510] {logging_mixin.py:115} INFO - [2022-07-30 21:58:29,510] {dag.py:2968} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2022-07-30T18:57:00+00:00, run_after=2022-07-30T18:58:00+00:00
+[2022-07-30 21:58:29,524] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.060 seconds
+[2022-07-30 21:59:11,370] {processor.py:153} INFO - Started process (PID=37061) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 21:59:11,371] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2022-07-30 21:59:11,371] {logging_mixin.py:115} INFO - [2022-07-30 21:59:11,371] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 21:59:11,383] {processor.py:651} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 21:59:11,391] {logging_mixin.py:115} INFO - [2022-07-30 21:59:11,391] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:59:11,403] {logging_mixin.py:115} INFO - [2022-07-30 21:59:11,403] {dag.py:2968} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2022-07-30T18:58:00+00:00, run_after=2022-07-30T18:59:00+00:00
+[2022-07-30 21:59:11,426] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.057 seconds
+[2022-07-30 21:59:44,513] {processor.py:153} INFO - Started process (PID=37234) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 21:59:44,513] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2022-07-30 21:59:44,514] {logging_mixin.py:115} INFO - [2022-07-30 21:59:44,514] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 21:59:44,527] {processor.py:651} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 21:59:44,534] {logging_mixin.py:115} INFO - [2022-07-30 21:59:44,534] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:59:44,544] {logging_mixin.py:115} INFO - [2022-07-30 21:59:44,544] {dag.py:2968} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2022-07-30T18:58:00+00:00, run_after=2022-07-30T18:59:00+00:00
+[2022-07-30 21:59:44,551] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.042 seconds
+[2022-07-30 22:00:21,169] {processor.py:153} INFO - Started process (PID=37475) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 22:00:21,170] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2022-07-30 22:00:21,171] {logging_mixin.py:115} INFO - [2022-07-30 22:00:21,171] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 22:00:21,187] {processor.py:651} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 22:00:21,195] {logging_mixin.py:115} INFO - [2022-07-30 22:00:21,195] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 22:00:21,206] {logging_mixin.py:115} INFO - [2022-07-30 22:00:21,206] {dag.py:2968} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2022-07-30T18:59:00+00:00, run_after=2022-07-30T19:00:00+00:00
+[2022-07-30 22:00:21,214] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.050 seconds
+[2022-07-30 22:00:56,262] {processor.py:153} INFO - Started process (PID=37780) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 22:00:56,263] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2022-07-30 22:00:56,263] {logging_mixin.py:115} INFO - [2022-07-30 22:00:56,263] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 22:00:56,282] {processor.py:651} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 22:00:56,290] {logging_mixin.py:115} INFO - [2022-07-30 22:00:56,290] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 22:00:56,301] {logging_mixin.py:115} INFO - [2022-07-30 22:00:56,301] {dag.py:2968} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2022-07-30T18:59:00+00:00, run_after=2022-07-30T19:00:00+00:00
+[2022-07-30 22:00:56,309] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.051 seconds
+[2022-07-30 22:01:36,592] {processor.py:153} INFO - Started process (PID=38176) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 22:01:36,592] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2022-07-30 22:01:36,593] {logging_mixin.py:115} INFO - [2022-07-30 22:01:36,593] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 22:01:36,605] {processor.py:651} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 22:01:36,613] {logging_mixin.py:115} INFO - [2022-07-30 22:01:36,613] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 22:01:36,624] {logging_mixin.py:115} INFO - [2022-07-30 22:01:36,624] {dag.py:2968} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2022-07-30T19:00:00+00:00, run_after=2022-07-30T19:01:00+00:00
+[2022-07-30 22:01:36,634] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.046 seconds
+[2022-07-30 22:02:11,840] {processor.py:153} INFO - Started process (PID=38521) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 22:02:11,840] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2022-07-30 22:02:11,840] {logging_mixin.py:115} INFO - [2022-07-30 22:02:11,840] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 22:02:11,852] {processor.py:651} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 22:02:11,859] {logging_mixin.py:115} INFO - [2022-07-30 22:02:11,859] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 22:02:11,870] {logging_mixin.py:115} INFO - [2022-07-30 22:02:11,870] {dag.py:2968} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2022-07-30T19:01:00+00:00, run_after=2022-07-30T19:02:00+00:00
+[2022-07-30 22:02:11,878] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.040 seconds
+[2022-07-30 22:02:48,238] {processor.py:153} INFO - Started process (PID=38894) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 22:02:48,238] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2022-07-30 22:02:48,238] {logging_mixin.py:115} INFO - [2022-07-30 22:02:48,238] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 22:02:48,252] {processor.py:651} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 22:02:48,261] {logging_mixin.py:115} INFO - [2022-07-30 22:02:48,261] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 22:02:48,273] {logging_mixin.py:115} INFO - [2022-07-30 22:02:48,273] {dag.py:2968} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2022-07-30T19:01:00+00:00, run_after=2022-07-30T19:02:00+00:00
+[2022-07-30 22:02:48,284] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.048 seconds
+[2022-07-30 22:03:24,781] {processor.py:153} INFO - Started process (PID=39100) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 22:03:24,782] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2022-07-30 22:03:24,783] {logging_mixin.py:115} INFO - [2022-07-30 22:03:24,783] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 22:03:24,797] {processor.py:651} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 22:03:24,805] {logging_mixin.py:115} INFO - [2022-07-30 22:03:24,805] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 22:03:24,815] {logging_mixin.py:115} INFO - [2022-07-30 22:03:24,815] {dag.py:2968} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2022-07-30T19:02:00+00:00, run_after=2022-07-30T19:03:00+00:00
+[2022-07-30 22:03:24,823] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.046 seconds
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [2022-07-30 23:14:26,618] {processor.py:153} INFO - Started process (PID=5469) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 23:14:26,620] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2022-07-30 23:14:26,620] {logging_mixin.py:115} INFO - [2022-07-30 23:14:26,620] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 23:14:26,638] {processor.py:651} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 23:14:26,661] {logging_mixin.py:115} INFO - [2022-07-30 23:14:26,660] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:14:26,672] {logging_mixin.py:115} INFO - [2022-07-30 23:14:26,672] {dag.py:2968} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2022-07-30T20:13:00+00:00, run_after=2022-07-30T20:14:00+00:00
+[2022-07-30 23:14:26,683] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.069 seconds
+[2022-07-30 23:15:01,145] {processor.py:153} INFO - Started process (PID=5652) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 23:15:01,146] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2022-07-30 23:15:01,147] {logging_mixin.py:115} INFO - [2022-07-30 23:15:01,147] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 23:15:01,164] {processor.py:651} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 23:15:01,173] {logging_mixin.py:115} INFO - [2022-07-30 23:15:01,172] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:15:01,185] {logging_mixin.py:115} INFO - [2022-07-30 23:15:01,184] {dag.py:2968} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2022-07-30T20:14:00+00:00, run_after=2022-07-30T20:15:00+00:00
+[2022-07-30 23:15:01,193] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.052 seconds
+[2022-07-30 23:15:38,892] {processor.py:153} INFO - Started process (PID=6877) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 23:15:38,893] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2022-07-30 23:15:38,894] {logging_mixin.py:115} INFO - [2022-07-30 23:15:38,894] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 23:15:38,915] {processor.py:651} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 23:15:38,924] {logging_mixin.py:115} INFO - [2022-07-30 23:15:38,924] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:15:38,937] {logging_mixin.py:115} INFO - [2022-07-30 23:15:38,937] {dag.py:2968} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2022-07-30T20:14:00+00:00, run_after=2022-07-30T20:15:00+00:00
+[2022-07-30 23:15:38,947] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.058 seconds
+[2022-07-30 23:16:16,188] {processor.py:153} INFO - Started process (PID=7069) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 23:16:16,188] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2022-07-30 23:16:16,188] {logging_mixin.py:115} INFO - [2022-07-30 23:16:16,188] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 23:16:16,203] {processor.py:651} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 23:16:16,214] {logging_mixin.py:115} INFO - [2022-07-30 23:16:16,214] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:16:16,229] {logging_mixin.py:115} INFO - [2022-07-30 23:16:16,229] {dag.py:2968} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2022-07-30T20:15:00+00:00, run_after=2022-07-30T20:16:00+00:00
+[2022-07-30 23:16:16,238] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.052 seconds
+[2022-07-30 23:16:53,513] {processor.py:153} INFO - Started process (PID=7399) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 23:16:53,513] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2022-07-30 23:16:53,514] {logging_mixin.py:115} INFO - [2022-07-30 23:16:53,514] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 23:16:53,528] {processor.py:651} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 23:16:53,539] {logging_mixin.py:115} INFO - [2022-07-30 23:16:53,539] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:16:53,555] {logging_mixin.py:115} INFO - [2022-07-30 23:16:53,555] {dag.py:2968} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2022-07-30T20:15:00+00:00, run_after=2022-07-30T20:16:00+00:00
+[2022-07-30 23:16:53,570] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.060 seconds
+[2022-07-30 23:17:31,832] {processor.py:153} INFO - Started process (PID=7670) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 23:17:31,832] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2022-07-30 23:17:31,833] {logging_mixin.py:115} INFO - [2022-07-30 23:17:31,833] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 23:17:31,848] {processor.py:651} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 23:17:31,859] {logging_mixin.py:115} INFO - [2022-07-30 23:17:31,859] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:17:31,871] {logging_mixin.py:115} INFO - [2022-07-30 23:17:31,871] {dag.py:2968} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2022-07-30T20:16:00+00:00, run_after=2022-07-30T20:17:00+00:00
+[2022-07-30 23:17:31,880] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.050 seconds
+[2022-07-30 23:18:06,355] {processor.py:153} INFO - Started process (PID=7889) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 23:18:06,356] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2022-07-30 23:18:06,357] {logging_mixin.py:115} INFO - [2022-07-30 23:18:06,357] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 23:18:06,374] {processor.py:651} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 23:18:06,382] {logging_mixin.py:115} INFO - [2022-07-30 23:18:06,382] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:18:06,395] {logging_mixin.py:115} INFO - [2022-07-30 23:18:06,395] {dag.py:2968} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2022-07-30T20:17:00+00:00, run_after=2022-07-30T20:18:00+00:00
+[2022-07-30 23:18:06,405] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.055 seconds
+[2022-07-30 23:20:06,777] {processor.py:153} INFO - Started process (PID=8783) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 23:20:06,778] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2022-07-30 23:20:06,778] {logging_mixin.py:115} INFO - [2022-07-30 23:20:06,778] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 23:20:06,789] {processor.py:651} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 23:20:06,800] {logging_mixin.py:115} INFO - [2022-07-30 23:20:06,800] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:20:06,812] {logging_mixin.py:115} INFO - [2022-07-30 23:20:06,812] {dag.py:2968} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2022-07-30T20:19:00+00:00, run_after=2022-07-30T20:20:00+00:00
+[2022-07-30 23:20:06,823] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.048 seconds
+[2022-07-30 23:20:41,512] {processor.py:153} INFO - Started process (PID=9046) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 23:20:41,512] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2022-07-30 23:20:41,513] {logging_mixin.py:115} INFO - [2022-07-30 23:20:41,513] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 23:20:41,523] {processor.py:651} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 23:20:41,534] {logging_mixin.py:115} INFO - [2022-07-30 23:20:41,534] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:20:41,545] {logging_mixin.py:115} INFO - [2022-07-30 23:20:41,545] {dag.py:2968} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2022-07-30T20:19:00+00:00, run_after=2022-07-30T20:20:00+00:00
+[2022-07-30 23:20:41,556] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.046 seconds
+[2022-07-30 23:24:50,260] {processor.py:153} INFO - Started process (PID=10600) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 23:24:50,261] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2022-07-30 23:24:50,261] {logging_mixin.py:115} INFO - [2022-07-30 23:24:50,261] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 23:24:50,278] {processor.py:651} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 23:24:50,285] {logging_mixin.py:115} INFO - [2022-07-30 23:24:50,285] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:24:50,296] {logging_mixin.py:115} INFO - [2022-07-30 23:24:50,296] {dag.py:2968} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2022-07-30T20:23:00+00:00, run_after=2022-07-30T20:24:00+00:00
+[2022-07-30 23:24:50,305] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.048 seconds
+[2022-07-30 23:25:23,724] {processor.py:153} INFO - Started process (PID=10783) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 23:25:23,725] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2022-07-30 23:25:23,725] {logging_mixin.py:115} INFO - [2022-07-30 23:25:23,725] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 23:25:23,739] {processor.py:651} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 23:25:23,746] {logging_mixin.py:115} INFO - [2022-07-30 23:25:23,746] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:25:23,757] {logging_mixin.py:115} INFO - [2022-07-30 23:25:23,757] {dag.py:2968} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2022-07-30T20:24:00+00:00, run_after=2022-07-30T20:25:00+00:00
+[2022-07-30 23:25:23,766] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.044 seconds
+[2022-07-30 23:25:41,880] {processor.py:153} INFO - Started process (PID=10957) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 23:25:41,881] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2022-07-30 23:25:41,881] {logging_mixin.py:115} INFO - [2022-07-30 23:25:41,881] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 23:25:41,890] {processor.py:651} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 23:25:41,898] {logging_mixin.py:115} INFO - [2022-07-30 23:25:41,898] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:25:41,909] {logging_mixin.py:115} INFO - [2022-07-30 23:25:41,909] {dag.py:2968} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2022-07-30T20:24:00+00:00, run_after=2022-07-30T20:25:00+00:00
+[2022-07-30 23:25:41,919] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.040 seconds
+[2022-07-30 23:26:17,830] {processor.py:153} INFO - Started process (PID=11509) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 23:26:17,831] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2022-07-30 23:26:17,831] {logging_mixin.py:115} INFO - [2022-07-30 23:26:17,831] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 23:26:17,845] {processor.py:651} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 23:26:17,853] {logging_mixin.py:115} INFO - [2022-07-30 23:26:17,853] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:26:17,865] {logging_mixin.py:115} INFO - [2022-07-30 23:26:17,865] {dag.py:2968} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2022-07-30T20:25:00+00:00, run_after=2022-07-30T20:26:00+00:00
+[2022-07-30 23:26:17,874] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.045 seconds
+[2022-07-30 23:26:53,862] {processor.py:153} INFO - Started process (PID=11913) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 23:26:53,863] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2022-07-30 23:26:53,863] {logging_mixin.py:115} INFO - [2022-07-30 23:26:53,863] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 23:26:53,874] {processor.py:651} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 23:26:53,881] {logging_mixin.py:115} INFO - [2022-07-30 23:26:53,881] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:26:53,893] {logging_mixin.py:115} INFO - [2022-07-30 23:26:53,893] {dag.py:2968} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2022-07-30T20:25:00+00:00, run_after=2022-07-30T20:26:00+00:00
+[2022-07-30 23:26:53,902] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.042 seconds
+[2022-07-30 23:27:31,138] {processor.py:153} INFO - Started process (PID=12497) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 23:27:31,139] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2022-07-30 23:27:31,139] {logging_mixin.py:115} INFO - [2022-07-30 23:27:31,139] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 23:27:31,148] {processor.py:651} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 23:27:31,156] {logging_mixin.py:115} INFO - [2022-07-30 23:27:31,156] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:27:31,167] {logging_mixin.py:115} INFO - [2022-07-30 23:27:31,167] {dag.py:2968} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2022-07-30T20:26:00+00:00, run_after=2022-07-30T20:27:00+00:00
+[2022-07-30 23:27:31,177] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.040 seconds
+[2022-07-30 23:28:09,613] {processor.py:153} INFO - Started process (PID=12882) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 23:28:09,614] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2022-07-30 23:28:09,614] {logging_mixin.py:115} INFO - [2022-07-30 23:28:09,614] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 23:28:09,631] {processor.py:651} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 23:28:09,638] {logging_mixin.py:115} INFO - [2022-07-30 23:28:09,638] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:28:09,649] {logging_mixin.py:115} INFO - [2022-07-30 23:28:09,649] {dag.py:2968} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2022-07-30T20:27:00+00:00, run_after=2022-07-30T20:28:00+00:00
+[2022-07-30 23:28:09,660] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.051 seconds
+[2022-07-30 23:28:45,052] {processor.py:153} INFO - Started process (PID=13256) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 23:28:45,053] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2022-07-30 23:28:45,054] {logging_mixin.py:115} INFO - [2022-07-30 23:28:45,054] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 23:28:45,070] {processor.py:651} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-07-30 23:28:45,077] {logging_mixin.py:115} INFO - [2022-07-30 23:28:45,077] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:28:45,088] {logging_mixin.py:115} INFO - [2022-07-30 23:28:45,088] {dag.py:2968} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2022-07-30T20:27:00+00:00, run_after=2022-07-30T20:28:00+00:00
+[2022-07-30 23:28:45,097] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.049 seconds

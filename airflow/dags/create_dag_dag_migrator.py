@@ -11,6 +11,12 @@ db_user="admin"
 db_password="admin"
 # db_name="trial"
 
+default_args={
+    'owner':'tesfaye',
+    'retries':5,
+    'retry_delay':timedelta(minutes=1)
+}
+
 def get_schema_and_table_name(database_name):
        connection = db_connect.connect(host=host_name,user=db_user,password=db_password,database=database_name)
     
@@ -111,11 +117,7 @@ def migrate_privilages(database_name):
                             excuted = conn.execute(query)
 
 
-default_args={
-    'owner':'tesfaye',
-    'retries':5,
-    'retry_delay':timedelta(minutes=1)
-}
+
 
 with DAG(
     dag_id='migrate_data',
@@ -135,12 +137,12 @@ with DAG(
        op_kwargs={'database_name': 'Warehouse' },
     )
     task3 = PythonOperator(
-       task_id='create_schema_and_migrate_data',
+       task_id='create_schema_and_migrate_data_2',
        python_callable=start_workflow,
        op_kwargs={'database_name': 'trial' },
     )
     task4 = PythonOperator(
-       task_id='create_dataset_table',
+       task_id='create_dataset_table_2',
        python_callable=migrate_privilages,
        op_kwargs={'database_name': 'trial' },
     )
