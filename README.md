@@ -46,10 +46,10 @@ Apache Superset - is fast, lightweight, intuitive, and loaded with options that 
 
   Install python requirements
 
-      cd  traffic-data-pipeline-and-warehouse
+      cd  Data-Warehouse-techstack-migration
       pip install -r requirements
 
-  Install Docker , Docker compose and Redash
+  Install Docker , Docker compose and Redash (for previous project views)
 
       ./setup.sh
 
