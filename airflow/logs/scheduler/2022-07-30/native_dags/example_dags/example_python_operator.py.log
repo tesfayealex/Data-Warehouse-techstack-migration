@@ -1,0 +1,356 @@
+[2022-07-30 21:47:48,746] {processor.py:153} INFO - Started process (PID=31626) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 21:47:48,746] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-07-30 21:47:48,747] {logging_mixin.py:115} INFO - [2022-07-30 21:47:48,747] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 21:47:48,759] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 21:47:48,770] {logging_mixin.py:115} INFO - [2022-07-30 21:47:48,770] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:47:48,782] {logging_mixin.py:115} INFO - [2022-07-30 21:47:48,782] {dag.py:2968} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-07-30 21:47:48,792] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py took 0.048 seconds
+[2022-07-30 21:48:31,662] {processor.py:153} INFO - Started process (PID=31960) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 21:48:31,663] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-07-30 21:48:31,663] {logging_mixin.py:115} INFO - [2022-07-30 21:48:31,663] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 21:48:31,674] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 21:48:31,681] {logging_mixin.py:115} INFO - [2022-07-30 21:48:31,681] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:48:31,689] {logging_mixin.py:115} INFO - [2022-07-30 21:48:31,689] {dag.py:2968} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-07-30 21:48:31,697] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py took 0.036 seconds
+[2022-07-30 21:49:12,021] {processor.py:153} INFO - Started process (PID=32136) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 21:49:12,022] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-07-30 21:49:12,022] {logging_mixin.py:115} INFO - [2022-07-30 21:49:12,022] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 21:49:12,034] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 21:49:12,041] {logging_mixin.py:115} INFO - [2022-07-30 21:49:12,041] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:49:12,049] {logging_mixin.py:115} INFO - [2022-07-30 21:49:12,049] {dag.py:2968} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-07-30 21:49:12,057] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py took 0.038 seconds
+[2022-07-30 21:49:51,264] {processor.py:153} INFO - Started process (PID=32340) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 21:49:51,265] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-07-30 21:49:51,265] {logging_mixin.py:115} INFO - [2022-07-30 21:49:51,265] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 21:49:51,277] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 21:49:51,285] {logging_mixin.py:115} INFO - [2022-07-30 21:49:51,285] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:49:51,293] {logging_mixin.py:115} INFO - [2022-07-30 21:49:51,293] {dag.py:2968} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-07-30 21:49:51,301] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py took 0.038 seconds
+[2022-07-30 21:50:34,367] {processor.py:153} INFO - Started process (PID=32691) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 21:50:34,368] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-07-30 21:50:34,368] {logging_mixin.py:115} INFO - [2022-07-30 21:50:34,368] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 21:50:34,379] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 21:50:34,387] {logging_mixin.py:115} INFO - [2022-07-30 21:50:34,387] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:50:34,395] {logging_mixin.py:115} INFO - [2022-07-30 21:50:34,395] {dag.py:2968} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-07-30 21:50:34,403] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py took 0.037 seconds
+[2022-07-30 21:51:15,379] {processor.py:153} INFO - Started process (PID=32921) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 21:51:15,379] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-07-30 21:51:15,379] {logging_mixin.py:115} INFO - [2022-07-30 21:51:15,379] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 21:51:15,390] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 21:51:15,398] {logging_mixin.py:115} INFO - [2022-07-30 21:51:15,398] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:51:15,406] {logging_mixin.py:115} INFO - [2022-07-30 21:51:15,406] {dag.py:2968} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-07-30 21:51:15,415] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py took 0.037 seconds
+[2022-07-30 21:51:55,812] {processor.py:153} INFO - Started process (PID=33326) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 21:51:55,813] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-07-30 21:51:55,813] {logging_mixin.py:115} INFO - [2022-07-30 21:51:55,813] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 21:51:55,824] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 21:51:55,832] {logging_mixin.py:115} INFO - [2022-07-30 21:51:55,832] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:51:55,841] {logging_mixin.py:115} INFO - [2022-07-30 21:51:55,841] {dag.py:2968} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-07-30 21:51:55,850] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py took 0.040 seconds
+[2022-07-30 21:52:38,672] {processor.py:153} INFO - Started process (PID=33792) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 21:52:38,673] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-07-30 21:52:38,673] {logging_mixin.py:115} INFO - [2022-07-30 21:52:38,673] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 21:52:38,684] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 21:52:38,691] {logging_mixin.py:115} INFO - [2022-07-30 21:52:38,691] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:52:38,700] {logging_mixin.py:115} INFO - [2022-07-30 21:52:38,700] {dag.py:2968} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-07-30 21:52:38,708] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py took 0.037 seconds
+[2022-07-30 21:53:19,749] {processor.py:153} INFO - Started process (PID=34169) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 21:53:19,751] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-07-30 21:53:19,751] {logging_mixin.py:115} INFO - [2022-07-30 21:53:19,751] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 21:53:19,767] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 21:53:19,776] {logging_mixin.py:115} INFO - [2022-07-30 21:53:19,775] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:53:19,784] {logging_mixin.py:115} INFO - [2022-07-30 21:53:19,784] {dag.py:2968} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-07-30 21:53:19,793] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py took 0.048 seconds
+[2022-07-30 21:53:58,830] {processor.py:153} INFO - Started process (PID=34439) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 21:53:58,831] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-07-30 21:53:58,831] {logging_mixin.py:115} INFO - [2022-07-30 21:53:58,831] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 21:53:58,843] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 21:53:58,854] {logging_mixin.py:115} INFO - [2022-07-30 21:53:58,854] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:53:58,871] {logging_mixin.py:115} INFO - [2022-07-30 21:53:58,871] {dag.py:2968} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-07-30 21:53:58,882] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py took 0.054 seconds
+[2022-07-30 21:54:39,907] {processor.py:153} INFO - Started process (PID=34757) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 21:54:39,907] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-07-30 21:54:39,908] {logging_mixin.py:115} INFO - [2022-07-30 21:54:39,907] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 21:54:39,918] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 21:54:39,925] {logging_mixin.py:115} INFO - [2022-07-30 21:54:39,925] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:54:39,933] {logging_mixin.py:115} INFO - [2022-07-30 21:54:39,933] {dag.py:2968} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-07-30 21:54:39,941] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py took 0.036 seconds
+[2022-07-30 21:55:20,327] {processor.py:153} INFO - Started process (PID=34996) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 21:55:20,328] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-07-30 21:55:20,329] {logging_mixin.py:115} INFO - [2022-07-30 21:55:20,329] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 21:55:20,345] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 21:55:20,352] {logging_mixin.py:115} INFO - [2022-07-30 21:55:20,352] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:55:20,360] {logging_mixin.py:115} INFO - [2022-07-30 21:55:20,360] {dag.py:2968} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-07-30 21:55:20,368] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py took 0.044 seconds
+[2022-07-30 21:56:00,966] {processor.py:153} INFO - Started process (PID=35254) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 21:56:00,967] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-07-30 21:56:00,968] {logging_mixin.py:115} INFO - [2022-07-30 21:56:00,968] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 21:56:00,982] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 21:56:00,991] {logging_mixin.py:115} INFO - [2022-07-30 21:56:00,991] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:56:00,999] {logging_mixin.py:115} INFO - [2022-07-30 21:56:00,999] {dag.py:2968} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-07-30 21:56:01,007] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py took 0.045 seconds
+[2022-07-30 21:56:44,127] {processor.py:153} INFO - Started process (PID=35678) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 21:56:44,128] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-07-30 21:56:44,128] {logging_mixin.py:115} INFO - [2022-07-30 21:56:44,128] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 21:56:44,145] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 21:56:44,152] {logging_mixin.py:115} INFO - [2022-07-30 21:56:44,152] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:56:44,161] {logging_mixin.py:115} INFO - [2022-07-30 21:56:44,161] {dag.py:2968} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-07-30 21:56:44,253] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py took 0.130 seconds
+[2022-07-30 21:57:26,560] {processor.py:153} INFO - Started process (PID=35977) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 21:57:26,560] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-07-30 21:57:26,561] {logging_mixin.py:115} INFO - [2022-07-30 21:57:26,561] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 21:57:26,571] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 21:57:26,578] {logging_mixin.py:115} INFO - [2022-07-30 21:57:26,578] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:57:26,586] {logging_mixin.py:115} INFO - [2022-07-30 21:57:26,586] {dag.py:2968} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-07-30 21:57:26,594] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py took 0.036 seconds
+[2022-07-30 21:57:49,576] {processor.py:153} INFO - Started process (PID=36217) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 21:57:49,579] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-07-30 21:57:49,584] {logging_mixin.py:115} INFO - [2022-07-30 21:57:49,584] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 21:57:49,596] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 21:57:49,620] {logging_mixin.py:115} INFO - [2022-07-30 21:57:49,620] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:57:49,627] {logging_mixin.py:115} INFO - [2022-07-30 21:57:49,627] {dag.py:2968} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-07-30 21:57:49,636] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py took 0.063 seconds
+[2022-07-30 21:58:07,675] {processor.py:153} INFO - Started process (PID=36389) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 21:58:07,676] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-07-30 21:58:07,677] {logging_mixin.py:115} INFO - [2022-07-30 21:58:07,677] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 21:58:07,692] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 21:58:07,696] {logging_mixin.py:115} INFO - [2022-07-30 21:58:07,696] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:58:07,704] {logging_mixin.py:115} INFO - [2022-07-30 21:58:07,704] {dag.py:2968} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-07-30 21:58:07,713] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py took 0.041 seconds
+[2022-07-30 21:58:31,740] {processor.py:153} INFO - Started process (PID=36615) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 21:58:31,740] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-07-30 21:58:31,740] {logging_mixin.py:115} INFO - [2022-07-30 21:58:31,740] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 21:58:31,751] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 21:58:31,762] {logging_mixin.py:115} WARNING - /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py:610 DeprecationWarning: DAG.full_filepath is deprecated in favour of fileloc
+[2022-07-30 21:58:31,764] {logging_mixin.py:115} INFO - [2022-07-30 21:58:31,762] {dagbag.py:610} ERROR - Failed to write serialized DAG: /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+Traceback (most recent call last):
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 605, in _serialize_dag_capturing_errors
+    self._sync_perm_for_dag(dag, session=session)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/utils/session.py", line 68, in wrapper
+    return func(*args, **kwargs)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 660, in _sync_perm_for_dag
+    if dag.access_control or needs_perms(root_dag_id):
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 650, in needs_perms
+    session.query(Permission)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2046, in query
+    return self._query_cls(entities, self, **kwargs)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 173, in __init__
+    self._set_entities(entities)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 180, in _set_entities
+    self._raw_columns = [
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 181, in <listcomp>
+    coercions.expect(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/coercions.py", line 160, in expect
+    insp._post_inspect
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 1162, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 2097, in _post_inspect
+    self._check_configure()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 1874, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 3381, in _configure_registries
+    _do_configure_registries(registries, cascade)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 3420, in _do_configure_registries
+    mapper._post_configure_properties()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 1891, in _post_configure_properties
+    prop.init()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/interfaces.py", line 227, in init
+    self.do_init()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2133, in do_init
+    self._setup_join_conditions()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2229, in _setup_join_conditions
+    self._join_condition = jc = JoinCondition(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2624, in __init__
+    self._determine_joins()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2720, in _determine_joins
+    self.secondaryjoin = join_condition(
+  File "<string>", line 2, in join_condition
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/selectable.py", line 1186, in _join_condition
+    constraints = cls._joincond_scan_left_right(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/selectable.py", line 1255, in _joincond_scan_left_right
+    col = fk.get_referent(left)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/schema.py", line 2232, in get_referent
+    return table.corresponding_column(self.column)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 1095, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/schema.py", line 2373, in column
+    raise exc.NoReferencedTableError(
+sqlalchemy.exc.NoReferencedTableError: Foreign key associated with column 'ab_permission_view_role.permission_view_id' could not find table 'ab_permission_view' with which to generate a foreign key to target column 'id'
+[2022-07-30 21:58:31,764] {logging_mixin.py:115} INFO - [2022-07-30 21:58:31,764] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:58:31,773] {logging_mixin.py:115} INFO - [2022-07-30 21:58:31,773] {dag.py:2968} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-07-30 21:58:31,787] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py took 0.049 seconds
+[2022-07-30 21:59:13,639] {processor.py:153} INFO - Started process (PID=37071) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 21:59:13,640] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-07-30 21:59:13,640] {logging_mixin.py:115} INFO - [2022-07-30 21:59:13,640] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 21:59:13,651] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 21:59:13,658] {logging_mixin.py:115} INFO - [2022-07-30 21:59:13,658] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:59:13,666] {logging_mixin.py:115} INFO - [2022-07-30 21:59:13,666] {dag.py:2968} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-07-30 21:59:13,678] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py took 0.041 seconds
+[2022-07-30 21:59:46,777] {processor.py:153} INFO - Started process (PID=37240) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 21:59:46,777] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-07-30 21:59:46,778] {logging_mixin.py:115} INFO - [2022-07-30 21:59:46,778] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 21:59:46,795] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 21:59:46,803] {logging_mixin.py:115} INFO - [2022-07-30 21:59:46,803] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:59:46,814] {logging_mixin.py:115} INFO - [2022-07-30 21:59:46,814] {dag.py:2968} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-07-30 21:59:46,823] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py took 0.049 seconds
+[2022-07-30 22:00:23,150] {processor.py:153} INFO - Started process (PID=37492) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 22:00:23,150] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-07-30 22:00:23,151] {logging_mixin.py:115} INFO - [2022-07-30 22:00:23,151] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 22:00:23,161] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 22:00:23,169] {logging_mixin.py:115} INFO - [2022-07-30 22:00:23,169] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 22:00:23,178] {logging_mixin.py:115} INFO - [2022-07-30 22:00:23,178] {dag.py:2968} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-07-30 22:00:23,187] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py took 0.039 seconds
+[2022-07-30 22:00:58,577] {processor.py:153} INFO - Started process (PID=37812) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 22:00:58,578] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-07-30 22:00:58,578] {logging_mixin.py:115} INFO - [2022-07-30 22:00:58,578] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 22:00:58,589] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 22:00:58,598] {logging_mixin.py:115} INFO - [2022-07-30 22:00:58,598] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 22:00:58,610] {logging_mixin.py:115} INFO - [2022-07-30 22:00:58,610] {dag.py:2968} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-07-30 22:00:58,621] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py took 0.045 seconds
+[2022-07-30 22:01:38,860] {processor.py:153} INFO - Started process (PID=38201) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 22:01:38,861] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-07-30 22:01:38,862] {logging_mixin.py:115} INFO - [2022-07-30 22:01:38,861] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 22:01:38,878] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 22:01:38,885] {logging_mixin.py:115} INFO - [2022-07-30 22:01:38,885] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 22:01:38,893] {logging_mixin.py:115} INFO - [2022-07-30 22:01:38,893] {dag.py:2968} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-07-30 22:01:38,903] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py took 0.048 seconds
+[2022-07-30 22:02:13,738] {processor.py:153} INFO - Started process (PID=38564) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 22:02:13,739] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-07-30 22:02:13,740] {logging_mixin.py:115} INFO - [2022-07-30 22:02:13,740] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 22:02:13,752] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 22:02:13,764] {logging_mixin.py:115} INFO - [2022-07-30 22:02:13,764] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 22:02:13,786] {logging_mixin.py:115} INFO - [2022-07-30 22:02:13,786] {dag.py:2968} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-07-30 22:02:13,797] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py took 0.062 seconds
+[2022-07-30 22:02:49,804] {processor.py:153} INFO - Started process (PID=38897) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 22:02:49,804] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-07-30 22:02:49,805] {logging_mixin.py:115} INFO - [2022-07-30 22:02:49,805] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 22:02:49,819] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 22:02:49,825] {logging_mixin.py:115} INFO - [2022-07-30 22:02:49,825] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 22:02:49,833] {logging_mixin.py:115} INFO - [2022-07-30 22:02:49,833] {dag.py:2968} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-07-30 22:02:49,841] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py took 0.041 seconds
+[2022-07-30 22:03:27,042] {processor.py:153} INFO - Started process (PID=39104) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 22:03:27,043] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-07-30 22:03:27,044] {logging_mixin.py:115} INFO - [2022-07-30 22:03:27,044] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 22:03:27,062] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 22:03:27,069] {logging_mixin.py:115} INFO - [2022-07-30 22:03:27,069] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 22:03:27,076] {logging_mixin.py:115} INFO - [2022-07-30 22:03:27,076] {dag.py:2968} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-07-30 22:03:27,084] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py took 0.046 seconds
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        [2022-07-30 23:14:28,148] {processor.py:153} INFO - Started process (PID=5471) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 23:14:28,148] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-07-30 23:14:28,149] {logging_mixin.py:115} INFO - [2022-07-30 23:14:28,149] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 23:14:28,162] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 23:14:28,193] {logging_mixin.py:115} INFO - [2022-07-30 23:14:28,193] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:14:28,204] {logging_mixin.py:115} INFO - [2022-07-30 23:14:28,204] {dag.py:2968} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-07-30 23:14:28,219] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py took 0.072 seconds
+[2022-07-30 23:15:02,868] {processor.py:153} INFO - Started process (PID=5658) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 23:15:02,869] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-07-30 23:15:02,870] {logging_mixin.py:115} INFO - [2022-07-30 23:15:02,869] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 23:15:02,886] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 23:15:02,894] {logging_mixin.py:115} INFO - [2022-07-30 23:15:02,893] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:15:02,903] {logging_mixin.py:115} INFO - [2022-07-30 23:15:02,903] {dag.py:2968} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-07-30 23:15:02,913] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py took 0.049 seconds
+[2022-07-30 23:15:41,152] {processor.py:153} INFO - Started process (PID=6879) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 23:15:41,153] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-07-30 23:15:41,154] {logging_mixin.py:115} INFO - [2022-07-30 23:15:41,154] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 23:15:41,171] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 23:15:41,181] {logging_mixin.py:115} INFO - [2022-07-30 23:15:41,181] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:15:41,191] {logging_mixin.py:115} INFO - [2022-07-30 23:15:41,190] {dag.py:2968} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-07-30 23:15:41,200] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py took 0.052 seconds
+[2022-07-30 23:16:18,441] {processor.py:153} INFO - Started process (PID=7081) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 23:16:18,442] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-07-30 23:16:18,443] {logging_mixin.py:115} INFO - [2022-07-30 23:16:18,443] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 23:16:18,458] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 23:16:18,469] {logging_mixin.py:115} INFO - [2022-07-30 23:16:18,469] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:16:18,478] {logging_mixin.py:115} INFO - [2022-07-30 23:16:18,478] {dag.py:2968} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-07-30 23:16:18,487] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py took 0.047 seconds
+[2022-07-30 23:16:54,781] {processor.py:153} INFO - Started process (PID=7402) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 23:16:54,782] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-07-30 23:16:54,782] {logging_mixin.py:115} INFO - [2022-07-30 23:16:54,782] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 23:16:54,794] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 23:16:54,802] {logging_mixin.py:115} INFO - [2022-07-30 23:16:54,802] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:16:54,811] {logging_mixin.py:115} INFO - [2022-07-30 23:16:54,811] {dag.py:2968} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-07-30 23:16:54,820] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py took 0.041 seconds
+[2022-07-30 23:17:33,405] {processor.py:153} INFO - Started process (PID=7674) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 23:17:33,406] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-07-30 23:17:33,406] {logging_mixin.py:115} INFO - [2022-07-30 23:17:33,406] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 23:17:33,425] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 23:17:33,442] {logging_mixin.py:115} INFO - [2022-07-30 23:17:33,442] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:17:33,460] {logging_mixin.py:115} INFO - [2022-07-30 23:17:33,460] {dag.py:2968} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-07-30 23:17:33,498] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py took 0.095 seconds
+[2022-07-30 23:18:08,071] {processor.py:153} INFO - Started process (PID=7891) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 23:18:08,073] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-07-30 23:18:08,073] {logging_mixin.py:115} INFO - [2022-07-30 23:18:08,073] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 23:18:08,088] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 23:18:08,097] {logging_mixin.py:115} INFO - [2022-07-30 23:18:08,097] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:18:08,110] {logging_mixin.py:115} INFO - [2022-07-30 23:18:08,110] {dag.py:2968} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-07-30 23:18:08,121] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py took 0.053 seconds
+[2022-07-30 23:20:08,347] {processor.py:153} INFO - Started process (PID=8801) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 23:20:08,348] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-07-30 23:20:08,348] {logging_mixin.py:115} INFO - [2022-07-30 23:20:08,348] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 23:20:08,359] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 23:20:08,369] {logging_mixin.py:115} INFO - [2022-07-30 23:20:08,369] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:20:08,380] {logging_mixin.py:115} INFO - [2022-07-30 23:20:08,380] {dag.py:2968} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-07-30 23:20:08,391] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py took 0.045 seconds
+[2022-07-30 23:20:43,243] {processor.py:153} INFO - Started process (PID=9048) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 23:20:43,244] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-07-30 23:20:43,244] {logging_mixin.py:115} INFO - [2022-07-30 23:20:43,244] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 23:20:43,255] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 23:20:43,262] {logging_mixin.py:115} INFO - [2022-07-30 23:20:43,262] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:20:43,273] {logging_mixin.py:115} INFO - [2022-07-30 23:20:43,273] {dag.py:2968} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-07-30 23:20:43,283] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py took 0.040 seconds
+[2022-07-30 23:24:51,745] {processor.py:153} INFO - Started process (PID=10604) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 23:24:51,746] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-07-30 23:24:51,746] {logging_mixin.py:115} INFO - [2022-07-30 23:24:51,746] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 23:24:51,763] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 23:24:51,770] {logging_mixin.py:115} INFO - [2022-07-30 23:24:51,770] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:24:51,779] {logging_mixin.py:115} INFO - [2022-07-30 23:24:51,778] {dag.py:2968} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-07-30 23:24:51,788] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py took 0.044 seconds
+[2022-07-30 23:25:25,987] {processor.py:153} INFO - Started process (PID=10786) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 23:25:25,988] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-07-30 23:25:25,988] {logging_mixin.py:115} INFO - [2022-07-30 23:25:25,988] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 23:25:25,997] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 23:25:26,006] {logging_mixin.py:115} INFO - [2022-07-30 23:25:26,005] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:25:26,019] {logging_mixin.py:115} INFO - [2022-07-30 23:25:26,019] {dag.py:2968} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-07-30 23:25:26,029] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py took 0.043 seconds
+[2022-07-30 23:25:43,271] {processor.py:153} INFO - Started process (PID=10965) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 23:25:43,271] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-07-30 23:25:43,272] {logging_mixin.py:115} INFO - [2022-07-30 23:25:43,272] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 23:25:43,289] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 23:25:43,304] {logging_mixin.py:115} INFO - [2022-07-30 23:25:43,303] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:25:43,321] {logging_mixin.py:115} INFO - [2022-07-30 23:25:43,321] {dag.py:2968} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-07-30 23:25:43,336] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py took 0.068 seconds
+[2022-07-30 23:26:19,220] {processor.py:153} INFO - Started process (PID=11624) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 23:26:19,221] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-07-30 23:26:19,222] {logging_mixin.py:115} INFO - [2022-07-30 23:26:19,222] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 23:26:19,235] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 23:26:19,242] {logging_mixin.py:115} INFO - [2022-07-30 23:26:19,242] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:26:19,250] {logging_mixin.py:115} INFO - [2022-07-30 23:26:19,250] {dag.py:2968} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-07-30 23:26:19,259] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py took 0.043 seconds
+[2022-07-30 23:26:55,601] {processor.py:153} INFO - Started process (PID=11945) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 23:26:55,602] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-07-30 23:26:55,602] {logging_mixin.py:115} INFO - [2022-07-30 23:26:55,602] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 23:26:55,614] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 23:26:55,633] {logging_mixin.py:115} INFO - [2022-07-30 23:26:55,633] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:26:55,651] {logging_mixin.py:115} INFO - [2022-07-30 23:26:55,651] {dag.py:2968} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-07-30 23:26:55,805] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py took 0.205 seconds
+[2022-07-30 23:27:33,116] {processor.py:153} INFO - Started process (PID=12499) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 23:27:33,117] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-07-30 23:27:33,117] {logging_mixin.py:115} INFO - [2022-07-30 23:27:33,117] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 23:27:33,125] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 23:27:33,133] {logging_mixin.py:115} INFO - [2022-07-30 23:27:33,133] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:27:33,141] {logging_mixin.py:115} INFO - [2022-07-30 23:27:33,141] {dag.py:2968} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-07-30 23:27:33,150] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py took 0.037 seconds
+[2022-07-30 23:28:11,897] {processor.py:153} INFO - Started process (PID=12940) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 23:28:11,898] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-07-30 23:28:11,899] {logging_mixin.py:115} INFO - [2022-07-30 23:28:11,898] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 23:28:11,912] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 23:28:11,922] {logging_mixin.py:115} INFO - [2022-07-30 23:28:11,922] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:28:11,933] {logging_mixin.py:115} INFO - [2022-07-30 23:28:11,933] {dag.py:2968} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-07-30 23:28:11,945] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py took 0.051 seconds
+[2022-07-30 23:28:47,337] {processor.py:153} INFO - Started process (PID=13286) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 23:28:47,338] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-07-30 23:28:47,339] {logging_mixin.py:115} INFO - [2022-07-30 23:28:47,339] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 23:28:47,353] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py
+[2022-07-30 23:28:47,362] {logging_mixin.py:115} INFO - [2022-07-30 23:28:47,362] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:28:47,371] {logging_mixin.py:115} INFO - [2022-07-30 23:28:47,371] {dag.py:2968} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-07-30 23:28:47,382] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py took 0.048 seconds

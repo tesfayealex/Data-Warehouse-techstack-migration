@@ -1,0 +1,307 @@
+[2022-07-30 21:48:15,400] {processor.py:153} INFO - Started process (PID=31849) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 21:48:15,400] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-07-30 21:48:15,401] {logging_mixin.py:115} INFO - [2022-07-30 21:48:15,401] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 21:48:15,415] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 21:48:15,423] {logging_mixin.py:115} INFO - [2022-07-30 21:48:15,422] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:48:15,432] {logging_mixin.py:115} INFO - [2022-07-30 21:48:15,432] {dag.py:2968} INFO - Setting next_dagrun for example_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 21:48:15,442] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py took 0.045 seconds
+[2022-07-30 21:48:55,539] {processor.py:153} INFO - Started process (PID=32047) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 21:48:55,540] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-07-30 21:48:55,540] {logging_mixin.py:115} INFO - [2022-07-30 21:48:55,540] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 21:48:55,547] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 21:48:55,554] {logging_mixin.py:115} INFO - [2022-07-30 21:48:55,554] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:48:55,562] {logging_mixin.py:115} INFO - [2022-07-30 21:48:55,562] {dag.py:2968} INFO - Setting next_dagrun for example_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 21:48:55,571] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py took 0.034 seconds
+[2022-07-30 21:49:35,619] {processor.py:153} INFO - Started process (PID=32269) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 21:49:35,619] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-07-30 21:49:35,620] {logging_mixin.py:115} INFO - [2022-07-30 21:49:35,620] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 21:49:35,627] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 21:49:35,636] {logging_mixin.py:115} INFO - [2022-07-30 21:49:35,635] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:49:35,646] {logging_mixin.py:115} INFO - [2022-07-30 21:49:35,646] {dag.py:2968} INFO - Setting next_dagrun for example_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 21:49:35,655] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py took 0.038 seconds
+[2022-07-30 21:50:18,402] {processor.py:153} INFO - Started process (PID=32465) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 21:50:18,403] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-07-30 21:50:18,403] {logging_mixin.py:115} INFO - [2022-07-30 21:50:18,403] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 21:50:18,410] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 21:50:18,418] {logging_mixin.py:115} INFO - [2022-07-30 21:50:18,418] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:50:18,427] {logging_mixin.py:115} INFO - [2022-07-30 21:50:18,427] {dag.py:2968} INFO - Setting next_dagrun for example_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 21:50:18,440] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py took 0.039 seconds
+[2022-07-30 21:50:58,980] {processor.py:153} INFO - Started process (PID=32820) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 21:50:58,982] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-07-30 21:50:58,982] {logging_mixin.py:115} INFO - [2022-07-30 21:50:58,982] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 21:50:58,996] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 21:50:59,004] {logging_mixin.py:115} INFO - [2022-07-30 21:50:59,004] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:50:59,013] {logging_mixin.py:115} INFO - [2022-07-30 21:50:59,012] {dag.py:2968} INFO - Setting next_dagrun for example_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 21:50:59,021] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py took 0.044 seconds
+[2022-07-30 21:51:39,721] {processor.py:153} INFO - Started process (PID=33119) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 21:51:39,722] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-07-30 21:51:39,722] {logging_mixin.py:115} INFO - [2022-07-30 21:51:39,722] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 21:51:39,733] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 21:51:39,741] {logging_mixin.py:115} INFO - [2022-07-30 21:51:39,741] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:51:39,751] {logging_mixin.py:115} INFO - [2022-07-30 21:51:39,751] {dag.py:2968} INFO - Setting next_dagrun for example_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 21:51:39,762] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py took 0.042 seconds
+[2022-07-30 21:52:21,269] {processor.py:153} INFO - Started process (PID=33572) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 21:52:21,270] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-07-30 21:52:21,270] {logging_mixin.py:115} INFO - [2022-07-30 21:52:21,270] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 21:52:21,279] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 21:52:21,288] {logging_mixin.py:115} INFO - [2022-07-30 21:52:21,288] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:52:21,297] {logging_mixin.py:115} INFO - [2022-07-30 21:52:21,297] {dag.py:2968} INFO - Setting next_dagrun for example_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 21:52:21,306] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py took 0.039 seconds
+[2022-07-30 21:53:02,491] {processor.py:153} INFO - Started process (PID=34027) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 21:53:02,491] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-07-30 21:53:02,491] {logging_mixin.py:115} INFO - [2022-07-30 21:53:02,491] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 21:53:02,498] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 21:53:02,507] {logging_mixin.py:115} INFO - [2022-07-30 21:53:02,507] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:53:02,516] {logging_mixin.py:115} INFO - [2022-07-30 21:53:02,516] {dag.py:2968} INFO - Setting next_dagrun for example_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 21:53:02,526] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py took 0.037 seconds
+[2022-07-30 21:53:43,178] {processor.py:153} INFO - Started process (PID=34309) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 21:53:43,179] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-07-30 21:53:43,179] {logging_mixin.py:115} INFO - [2022-07-30 21:53:43,179] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 21:53:43,193] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 21:53:43,200] {logging_mixin.py:115} INFO - [2022-07-30 21:53:43,200] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:53:43,209] {logging_mixin.py:115} INFO - [2022-07-30 21:53:43,209] {dag.py:2968} INFO - Setting next_dagrun for example_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 21:53:43,217] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py took 0.042 seconds
+[2022-07-30 21:54:23,398] {processor.py:153} INFO - Started process (PID=34621) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 21:54:23,398] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-07-30 21:54:23,399] {logging_mixin.py:115} INFO - [2022-07-30 21:54:23,399] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 21:54:23,409] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 21:54:23,422] {logging_mixin.py:115} INFO - [2022-07-30 21:54:23,422] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:54:23,439] {logging_mixin.py:115} INFO - [2022-07-30 21:54:23,439] {dag.py:2968} INFO - Setting next_dagrun for example_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 21:54:23,452] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py took 0.056 seconds
+[2022-07-30 21:55:05,999] {processor.py:153} INFO - Started process (PID=34873) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 21:55:06,000] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-07-30 21:55:06,000] {logging_mixin.py:115} INFO - [2022-07-30 21:55:06,000] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 21:55:06,013] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 21:55:06,027] {logging_mixin.py:115} INFO - [2022-07-30 21:55:06,027] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:55:06,039] {logging_mixin.py:115} INFO - [2022-07-30 21:55:06,039] {dag.py:2968} INFO - Setting next_dagrun for example_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 21:55:06,049] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py took 0.052 seconds
+[2022-07-30 21:55:44,930] {processor.py:153} INFO - Started process (PID=35171) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 21:55:44,931] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-07-30 21:55:44,932] {logging_mixin.py:115} INFO - [2022-07-30 21:55:44,932] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 21:55:44,941] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 21:55:44,949] {logging_mixin.py:115} INFO - [2022-07-30 21:55:44,949] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:55:44,958] {logging_mixin.py:115} INFO - [2022-07-30 21:55:44,958] {dag.py:2968} INFO - Setting next_dagrun for example_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 21:55:44,966] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py took 0.041 seconds
+[2022-07-30 21:56:27,284] {processor.py:153} INFO - Started process (PID=35569) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 21:56:27,285] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-07-30 21:56:27,285] {logging_mixin.py:115} INFO - [2022-07-30 21:56:27,285] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 21:56:27,296] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 21:56:27,303] {logging_mixin.py:115} INFO - [2022-07-30 21:56:27,303] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:56:27,312] {logging_mixin.py:115} INFO - [2022-07-30 21:56:27,312] {dag.py:2968} INFO - Setting next_dagrun for example_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 21:56:27,320] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py took 0.039 seconds
+[2022-07-30 21:57:09,221] {processor.py:153} INFO - Started process (PID=35848) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 21:57:09,222] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-07-30 21:57:09,222] {logging_mixin.py:115} INFO - [2022-07-30 21:57:09,222] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 21:57:09,232] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 21:57:09,240] {logging_mixin.py:115} INFO - [2022-07-30 21:57:09,240] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:57:09,249] {logging_mixin.py:115} INFO - [2022-07-30 21:57:09,249] {dag.py:2968} INFO - Setting next_dagrun for example_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 21:57:09,259] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py took 0.040 seconds
+[2022-07-30 21:57:51,147] {processor.py:153} INFO - Started process (PID=36222) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 21:57:51,148] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-07-30 21:57:51,149] {logging_mixin.py:115} INFO - [2022-07-30 21:57:51,149] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 21:57:51,161] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 21:57:51,173] {logging_mixin.py:115} WARNING - /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py:610 DeprecationWarning: DAG.full_filepath is deprecated in favour of fileloc
+[2022-07-30 21:57:51,175] {logging_mixin.py:115} INFO - [2022-07-30 21:57:51,173] {dagbag.py:610} ERROR - Failed to write serialized DAG: /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 605, in _serialize_dag_capturing_errors
+    self._sync_perm_for_dag(dag, session=session)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/utils/session.py", line 68, in wrapper
+    return func(*args, **kwargs)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 660, in _sync_perm_for_dag
+    if dag.access_control or needs_perms(root_dag_id):
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 650, in needs_perms
+    session.query(Permission)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2046, in query
+    return self._query_cls(entities, self, **kwargs)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 173, in __init__
+    self._set_entities(entities)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 180, in _set_entities
+    self._raw_columns = [
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 181, in <listcomp>
+    coercions.expect(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/coercions.py", line 160, in expect
+    insp._post_inspect
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 1162, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 2097, in _post_inspect
+    self._check_configure()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 1874, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 3381, in _configure_registries
+    _do_configure_registries(registries, cascade)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 3420, in _do_configure_registries
+    mapper._post_configure_properties()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 1891, in _post_configure_properties
+    prop.init()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/interfaces.py", line 227, in init
+    self.do_init()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2133, in do_init
+    self._setup_join_conditions()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2229, in _setup_join_conditions
+    self._join_condition = jc = JoinCondition(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2624, in __init__
+    self._determine_joins()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2720, in _determine_joins
+    self.secondaryjoin = join_condition(
+  File "<string>", line 2, in join_condition
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/selectable.py", line 1186, in _join_condition
+    constraints = cls._joincond_scan_left_right(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/selectable.py", line 1255, in _joincond_scan_left_right
+    col = fk.get_referent(left)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/schema.py", line 2232, in get_referent
+    return table.corresponding_column(self.column)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 1095, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/schema.py", line 2373, in column
+    raise exc.NoReferencedTableError(
+sqlalchemy.exc.NoReferencedTableError: Foreign key associated with column 'ab_permission_view_role.permission_view_id' could not find table 'ab_permission_view' with which to generate a foreign key to target column 'id'
+[2022-07-30 21:57:51,175] {logging_mixin.py:115} INFO - [2022-07-30 21:57:51,175] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:57:51,184] {logging_mixin.py:115} INFO - [2022-07-30 21:57:51,184] {dag.py:2968} INFO - Setting next_dagrun for example_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 21:57:51,199] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py took 0.055 seconds
+[2022-07-30 21:58:58,501] {processor.py:153} INFO - Started process (PID=36941) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 21:58:58,503] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-07-30 21:58:58,503] {logging_mixin.py:115} INFO - [2022-07-30 21:58:58,503] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 21:58:58,511] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 21:58:58,519] {logging_mixin.py:115} INFO - [2022-07-30 21:58:58,519] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:58:58,528] {logging_mixin.py:115} INFO - [2022-07-30 21:58:58,528] {dag.py:2968} INFO - Setting next_dagrun for example_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 21:58:58,542] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py took 0.043 seconds
+[2022-07-30 21:59:38,221] {processor.py:153} INFO - Started process (PID=37186) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 21:59:38,222] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-07-30 21:59:38,222] {logging_mixin.py:115} INFO - [2022-07-30 21:59:38,222] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 21:59:38,235] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 21:59:38,242] {logging_mixin.py:115} INFO - [2022-07-30 21:59:38,242] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:59:38,251] {logging_mixin.py:115} INFO - [2022-07-30 21:59:38,251] {dag.py:2968} INFO - Setting next_dagrun for example_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 21:59:38,261] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py took 0.041 seconds
+[2022-07-30 22:00:14,212] {processor.py:153} INFO - Started process (PID=37454) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 22:00:14,213] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-07-30 22:00:14,214] {logging_mixin.py:115} INFO - [2022-07-30 22:00:14,213] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 22:00:14,221] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 22:00:14,228] {logging_mixin.py:115} INFO - [2022-07-30 22:00:14,228] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 22:00:14,237] {logging_mixin.py:115} INFO - [2022-07-30 22:00:14,237] {dag.py:2968} INFO - Setting next_dagrun for example_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 22:00:14,245] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py took 0.037 seconds
+[2022-07-30 22:00:49,982] {processor.py:153} INFO - Started process (PID=37747) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 22:00:49,983] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-07-30 22:00:49,983] {logging_mixin.py:115} INFO - [2022-07-30 22:00:49,983] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 22:00:49,997] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 22:00:50,004] {logging_mixin.py:115} INFO - [2022-07-30 22:00:50,004] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 22:00:50,013] {logging_mixin.py:115} INFO - [2022-07-30 22:00:50,013] {dag.py:2968} INFO - Setting next_dagrun for example_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 22:00:50,020] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py took 0.043 seconds
+[2022-07-30 22:01:23,727] {processor.py:153} INFO - Started process (PID=38044) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 22:01:23,728] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-07-30 22:01:23,729] {logging_mixin.py:115} INFO - [2022-07-30 22:01:23,728] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 22:01:23,742] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 22:01:23,749] {logging_mixin.py:115} INFO - [2022-07-30 22:01:23,749] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 22:01:23,759] {logging_mixin.py:115} INFO - [2022-07-30 22:01:23,759] {dag.py:2968} INFO - Setting next_dagrun for example_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 22:01:23,767] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py took 0.044 seconds
+[2022-07-30 22:02:03,449] {processor.py:153} INFO - Started process (PID=38436) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 22:02:03,450] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-07-30 22:02:03,450] {logging_mixin.py:115} INFO - [2022-07-30 22:02:03,450] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 22:02:03,459] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 22:02:03,468] {logging_mixin.py:115} INFO - [2022-07-30 22:02:03,468] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 22:02:03,478] {logging_mixin.py:115} INFO - [2022-07-30 22:02:03,478] {dag.py:2968} INFO - Setting next_dagrun for example_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 22:02:03,488] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py took 0.040 seconds
+[2022-07-30 22:02:41,678] {processor.py:153} INFO - Started process (PID=38833) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 22:02:41,679] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-07-30 22:02:41,679] {logging_mixin.py:115} INFO - [2022-07-30 22:02:41,679] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 22:02:41,687] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 22:02:41,695] {logging_mixin.py:115} INFO - [2022-07-30 22:02:41,695] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 22:02:41,705] {logging_mixin.py:115} INFO - [2022-07-30 22:02:41,705] {dag.py:2968} INFO - Setting next_dagrun for example_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 22:02:41,714] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py took 0.037 seconds
+[2022-07-30 22:03:16,669] {processor.py:153} INFO - Started process (PID=39037) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 22:03:16,670] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-07-30 22:03:16,671] {logging_mixin.py:115} INFO - [2022-07-30 22:03:16,671] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 22:03:16,683] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 22:03:16,690] {logging_mixin.py:115} INFO - [2022-07-30 22:03:16,690] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 22:03:16,701] {logging_mixin.py:115} INFO - [2022-07-30 22:03:16,701] {dag.py:2968} INFO - Setting next_dagrun for example_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 22:03:16,711] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py took 0.046 seconds
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          [2022-07-30 23:14:52,150] {processor.py:153} INFO - Started process (PID=5643) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 23:14:52,152] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-07-30 23:14:52,152] {logging_mixin.py:115} INFO - [2022-07-30 23:14:52,152] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 23:14:52,164] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 23:14:52,186] {logging_mixin.py:115} INFO - [2022-07-30 23:14:52,186] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:14:52,197] {logging_mixin.py:115} INFO - [2022-07-30 23:14:52,197] {dag.py:2968} INFO - Setting next_dagrun for example_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 23:14:52,206] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py took 0.060 seconds
+[2022-07-30 23:15:29,737] {processor.py:153} INFO - Started process (PID=6656) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 23:15:29,738] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-07-30 23:15:29,738] {logging_mixin.py:115} INFO - [2022-07-30 23:15:29,738] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 23:15:29,748] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 23:15:29,758] {logging_mixin.py:115} INFO - [2022-07-30 23:15:29,758] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:15:29,770] {logging_mixin.py:115} INFO - [2022-07-30 23:15:29,770] {dag.py:2968} INFO - Setting next_dagrun for example_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 23:15:29,780] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py took 0.045 seconds
+[2022-07-30 23:16:07,047] {processor.py:153} INFO - Started process (PID=7032) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 23:16:07,047] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-07-30 23:16:07,047] {logging_mixin.py:115} INFO - [2022-07-30 23:16:07,047] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 23:16:07,054] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 23:16:07,064] {logging_mixin.py:115} INFO - [2022-07-30 23:16:07,064] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:16:07,074] {logging_mixin.py:115} INFO - [2022-07-30 23:16:07,074] {dag.py:2968} INFO - Setting next_dagrun for example_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 23:16:07,084] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py took 0.039 seconds
+[2022-07-30 23:16:44,642] {processor.py:153} INFO - Started process (PID=7342) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 23:16:44,643] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-07-30 23:16:44,643] {logging_mixin.py:115} INFO - [2022-07-30 23:16:44,643] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 23:16:44,653] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 23:16:44,661] {logging_mixin.py:115} INFO - [2022-07-30 23:16:44,661] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:16:44,672] {logging_mixin.py:115} INFO - [2022-07-30 23:16:44,672] {dag.py:2968} INFO - Setting next_dagrun for example_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 23:16:44,682] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py took 0.041 seconds
+[2022-07-30 23:17:18,897] {processor.py:153} INFO - Started process (PID=7516) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 23:17:18,898] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-07-30 23:17:18,898] {logging_mixin.py:115} INFO - [2022-07-30 23:17:18,898] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 23:17:18,914] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 23:17:18,925] {logging_mixin.py:115} INFO - [2022-07-30 23:17:18,925] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:17:18,942] {logging_mixin.py:115} INFO - [2022-07-30 23:17:18,942] {dag.py:2968} INFO - Setting next_dagrun for example_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 23:17:18,955] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py took 0.063 seconds
+[2022-07-30 23:17:57,400] {processor.py:153} INFO - Started process (PID=7847) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 23:17:57,400] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-07-30 23:17:57,401] {logging_mixin.py:115} INFO - [2022-07-30 23:17:57,401] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 23:17:57,408] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 23:17:57,421] {logging_mixin.py:115} INFO - [2022-07-30 23:17:57,421] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:17:57,432] {logging_mixin.py:115} INFO - [2022-07-30 23:17:57,432] {dag.py:2968} INFO - Setting next_dagrun for example_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 23:17:57,445] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py took 0.046 seconds
+[2022-07-30 23:20:32,361] {processor.py:153} INFO - Started process (PID=8972) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 23:20:32,362] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-07-30 23:20:32,362] {logging_mixin.py:115} INFO - [2022-07-30 23:20:32,362] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 23:20:32,369] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 23:20:32,380] {logging_mixin.py:115} INFO - [2022-07-30 23:20:32,380] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:20:32,394] {logging_mixin.py:115} INFO - [2022-07-30 23:20:32,394] {dag.py:2968} INFO - Setting next_dagrun for example_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 23:20:32,407] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py took 0.048 seconds
+[2022-07-30 23:25:15,719] {processor.py:153} INFO - Started process (PID=10766) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 23:25:15,720] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-07-30 23:25:15,721] {logging_mixin.py:115} INFO - [2022-07-30 23:25:15,721] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 23:25:15,732] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 23:25:15,739] {logging_mixin.py:115} INFO - [2022-07-30 23:25:15,739] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:25:15,748] {logging_mixin.py:115} INFO - [2022-07-30 23:25:15,748] {dag.py:2968} INFO - Setting next_dagrun for example_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 23:25:15,758] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py took 0.042 seconds
+[2022-07-30 23:26:09,076] {processor.py:153} INFO - Started process (PID=11279) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 23:26:09,077] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-07-30 23:26:09,078] {logging_mixin.py:115} INFO - [2022-07-30 23:26:09,078] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 23:26:09,089] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 23:26:09,097] {logging_mixin.py:115} INFO - [2022-07-30 23:26:09,097] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:26:09,105] {logging_mixin.py:115} INFO - [2022-07-30 23:26:09,105] {dag.py:2968} INFO - Setting next_dagrun for example_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 23:26:09,115] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py took 0.042 seconds
+[2022-07-30 23:26:44,715] {processor.py:153} INFO - Started process (PID=11813) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 23:26:44,716] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-07-30 23:26:44,717] {logging_mixin.py:115} INFO - [2022-07-30 23:26:44,717] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 23:26:44,728] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 23:26:44,736] {logging_mixin.py:115} INFO - [2022-07-30 23:26:44,736] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:26:44,744] {logging_mixin.py:115} INFO - [2022-07-30 23:26:44,744] {dag.py:2968} INFO - Setting next_dagrun for example_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 23:26:44,755] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py took 0.043 seconds
+[2022-07-30 23:27:22,710] {processor.py:153} INFO - Started process (PID=12416) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 23:27:22,711] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-07-30 23:27:22,712] {logging_mixin.py:115} INFO - [2022-07-30 23:27:22,712] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 23:27:22,725] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 23:27:22,733] {logging_mixin.py:115} INFO - [2022-07-30 23:27:22,733] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:27:22,742] {logging_mixin.py:115} INFO - [2022-07-30 23:27:22,742] {dag.py:2968} INFO - Setting next_dagrun for example_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 23:27:22,752] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py took 0.043 seconds
+[2022-07-30 23:28:00,007] {processor.py:153} INFO - Started process (PID=12730) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 23:28:00,008] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-07-30 23:28:00,008] {logging_mixin.py:115} INFO - [2022-07-30 23:28:00,008] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 23:28:00,015] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 23:28:00,025] {logging_mixin.py:115} INFO - [2022-07-30 23:28:00,025] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:28:00,035] {logging_mixin.py:115} INFO - [2022-07-30 23:28:00,035] {dag.py:2968} INFO - Setting next_dagrun for example_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 23:28:00,047] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py took 0.042 seconds
+[2022-07-30 23:28:35,938] {processor.py:153} INFO - Started process (PID=13191) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 23:28:35,939] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-07-30 23:28:35,939] {logging_mixin.py:115} INFO - [2022-07-30 23:28:35,939] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 23:28:35,945] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-07-30 23:28:35,953] {logging_mixin.py:115} INFO - [2022-07-30 23:28:35,953] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:28:35,963] {logging_mixin.py:115} INFO - [2022-07-30 23:28:35,962] {dag.py:2968} INFO - Setting next_dagrun for example_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 23:28:35,973] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py took 0.036 seconds

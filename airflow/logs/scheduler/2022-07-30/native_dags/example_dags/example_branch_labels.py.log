@@ -1,0 +1,307 @@
+[2022-07-30 21:48:11,496] {processor.py:153} INFO - Started process (PID=31795) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 21:48:11,497] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2022-07-30 21:48:11,497] {logging_mixin.py:115} INFO - [2022-07-30 21:48:11,497] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 21:48:11,514] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 21:48:11,554] {logging_mixin.py:115} INFO - [2022-07-30 21:48:11,554] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:48:11,571] {logging_mixin.py:115} INFO - [2022-07-30 21:48:11,570] {dag.py:2968} INFO - Setting next_dagrun for example_branch_labels to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 21:48:11,583] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py took 0.088 seconds
+[2022-07-30 21:48:52,678] {processor.py:153} INFO - Started process (PID=32039) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 21:48:52,679] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2022-07-30 21:48:52,679] {logging_mixin.py:115} INFO - [2022-07-30 21:48:52,679] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 21:48:52,686] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 21:48:52,697] {logging_mixin.py:115} INFO - [2022-07-30 21:48:52,697] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:48:52,706] {logging_mixin.py:115} INFO - [2022-07-30 21:48:52,706] {dag.py:2968} INFO - Setting next_dagrun for example_branch_labels to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 21:48:52,714] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py took 0.037 seconds
+[2022-07-30 21:49:33,757] {processor.py:153} INFO - Started process (PID=32251) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 21:49:33,757] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2022-07-30 21:49:33,757] {logging_mixin.py:115} INFO - [2022-07-30 21:49:33,757] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 21:49:33,761] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 21:49:33,770] {logging_mixin.py:115} INFO - [2022-07-30 21:49:33,769] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:49:33,780] {logging_mixin.py:115} INFO - [2022-07-30 21:49:33,780] {dag.py:2968} INFO - Setting next_dagrun for example_branch_labels to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 21:49:33,788] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py took 0.032 seconds
+[2022-07-30 21:50:14,920] {processor.py:153} INFO - Started process (PID=32419) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 21:50:14,921] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2022-07-30 21:50:14,921] {logging_mixin.py:115} INFO - [2022-07-30 21:50:14,921] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 21:50:14,926] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 21:50:14,935] {logging_mixin.py:115} INFO - [2022-07-30 21:50:14,935] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:50:14,946] {logging_mixin.py:115} INFO - [2022-07-30 21:50:14,946] {dag.py:2968} INFO - Setting next_dagrun for example_branch_labels to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 21:50:14,954] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py took 0.037 seconds
+[2022-07-30 21:50:56,083] {processor.py:153} INFO - Started process (PID=32809) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 21:50:56,084] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2022-07-30 21:50:56,084] {logging_mixin.py:115} INFO - [2022-07-30 21:50:56,084] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 21:50:56,089] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 21:50:56,100] {logging_mixin.py:115} INFO - [2022-07-30 21:50:56,100] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:50:56,111] {logging_mixin.py:115} INFO - [2022-07-30 21:50:56,111] {dag.py:2968} INFO - Setting next_dagrun for example_branch_labels to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 21:50:56,121] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py took 0.040 seconds
+[2022-07-30 21:51:37,975] {processor.py:153} INFO - Started process (PID=33063) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 21:51:37,975] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2022-07-30 21:51:37,975] {logging_mixin.py:115} INFO - [2022-07-30 21:51:37,975] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 21:51:37,979] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 21:51:37,988] {logging_mixin.py:115} INFO - [2022-07-30 21:51:37,988] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:51:37,998] {logging_mixin.py:115} INFO - [2022-07-30 21:51:37,998] {dag.py:2968} INFO - Setting next_dagrun for example_branch_labels to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 21:51:38,007] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py took 0.034 seconds
+[2022-07-30 21:52:18,400] {processor.py:153} INFO - Started process (PID=33515) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 21:52:18,401] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2022-07-30 21:52:18,401] {logging_mixin.py:115} INFO - [2022-07-30 21:52:18,401] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 21:52:18,404] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 21:52:18,414] {logging_mixin.py:115} INFO - [2022-07-30 21:52:18,413] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:52:18,423] {logging_mixin.py:115} INFO - [2022-07-30 21:52:18,422] {dag.py:2968} INFO - Setting next_dagrun for example_branch_labels to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 21:52:18,431] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py took 0.032 seconds
+[2022-07-30 21:52:59,637] {processor.py:153} INFO - Started process (PID=34019) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 21:52:59,638] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2022-07-30 21:52:59,638] {logging_mixin.py:115} INFO - [2022-07-30 21:52:59,638] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 21:52:59,648] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 21:52:59,655] {logging_mixin.py:115} INFO - [2022-07-30 21:52:59,655] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:52:59,664] {logging_mixin.py:115} INFO - [2022-07-30 21:52:59,664] {dag.py:2968} INFO - Setting next_dagrun for example_branch_labels to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 21:52:59,671] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py took 0.039 seconds
+[2022-07-30 21:53:40,306] {processor.py:153} INFO - Started process (PID=34302) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 21:53:40,307] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2022-07-30 21:53:40,307] {logging_mixin.py:115} INFO - [2022-07-30 21:53:40,307] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 21:53:40,314] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 21:53:40,324] {logging_mixin.py:115} INFO - [2022-07-30 21:53:40,324] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:53:40,338] {logging_mixin.py:115} INFO - [2022-07-30 21:53:40,338] {dag.py:2968} INFO - Setting next_dagrun for example_branch_labels to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 21:53:40,350] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py took 0.045 seconds
+[2022-07-30 21:54:20,534] {processor.py:153} INFO - Started process (PID=34591) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 21:54:20,535] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2022-07-30 21:54:20,536] {logging_mixin.py:115} INFO - [2022-07-30 21:54:20,535] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 21:54:20,547] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 21:54:20,555] {logging_mixin.py:115} INFO - [2022-07-30 21:54:20,555] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:54:20,564] {logging_mixin.py:115} INFO - [2022-07-30 21:54:20,564] {dag.py:2968} INFO - Setting next_dagrun for example_branch_labels to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 21:54:20,573] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py took 0.043 seconds
+[2022-07-30 21:55:02,688] {processor.py:153} INFO - Started process (PID=34866) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 21:55:02,689] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2022-07-30 21:55:02,689] {logging_mixin.py:115} INFO - [2022-07-30 21:55:02,689] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 21:55:02,700] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 21:55:02,709] {logging_mixin.py:115} INFO - [2022-07-30 21:55:02,709] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:55:02,720] {logging_mixin.py:115} INFO - [2022-07-30 21:55:02,720] {dag.py:2968} INFO - Setting next_dagrun for example_branch_labels to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 21:55:02,731] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py took 0.047 seconds
+[2022-07-30 21:55:42,062] {processor.py:153} INFO - Started process (PID=35165) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 21:55:42,063] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2022-07-30 21:55:42,063] {logging_mixin.py:115} INFO - [2022-07-30 21:55:42,063] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 21:55:42,071] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 21:55:42,080] {logging_mixin.py:115} INFO - [2022-07-30 21:55:42,079] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:55:42,090] {logging_mixin.py:115} INFO - [2022-07-30 21:55:42,090] {dag.py:2968} INFO - Setting next_dagrun for example_branch_labels to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 21:55:42,100] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py took 0.043 seconds
+[2022-07-30 21:56:23,803] {processor.py:153} INFO - Started process (PID=35519) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 21:56:23,805] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2022-07-30 21:56:23,805] {logging_mixin.py:115} INFO - [2022-07-30 21:56:23,805] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 21:56:23,815] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 21:56:23,823] {logging_mixin.py:115} INFO - [2022-07-30 21:56:23,822] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:56:23,831] {logging_mixin.py:115} INFO - [2022-07-30 21:56:23,831] {dag.py:2968} INFO - Setting next_dagrun for example_branch_labels to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 21:56:23,839] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py took 0.040 seconds
+[2022-07-30 21:57:06,965] {processor.py:153} INFO - Started process (PID=35810) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 21:57:06,966] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2022-07-30 21:57:06,967] {logging_mixin.py:115} INFO - [2022-07-30 21:57:06,967] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 21:57:06,977] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 21:57:06,985] {logging_mixin.py:115} INFO - [2022-07-30 21:57:06,985] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:57:06,994] {logging_mixin.py:115} INFO - [2022-07-30 21:57:06,994] {dag.py:2968} INFO - Setting next_dagrun for example_branch_labels to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 21:57:07,002] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py took 0.040 seconds
+[2022-07-30 21:57:48,277] {processor.py:153} INFO - Started process (PID=36210) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 21:57:48,278] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2022-07-30 21:57:48,279] {logging_mixin.py:115} INFO - [2022-07-30 21:57:48,279] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 21:57:48,288] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 21:57:48,300] {logging_mixin.py:115} WARNING - /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py:610 DeprecationWarning: DAG.full_filepath is deprecated in favour of fileloc
+[2022-07-30 21:57:48,303] {logging_mixin.py:115} INFO - [2022-07-30 21:57:48,300] {dagbag.py:610} ERROR - Failed to write serialized DAG: /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+Traceback (most recent call last):
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 605, in _serialize_dag_capturing_errors
+    self._sync_perm_for_dag(dag, session=session)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/utils/session.py", line 68, in wrapper
+    return func(*args, **kwargs)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 660, in _sync_perm_for_dag
+    if dag.access_control or needs_perms(root_dag_id):
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 650, in needs_perms
+    session.query(Permission)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2046, in query
+    return self._query_cls(entities, self, **kwargs)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 173, in __init__
+    self._set_entities(entities)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 180, in _set_entities
+    self._raw_columns = [
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 181, in <listcomp>
+    coercions.expect(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/coercions.py", line 160, in expect
+    insp._post_inspect
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 1162, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 2097, in _post_inspect
+    self._check_configure()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 1874, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 3381, in _configure_registries
+    _do_configure_registries(registries, cascade)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 3420, in _do_configure_registries
+    mapper._post_configure_properties()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 1891, in _post_configure_properties
+    prop.init()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/interfaces.py", line 227, in init
+    self.do_init()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2133, in do_init
+    self._setup_join_conditions()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2229, in _setup_join_conditions
+    self._join_condition = jc = JoinCondition(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2624, in __init__
+    self._determine_joins()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2720, in _determine_joins
+    self.secondaryjoin = join_condition(
+  File "<string>", line 2, in join_condition
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/selectable.py", line 1186, in _join_condition
+    constraints = cls._joincond_scan_left_right(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/selectable.py", line 1255, in _joincond_scan_left_right
+    col = fk.get_referent(left)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/schema.py", line 2232, in get_referent
+    return table.corresponding_column(self.column)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 1095, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/schema.py", line 2373, in column
+    raise exc.NoReferencedTableError(
+sqlalchemy.exc.NoReferencedTableError: Foreign key associated with column 'ab_permission_view_role.permission_view_id' could not find table 'ab_permission_view' with which to generate a foreign key to target column 'id'
+[2022-07-30 21:57:48,303] {logging_mixin.py:115} INFO - [2022-07-30 21:57:48,303] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:57:48,312] {logging_mixin.py:115} INFO - [2022-07-30 21:57:48,311] {dag.py:2968} INFO - Setting next_dagrun for example_branch_labels to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 21:57:48,325] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py took 0.052 seconds
+[2022-07-30 21:58:54,485] {processor.py:153} INFO - Started process (PID=36901) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 21:58:54,486] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2022-07-30 21:58:54,487] {logging_mixin.py:115} INFO - [2022-07-30 21:58:54,486] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 21:58:54,495] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 21:58:54,504] {logging_mixin.py:115} INFO - [2022-07-30 21:58:54,504] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:58:54,513] {logging_mixin.py:115} INFO - [2022-07-30 21:58:54,513] {dag.py:2968} INFO - Setting next_dagrun for example_branch_labels to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 21:58:54,525] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py took 0.044 seconds
+[2022-07-30 21:59:35,330] {processor.py:153} INFO - Started process (PID=37161) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 21:59:35,331] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2022-07-30 21:59:35,331] {logging_mixin.py:115} INFO - [2022-07-30 21:59:35,331] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 21:59:35,339] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 21:59:35,349] {logging_mixin.py:115} INFO - [2022-07-30 21:59:35,349] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:59:35,357] {logging_mixin.py:115} INFO - [2022-07-30 21:59:35,357] {dag.py:2968} INFO - Setting next_dagrun for example_branch_labels to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 21:59:35,365] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py took 0.037 seconds
+[2022-07-30 22:00:09,896] {processor.py:153} INFO - Started process (PID=37403) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 22:00:09,897] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2022-07-30 22:00:09,898] {logging_mixin.py:115} INFO - [2022-07-30 22:00:09,897] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 22:00:09,907] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 22:00:09,918] {logging_mixin.py:115} INFO - [2022-07-30 22:00:09,918] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 22:00:09,926] {logging_mixin.py:115} INFO - [2022-07-30 22:00:09,926] {dag.py:2968} INFO - Setting next_dagrun for example_branch_labels to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 22:00:09,934] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py took 0.040 seconds
+[2022-07-30 22:00:45,976] {processor.py:153} INFO - Started process (PID=37732) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 22:00:45,977] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2022-07-30 22:00:45,978] {logging_mixin.py:115} INFO - [2022-07-30 22:00:45,978] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 22:00:45,987] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 22:00:45,997] {logging_mixin.py:115} INFO - [2022-07-30 22:00:45,997] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 22:00:46,005] {logging_mixin.py:115} INFO - [2022-07-30 22:00:46,005] {dag.py:2968} INFO - Setting next_dagrun for example_branch_labels to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 22:00:46,013] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py took 0.041 seconds
+[2022-07-30 22:01:19,718] {processor.py:153} INFO - Started process (PID=38034) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 22:01:19,719] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2022-07-30 22:01:19,719] {logging_mixin.py:115} INFO - [2022-07-30 22:01:19,719] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 22:01:19,724] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 22:01:19,733] {logging_mixin.py:115} INFO - [2022-07-30 22:01:19,733] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 22:01:19,743] {logging_mixin.py:115} INFO - [2022-07-30 22:01:19,743] {dag.py:2968} INFO - Setting next_dagrun for example_branch_labels to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 22:01:19,753] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py took 0.037 seconds
+[2022-07-30 22:01:59,429] {processor.py:153} INFO - Started process (PID=38381) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 22:01:59,430] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2022-07-30 22:01:59,431] {logging_mixin.py:115} INFO - [2022-07-30 22:01:59,431] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 22:01:59,436] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 22:01:59,445] {logging_mixin.py:115} INFO - [2022-07-30 22:01:59,445] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 22:01:59,454] {logging_mixin.py:115} INFO - [2022-07-30 22:01:59,454] {dag.py:2968} INFO - Setting next_dagrun for example_branch_labels to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 22:01:59,463] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py took 0.038 seconds
+[2022-07-30 22:02:37,656] {processor.py:153} INFO - Started process (PID=38786) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 22:02:37,657] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2022-07-30 22:02:37,657] {logging_mixin.py:115} INFO - [2022-07-30 22:02:37,657] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 22:02:37,661] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 22:02:37,671] {logging_mixin.py:115} INFO - [2022-07-30 22:02:37,671] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 22:02:37,681] {logging_mixin.py:115} INFO - [2022-07-30 22:02:37,681] {dag.py:2968} INFO - Setting next_dagrun for example_branch_labels to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 22:02:37,691] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py took 0.036 seconds
+[2022-07-30 22:03:12,383] {processor.py:153} INFO - Started process (PID=39004) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 22:03:12,384] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2022-07-30 22:03:12,385] {logging_mixin.py:115} INFO - [2022-07-30 22:03:12,385] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 22:03:12,390] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 22:03:12,400] {logging_mixin.py:115} INFO - [2022-07-30 22:03:12,400] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 22:03:12,410] {logging_mixin.py:115} INFO - [2022-07-30 22:03:12,410] {dag.py:2968} INFO - Setting next_dagrun for example_branch_labels to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 22:03:12,418] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py took 0.037 seconds
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            [2022-07-30 23:14:48,579] {processor.py:153} INFO - Started process (PID=5607) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 23:14:48,580] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2022-07-30 23:14:48,580] {logging_mixin.py:115} INFO - [2022-07-30 23:14:48,580] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 23:14:48,587] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 23:14:48,629] {logging_mixin.py:115} INFO - [2022-07-30 23:14:48,628] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:14:48,645] {logging_mixin.py:115} INFO - [2022-07-30 23:14:48,645] {dag.py:2968} INFO - Setting next_dagrun for example_branch_labels to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 23:14:48,661] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py took 0.085 seconds
+[2022-07-30 23:15:25,729] {processor.py:153} INFO - Started process (PID=6593) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 23:15:25,729] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2022-07-30 23:15:25,730] {logging_mixin.py:115} INFO - [2022-07-30 23:15:25,730] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 23:15:25,739] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 23:15:25,754] {logging_mixin.py:115} INFO - [2022-07-30 23:15:25,754] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:15:25,765] {logging_mixin.py:115} INFO - [2022-07-30 23:15:25,765] {dag.py:2968} INFO - Setting next_dagrun for example_branch_labels to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 23:15:25,774] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py took 0.048 seconds
+[2022-07-30 23:16:03,038] {processor.py:153} INFO - Started process (PID=6998) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 23:16:03,038] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2022-07-30 23:16:03,039] {logging_mixin.py:115} INFO - [2022-07-30 23:16:03,039] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 23:16:03,047] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 23:16:03,055] {logging_mixin.py:115} INFO - [2022-07-30 23:16:03,055] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:16:03,065] {logging_mixin.py:115} INFO - [2022-07-30 23:16:03,064] {dag.py:2968} INFO - Setting next_dagrun for example_branch_labels to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 23:16:03,074] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py took 0.037 seconds
+[2022-07-30 23:16:40,638] {processor.py:153} INFO - Started process (PID=7334) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 23:16:40,638] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2022-07-30 23:16:40,639] {logging_mixin.py:115} INFO - [2022-07-30 23:16:40,639] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 23:16:40,644] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 23:16:40,655] {logging_mixin.py:115} INFO - [2022-07-30 23:16:40,655] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:16:40,664] {logging_mixin.py:115} INFO - [2022-07-30 23:16:40,664] {dag.py:2968} INFO - Setting next_dagrun for example_branch_labels to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 23:16:40,675] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py took 0.040 seconds
+[2022-07-30 23:17:15,037] {processor.py:153} INFO - Started process (PID=7499) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 23:17:15,038] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2022-07-30 23:17:15,038] {logging_mixin.py:115} INFO - [2022-07-30 23:17:15,038] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 23:17:15,044] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 23:17:15,053] {logging_mixin.py:115} INFO - [2022-07-30 23:17:15,053] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:17:15,068] {logging_mixin.py:115} INFO - [2022-07-30 23:17:15,068] {dag.py:2968} INFO - Setting next_dagrun for example_branch_labels to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 23:17:15,079] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py took 0.046 seconds
+[2022-07-30 23:17:53,806] {processor.py:153} INFO - Started process (PID=7826) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 23:17:53,806] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2022-07-30 23:17:53,807] {logging_mixin.py:115} INFO - [2022-07-30 23:17:53,807] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 23:17:53,812] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 23:17:53,822] {logging_mixin.py:115} INFO - [2022-07-30 23:17:53,822] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:17:53,834] {logging_mixin.py:115} INFO - [2022-07-30 23:17:53,834] {dag.py:2968} INFO - Setting next_dagrun for example_branch_labels to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 23:17:53,842] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py took 0.038 seconds
+[2022-07-30 23:20:27,777] {processor.py:153} INFO - Started process (PID=8947) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 23:20:27,777] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2022-07-30 23:20:27,778] {logging_mixin.py:115} INFO - [2022-07-30 23:20:27,778] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 23:20:27,783] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 23:20:27,794] {logging_mixin.py:115} INFO - [2022-07-30 23:20:27,794] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:20:27,809] {logging_mixin.py:115} INFO - [2022-07-30 23:20:27,809] {dag.py:2968} INFO - Setting next_dagrun for example_branch_labels to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 23:20:27,824] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py took 0.049 seconds
+[2022-07-30 23:25:11,169] {processor.py:153} INFO - Started process (PID=10749) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 23:25:11,170] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2022-07-30 23:25:11,171] {logging_mixin.py:115} INFO - [2022-07-30 23:25:11,171] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 23:25:11,176] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 23:25:11,183] {logging_mixin.py:115} INFO - [2022-07-30 23:25:11,183] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:25:11,192] {logging_mixin.py:115} INFO - [2022-07-30 23:25:11,192] {dag.py:2968} INFO - Setting next_dagrun for example_branch_labels to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 23:25:11,200] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py took 0.035 seconds
+[2022-07-30 23:26:05,231] {processor.py:153} INFO - Started process (PID=11241) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 23:26:05,231] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2022-07-30 23:26:05,231] {logging_mixin.py:115} INFO - [2022-07-30 23:26:05,231] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 23:26:05,235] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 23:26:05,243] {logging_mixin.py:115} INFO - [2022-07-30 23:26:05,243] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:26:05,252] {logging_mixin.py:115} INFO - [2022-07-30 23:26:05,252] {dag.py:2968} INFO - Setting next_dagrun for example_branch_labels to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 23:26:05,261] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py took 0.032 seconds
+[2022-07-30 23:26:40,129] {processor.py:153} INFO - Started process (PID=11809) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 23:26:40,130] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2022-07-30 23:26:40,130] {logging_mixin.py:115} INFO - [2022-07-30 23:26:40,130] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 23:26:40,138] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 23:26:40,148] {logging_mixin.py:115} INFO - [2022-07-30 23:26:40,148] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:26:40,156] {logging_mixin.py:115} INFO - [2022-07-30 23:26:40,156] {dag.py:2968} INFO - Setting next_dagrun for example_branch_labels to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 23:26:40,165] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py took 0.037 seconds
+[2022-07-30 23:27:18,699] {processor.py:153} INFO - Started process (PID=12373) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 23:27:18,700] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2022-07-30 23:27:18,700] {logging_mixin.py:115} INFO - [2022-07-30 23:27:18,700] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 23:27:18,705] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 23:27:18,714] {logging_mixin.py:115} INFO - [2022-07-30 23:27:18,714] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:27:18,722] {logging_mixin.py:115} INFO - [2022-07-30 23:27:18,722] {dag.py:2968} INFO - Setting next_dagrun for example_branch_labels to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 23:27:18,731] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py took 0.034 seconds
+[2022-07-30 23:27:55,596] {processor.py:153} INFO - Started process (PID=12708) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 23:27:55,597] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2022-07-30 23:27:55,598] {logging_mixin.py:115} INFO - [2022-07-30 23:27:55,598] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 23:27:55,606] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 23:27:55,614] {logging_mixin.py:115} INFO - [2022-07-30 23:27:55,614] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:27:55,623] {logging_mixin.py:115} INFO - [2022-07-30 23:27:55,623] {dag.py:2968} INFO - Setting next_dagrun for example_branch_labels to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 23:27:55,632] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py took 0.040 seconds
+[2022-07-30 23:28:31,931] {processor.py:153} INFO - Started process (PID=13136) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 23:28:31,932] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2022-07-30 23:28:31,933] {logging_mixin.py:115} INFO - [2022-07-30 23:28:31,933] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 23:28:31,940] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py
+[2022-07-30 23:28:31,948] {logging_mixin.py:115} INFO - [2022-07-30 23:28:31,947] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:28:31,956] {logging_mixin.py:115} INFO - [2022-07-30 23:28:31,956] {dag.py:2968} INFO - Setting next_dagrun for example_branch_labels to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 23:28:31,965] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_labels.py took 0.038 seconds
