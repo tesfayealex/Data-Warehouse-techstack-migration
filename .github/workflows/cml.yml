@@ -15,7 +15,7 @@ jobs:
           echo "## Project Images" >> report.md
           cml publish ./images/migration_diagram.png --md >> report.md
           echo "###  Migrated dag Image" >> report.md
-          cml publish ./images/migrated_dag_graph.png --md >> report.md
+          cml publish ./images/migration_dag_graph.png --md >> report.md
           echo "###  Superset Image" >> report.md
           cml publish ./images/superset_1.png --md >> report.md
           cml send-comment report.md
