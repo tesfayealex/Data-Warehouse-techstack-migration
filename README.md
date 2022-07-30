@@ -4,7 +4,7 @@
 
 **Table of content**
 
-[traffic-data-pipeline-and-warehouse](#traffic-data-pipeline-and-warehouse)
+[Data-Warehouse-techstack-migration](#Data-Warehouse-techstack-migration)
 
 - [Introduction](#Introduction)
 - [Included Technologies and tools](#Included-Technologies-and-tools)
@@ -20,7 +20,7 @@
 ## Introduction
 
 <p>
-A city traffic department wants to collect traffic data using swarm UAVs (drones) from a number of locations in the city and use the data collected for improving traffic flow in the city and for a number of other undisclosed projects. Your startup is responsible for creating a scalable data warehouse that will host the vehicle trajectory data extracted by analysing footage taken by swarm drones and static roadside cameras.The data warehouse should take into account future needs, organise data such that a number of downstream projects query the data efficiently. You should use the Extract Load Transform (ELT) framework using DBT.
+We Had Built an ELT Framework using Postgres , DBT , Redash In previous project using traffic data. well On this project we are going to migrate the database to MYSQL and change Redash to Apache Superset. This project will help in understanding and implementing changes and automations in the day to day life of a data engineering.
 </p>
 
 ## Included-Technologies-and-tools
@@ -29,28 +29,27 @@ A city traffic department wants to collect traffic data using swarm UAVs (drones
 Apache Airflow - A workflow manager to schedule, orchestrate & monitor workflows. Directed acyclic graphs (DAG) are used by Airflow to control workflow orchestration.
 </p>
 <p>
-Postgresql - is an object-relational database management system (ORDBMS) with an emphasis on extensibility and standards compliance. It is used as the primary data 
-store or data warehouse for many webs, mobile, geospatial, and analytics applications.
+Mysql - is an Oracle-backed open source relational database management system (RDBMS) based on Structured Query Language (SQL)
 </p>
 <p>
 DBT (data build tool) - enables transforming data in warehouses by simply writing select statements. It handles turning these select statements into tables and views.
 </p>
 <p>
-Redash - is an open-source web application. It's used for clearing databases and visualizing the results.
+Apache Superset - is fast, lightweight, intuitive, and loaded with options that make it easy for users of all skill sets to explore and visualize their data, from simple line charts to highly detailed geospatial charts.
 </p>
 
 ## Dev-setup
 
   Clone this repo
 
-      https://github.com/tesfayealex/traffic-data-pipeline-and-warehouse
+      https://github.com/tesfayealex/Data-Warehouse-techstack-migration
 
   Install python requirements
 
-      cd  traffic-data-pipeline-and-warehouse
+      cd  Data-Warehouse-techstack-migration
       pip install -r requirements
 
-  Install Docker , Docker compose and Redash
+  Install Docker , Docker compose and Redash (for previous project views)
 
       ./setup.sh
 

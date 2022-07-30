@@ -1,0 +1,26 @@
+[2022-07-24 22:53:28,685] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: our_fourth_python_operator_dag.greet scheduled__2022-07-08T00:00:00+00:00 [queued]>
+[2022-07-24 22:53:28,692] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: our_fourth_python_operator_dag.greet scheduled__2022-07-08T00:00:00+00:00 [queued]>
+[2022-07-24 22:53:28,692] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-24 22:53:28,692] {taskinstance.py:1377} INFO - Starting attempt 1 of 6
+[2022-07-24 22:53:28,692] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-24 22:53:28,709] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): greet> on 2022-07-08 00:00:00+00:00
+[2022-07-24 22:53:28,712] {standard_task_runner.py:52} INFO - Started process 41307 to run task
+[2022-07-24 22:53:28,717] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'our_fourth_python_operator_dag', 'greet', 'scheduled__2022-07-08T00:00:00+00:00', '--job-id', '39', '--raw', '--subdir', 'DAGS_FOLDER/create_dag_python_operator.py', '--cfg-path', '/tmp/tmpdee1cwt4', '--error-file', '/tmp/tmpgnf8g_4a']
+[2022-07-24 22:53:28,720] {standard_task_runner.py:80} INFO - Job 39: Subtask greet
+[2022-07-24 22:53:28,737] {logging_mixin.py:115} WARNING - /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/configuration.py:532 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2022-07-24 22:53:28,738] {logging_mixin.py:115} WARNING - /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/configuration.py:532 DeprecationWarning: The sql_engine_encoding option in [core] has been moved to the sql_engine_encoding option in [database] - the old setting has been used, but please update your config.
+[2022-07-24 22:53:28,764] {task_command.py:371} INFO - Running <TaskInstance: our_fourth_python_operator_dag.greet scheduled__2022-07-08T00:00:00+00:00 [running]> on host hp-HP-Pavilion-Laptop-15-eg0xxx
+[2022-07-24 22:53:28,816] {taskinstance.py:1589} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=tesfaye
+AIRFLOW_CTX_DAG_ID=our_fourth_python_operator_dag
+AIRFLOW_CTX_TASK_ID=greet
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-08T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-07-08T00:00:00+00:00
+[2022-07-24 22:53:28,821] {logging_mixin.py:115} INFO - Hello, my name is martin-bironga. And I am 24 years old!..
+[2022-07-24 22:53:28,821] {python.py:173} INFO - Done. Returned value was: None
+[2022-07-24 22:53:28,825] {taskinstance.py:1415} INFO - Marking task as SUCCESS. dag_id=our_fourth_python_operator_dag, task_id=greet, execution_date=20220708T000000, start_date=20220724T195328, end_date=20220724T195328
+[2022-07-24 22:53:28,845] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-07-24 22:53:28,857] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
