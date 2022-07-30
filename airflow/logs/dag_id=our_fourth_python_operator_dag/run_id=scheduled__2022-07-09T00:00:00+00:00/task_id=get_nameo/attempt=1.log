@@ -1,0 +1,25 @@
+[2022-07-24 22:53:27,494] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: our_fourth_python_operator_dag.get_nameo scheduled__2022-07-09T00:00:00+00:00 [queued]>
+[2022-07-24 22:53:27,498] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: our_fourth_python_operator_dag.get_nameo scheduled__2022-07-09T00:00:00+00:00 [queued]>
+[2022-07-24 22:53:27,498] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-24 22:53:27,499] {taskinstance.py:1377} INFO - Starting attempt 1 of 6
+[2022-07-24 22:53:27,499] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-24 22:53:27,509] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): get_nameo> on 2022-07-09 00:00:00+00:00
+[2022-07-24 22:53:27,510] {standard_task_runner.py:52} INFO - Started process 41243 to run task
+[2022-07-24 22:53:27,512] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'our_fourth_python_operator_dag', 'get_nameo', 'scheduled__2022-07-09T00:00:00+00:00', '--job-id', '38', '--raw', '--subdir', 'DAGS_FOLDER/create_dag_python_operator.py', '--cfg-path', '/tmp/tmpth318q7x', '--error-file', '/tmp/tmp9o858iz6']
+[2022-07-24 22:53:27,513] {standard_task_runner.py:80} INFO - Job 38: Subtask get_nameo
+[2022-07-24 22:53:27,524] {logging_mixin.py:115} WARNING - /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/configuration.py:532 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2022-07-24 22:53:27,526] {logging_mixin.py:115} WARNING - /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/configuration.py:532 DeprecationWarning: The sql_engine_encoding option in [core] has been moved to the sql_engine_encoding option in [database] - the old setting has been used, but please update your config.
+[2022-07-24 22:53:27,548] {task_command.py:371} INFO - Running <TaskInstance: our_fourth_python_operator_dag.get_nameo scheduled__2022-07-09T00:00:00+00:00 [running]> on host hp-HP-Pavilion-Laptop-15-eg0xxx
+[2022-07-24 22:53:27,583] {taskinstance.py:1589} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=tesfaye
+AIRFLOW_CTX_DAG_ID=our_fourth_python_operator_dag
+AIRFLOW_CTX_TASK_ID=get_nameo
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-09T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-07-09T00:00:00+00:00
+[2022-07-24 22:53:27,598] {python.py:173} INFO - Done. Returned value was: marto
+[2022-07-24 22:53:27,608] {taskinstance.py:1415} INFO - Marking task as SUCCESS. dag_id=our_fourth_python_operator_dag, task_id=get_nameo, execution_date=20220709T000000, start_date=20220724T195327, end_date=20220724T195327
+[2022-07-24 22:53:27,644] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-07-24 22:53:27,671] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

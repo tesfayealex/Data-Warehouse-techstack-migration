@@ -1,0 +1,335 @@
+[2022-07-30 22:01:31,620] {processor.py:153} INFO - Started process (PID=38107) to work on /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 22:01:31,621] {processor.py:641} INFO - Processing file /home/hp/airflow/dags/create_dag_dag_migrator.py for tasks to queue
+[2022-07-30 22:01:31,621] {logging_mixin.py:115} INFO - [2022-07-30 22:01:31,621] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 22:01:31,676] {logging_mixin.py:115} INFO - [2022-07-30 22:01:31,675] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2022-07-30 22:01:31,771] {logging_mixin.py:115} INFO - [2022-07-30 22:01:31,769] {dagbag.py:321} ERROR - Failed to import: /home/hp/airflow/dags/create_dag_dag_migrator.py
+Traceback (most recent call last):
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/hp/airflow/dags/create_dag_dag_migrator.py", line 137, in <module>
+    task3 = PythonOperator(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/utils/task_group.py", line 210, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'create_schema_and_migrate_data' has already been added to the DAG
+[2022-07-30 22:01:31,771] {processor.py:653} WARNING - No viable dags retrieved from /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 22:01:31,781] {processor.py:161} INFO - Processing /home/hp/airflow/dags/create_dag_dag_migrator.py took 0.164 seconds
+[2022-07-30 22:02:06,848] {processor.py:153} INFO - Started process (PID=38449) to work on /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 22:02:06,849] {processor.py:641} INFO - Processing file /home/hp/airflow/dags/create_dag_dag_migrator.py for tasks to queue
+[2022-07-30 22:02:06,849] {logging_mixin.py:115} INFO - [2022-07-30 22:02:06,849] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 22:02:06,891] {logging_mixin.py:115} INFO - [2022-07-30 22:02:06,891] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2022-07-30 22:02:06,987] {logging_mixin.py:115} INFO - [2022-07-30 22:02:06,985] {dagbag.py:321} ERROR - Failed to import: /home/hp/airflow/dags/create_dag_dag_migrator.py
+Traceback (most recent call last):
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/hp/airflow/dags/create_dag_dag_migrator.py", line 137, in <module>
+    task3 = PythonOperator(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/utils/task_group.py", line 210, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'create_schema_and_migrate_data' has already been added to the DAG
+[2022-07-30 22:02:06,987] {processor.py:653} WARNING - No viable dags retrieved from /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 22:02:06,996] {processor.py:161} INFO - Processing /home/hp/airflow/dags/create_dag_dag_migrator.py took 0.153 seconds
+[2022-07-30 22:02:43,417] {processor.py:153} INFO - Started process (PID=38842) to work on /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 22:02:43,418] {processor.py:641} INFO - Processing file /home/hp/airflow/dags/create_dag_dag_migrator.py for tasks to queue
+[2022-07-30 22:02:43,418] {logging_mixin.py:115} INFO - [2022-07-30 22:02:43,418] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 22:02:43,463] {logging_mixin.py:115} INFO - [2022-07-30 22:02:43,463] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2022-07-30 22:02:43,571] {logging_mixin.py:115} INFO - [2022-07-30 22:02:43,570] {dagbag.py:321} ERROR - Failed to import: /home/hp/airflow/dags/create_dag_dag_migrator.py
+Traceback (most recent call last):
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/hp/airflow/dags/create_dag_dag_migrator.py", line 137, in <module>
+    task3 = PythonOperator(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/utils/task_group.py", line 210, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'create_schema_and_migrate_data' has already been added to the DAG
+[2022-07-30 22:02:43,571] {processor.py:653} WARNING - No viable dags retrieved from /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 22:02:43,581] {processor.py:161} INFO - Processing /home/hp/airflow/dags/create_dag_dag_migrator.py took 0.166 seconds
+[2022-07-30 22:03:19,540] {processor.py:153} INFO - Started process (PID=39057) to work on /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 22:03:19,541] {processor.py:641} INFO - Processing file /home/hp/airflow/dags/create_dag_dag_migrator.py for tasks to queue
+[2022-07-30 22:03:19,541] {logging_mixin.py:115} INFO - [2022-07-30 22:03:19,541] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 22:03:19,584] {logging_mixin.py:115} INFO - [2022-07-30 22:03:19,584] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2022-07-30 22:03:19,703] {logging_mixin.py:115} INFO - [2022-07-30 22:03:19,702] {dagbag.py:321} ERROR - Failed to import: /home/hp/airflow/dags/create_dag_dag_migrator.py
+Traceback (most recent call last):
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/hp/airflow/dags/create_dag_dag_migrator.py", line 137, in <module>
+    task3 = PythonOperator(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/utils/task_group.py", line 210, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'create_schema_and_migrate_data' has already been added to the DAG
+[2022-07-30 22:03:19,704] {processor.py:653} WARNING - No viable dags retrieved from /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 22:03:19,716] {processor.py:161} INFO - Processing /home/hp/airflow/dags/create_dag_dag_migrator.py took 0.177 seconds
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        [2022-07-30 23:14:22,070] {processor.py:153} INFO - Started process (PID=5433) to work on /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 23:14:22,071] {processor.py:641} INFO - Processing file /home/hp/airflow/dags/create_dag_dag_migrator.py for tasks to queue
+[2022-07-30 23:14:22,071] {logging_mixin.py:115} INFO - [2022-07-30 23:14:22,071] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 23:14:22,075] {logging_mixin.py:115} INFO - [2022-07-30 23:14:22,075] {dagbag.py:321} ERROR - Failed to import: /home/hp/airflow/dags/create_dag_dag_migrator.py
+Traceback (most recent call last):
+  File "/home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/hp/airflow/dags/create_dag_dag_migrator.py", line 4, in <module>
+    import psycopg2 as db_connect
+ModuleNotFoundError: No module named 'psycopg2'
+[2022-07-30 23:14:22,076] {processor.py:653} WARNING - No viable dags retrieved from /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 23:14:22,091] {processor.py:161} INFO - Processing /home/hp/airflow/dags/create_dag_dag_migrator.py took 0.023 seconds
+[2022-07-30 23:14:57,127] {processor.py:153} INFO - Started process (PID=5648) to work on /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 23:14:57,128] {processor.py:641} INFO - Processing file /home/hp/airflow/dags/create_dag_dag_migrator.py for tasks to queue
+[2022-07-30 23:14:57,128] {logging_mixin.py:115} INFO - [2022-07-30 23:14:57,128] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 23:14:57,132] {logging_mixin.py:115} INFO - [2022-07-30 23:14:57,131] {dagbag.py:321} ERROR - Failed to import: /home/hp/airflow/dags/create_dag_dag_migrator.py
+Traceback (most recent call last):
+  File "/home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/hp/airflow/dags/create_dag_dag_migrator.py", line 4, in <module>
+    import psycopg2 as db_connect
+ModuleNotFoundError: No module named 'psycopg2'
+[2022-07-30 23:14:57,132] {processor.py:653} WARNING - No viable dags retrieved from /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 23:14:57,145] {processor.py:161} INFO - Processing /home/hp/airflow/dags/create_dag_dag_migrator.py took 0.023 seconds
+[2022-07-30 23:15:34,885] {processor.py:153} INFO - Started process (PID=6791) to work on /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 23:15:34,885] {processor.py:641} INFO - Processing file /home/hp/airflow/dags/create_dag_dag_migrator.py for tasks to queue
+[2022-07-30 23:15:34,886] {logging_mixin.py:115} INFO - [2022-07-30 23:15:34,886] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 23:15:34,892] {logging_mixin.py:115} INFO - [2022-07-30 23:15:34,891] {dagbag.py:321} ERROR - Failed to import: /home/hp/airflow/dags/create_dag_dag_migrator.py
+Traceback (most recent call last):
+  File "/home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/hp/airflow/dags/create_dag_dag_migrator.py", line 4, in <module>
+    import psycopg2 as db_connect
+ModuleNotFoundError: No module named 'psycopg2'
+[2022-07-30 23:15:34,892] {processor.py:653} WARNING - No viable dags retrieved from /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 23:15:34,904] {processor.py:161} INFO - Processing /home/hp/airflow/dags/create_dag_dag_migrator.py took 0.021 seconds
+[2022-07-30 23:16:12,193] {processor.py:153} INFO - Started process (PID=7063) to work on /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 23:16:12,194] {processor.py:641} INFO - Processing file /home/hp/airflow/dags/create_dag_dag_migrator.py for tasks to queue
+[2022-07-30 23:16:12,194] {logging_mixin.py:115} INFO - [2022-07-30 23:16:12,194] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 23:16:12,200] {logging_mixin.py:115} INFO - [2022-07-30 23:16:12,200] {dagbag.py:321} ERROR - Failed to import: /home/hp/airflow/dags/create_dag_dag_migrator.py
+Traceback (most recent call last):
+  File "/home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/hp/airflow/dags/create_dag_dag_migrator.py", line 4, in <module>
+    import psycopg2 as db_connect
+ModuleNotFoundError: No module named 'psycopg2'
+[2022-07-30 23:16:12,200] {processor.py:653} WARNING - No viable dags retrieved from /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 23:16:12,211] {processor.py:161} INFO - Processing /home/hp/airflow/dags/create_dag_dag_migrator.py took 0.021 seconds
+[2022-07-30 23:16:50,299] {processor.py:153} INFO - Started process (PID=7355) to work on /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 23:16:50,300] {processor.py:641} INFO - Processing file /home/hp/airflow/dags/create_dag_dag_migrator.py for tasks to queue
+[2022-07-30 23:16:50,301] {logging_mixin.py:115} INFO - [2022-07-30 23:16:50,301] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 23:16:50,307] {logging_mixin.py:115} INFO - [2022-07-30 23:16:50,307] {dagbag.py:321} ERROR - Failed to import: /home/hp/airflow/dags/create_dag_dag_migrator.py
+Traceback (most recent call last):
+  File "/home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/hp/airflow/dags/create_dag_dag_migrator.py", line 4, in <module>
+    import psycopg2 as db_connect
+ModuleNotFoundError: No module named 'psycopg2'
+[2022-07-30 23:16:50,308] {processor.py:653} WARNING - No viable dags retrieved from /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 23:16:50,321] {processor.py:161} INFO - Processing /home/hp/airflow/dags/create_dag_dag_migrator.py took 0.024 seconds
+[2022-07-30 23:17:23,752] {processor.py:153} INFO - Started process (PID=7564) to work on /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 23:17:23,754] {processor.py:641} INFO - Processing file /home/hp/airflow/dags/create_dag_dag_migrator.py for tasks to queue
+[2022-07-30 23:17:23,754] {logging_mixin.py:115} INFO - [2022-07-30 23:17:23,754] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 23:17:23,763] {logging_mixin.py:115} INFO - [2022-07-30 23:17:23,763] {dagbag.py:321} ERROR - Failed to import: /home/hp/airflow/dags/create_dag_dag_migrator.py
+Traceback (most recent call last):
+  File "/home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/hp/airflow/dags/create_dag_dag_migrator.py", line 4, in <module>
+    import psycopg2 as db_connect
+ModuleNotFoundError: No module named 'psycopg2'
+[2022-07-30 23:17:23,764] {processor.py:653} WARNING - No viable dags retrieved from /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 23:17:23,775] {processor.py:161} INFO - Processing /home/hp/airflow/dags/create_dag_dag_migrator.py took 0.026 seconds
+[2022-07-30 23:17:27,299] {processor.py:153} INFO - Started process (PID=7620) to work on /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 23:17:27,300] {processor.py:641} INFO - Processing file /home/hp/airflow/dags/create_dag_dag_migrator.py for tasks to queue
+[2022-07-30 23:17:27,300] {logging_mixin.py:115} INFO - [2022-07-30 23:17:27,300] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 23:17:27,306] {logging_mixin.py:115} INFO - [2022-07-30 23:17:27,305] {dagbag.py:321} ERROR - Failed to import: /home/hp/airflow/dags/create_dag_dag_migrator.py
+Traceback (most recent call last):
+  File "/home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/hp/airflow/dags/create_dag_dag_migrator.py", line 4, in <module>
+    import psycopg2 as db_connect
+ModuleNotFoundError: No module named 'psycopg2'
+[2022-07-30 23:17:27,306] {processor.py:653} WARNING - No viable dags retrieved from /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 23:17:27,321] {processor.py:161} INFO - Processing /home/hp/airflow/dags/create_dag_dag_migrator.py took 0.024 seconds
+[2022-07-30 23:18:02,343] {processor.py:153} INFO - Started process (PID=7883) to work on /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 23:18:02,345] {processor.py:641} INFO - Processing file /home/hp/airflow/dags/create_dag_dag_migrator.py for tasks to queue
+[2022-07-30 23:18:02,346] {logging_mixin.py:115} INFO - [2022-07-30 23:18:02,346] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 23:18:02,354] {logging_mixin.py:115} INFO - [2022-07-30 23:18:02,353] {dagbag.py:321} ERROR - Failed to import: /home/hp/airflow/dags/create_dag_dag_migrator.py
+Traceback (most recent call last):
+  File "/home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/hp/airflow/dags/create_dag_dag_migrator.py", line 4, in <module>
+    import psycopg2 as db_connect
+ModuleNotFoundError: No module named 'psycopg2'
+[2022-07-30 23:18:02,354] {processor.py:653} WARNING - No viable dags retrieved from /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 23:18:02,371] {processor.py:161} INFO - Processing /home/hp/airflow/dags/create_dag_dag_migrator.py took 0.031 seconds
+[2022-07-30 23:20:02,250] {processor.py:153} INFO - Started process (PID=8722) to work on /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 23:20:02,250] {processor.py:641} INFO - Processing file /home/hp/airflow/dags/create_dag_dag_migrator.py for tasks to queue
+[2022-07-30 23:20:02,251] {logging_mixin.py:115} INFO - [2022-07-30 23:20:02,251] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 23:20:02,258] {logging_mixin.py:115} INFO - [2022-07-30 23:20:02,257] {dagbag.py:321} ERROR - Failed to import: /home/hp/airflow/dags/create_dag_dag_migrator.py
+Traceback (most recent call last):
+  File "/home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/hp/airflow/dags/create_dag_dag_migrator.py", line 7, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2022-07-30 23:20:02,258] {processor.py:653} WARNING - No viable dags retrieved from /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 23:20:02,273] {processor.py:161} INFO - Processing /home/hp/airflow/dags/create_dag_dag_migrator.py took 0.025 seconds
+[2022-07-30 23:20:37,505] {processor.py:153} INFO - Started process (PID=9016) to work on /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 23:20:37,506] {processor.py:641} INFO - Processing file /home/hp/airflow/dags/create_dag_dag_migrator.py for tasks to queue
+[2022-07-30 23:20:37,507] {logging_mixin.py:115} INFO - [2022-07-30 23:20:37,507] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 23:20:37,517] {logging_mixin.py:115} INFO - [2022-07-30 23:20:37,516] {dagbag.py:321} ERROR - Failed to import: /home/hp/airflow/dags/create_dag_dag_migrator.py
+Traceback (most recent call last):
+  File "/home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/hp/airflow/dags/create_dag_dag_migrator.py", line 7, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2022-07-30 23:20:37,517] {processor.py:653} WARNING - No viable dags retrieved from /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 23:20:37,528] {processor.py:161} INFO - Processing /home/hp/airflow/dags/create_dag_dag_migrator.py took 0.027 seconds
+[2022-07-30 23:24:45,622] {processor.py:153} INFO - Started process (PID=10566) to work on /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 23:24:45,622] {processor.py:641} INFO - Processing file /home/hp/airflow/dags/create_dag_dag_migrator.py for tasks to queue
+[2022-07-30 23:24:45,623] {logging_mixin.py:115} INFO - [2022-07-30 23:24:45,622] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 23:24:45,800] {logging_mixin.py:115} INFO - [2022-07-30 23:24:45,799] {dagbag.py:321} ERROR - Failed to import: /home/hp/airflow/dags/create_dag_dag_migrator.py
+Traceback (most recent call last):
+  File "/home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/hp/airflow/dags/create_dag_dag_migrator.py", line 139, in <module>
+    task3 = PythonOperator(
+  File "/home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/utils/task_group.py", line 210, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'create_schema_and_migrate_data' has already been added to the DAG
+[2022-07-30 23:24:45,800] {processor.py:653} WARNING - No viable dags retrieved from /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 23:24:45,810] {processor.py:161} INFO - Processing /home/hp/airflow/dags/create_dag_dag_migrator.py took 0.190 seconds
+[2022-07-30 23:25:19,716] {processor.py:153} INFO - Started process (PID=10779) to work on /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 23:25:19,716] {processor.py:641} INFO - Processing file /home/hp/airflow/dags/create_dag_dag_migrator.py for tasks to queue
+[2022-07-30 23:25:19,717] {logging_mixin.py:115} INFO - [2022-07-30 23:25:19,717] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 23:25:19,903] {logging_mixin.py:115} INFO - [2022-07-30 23:25:19,903] {dagbag.py:321} ERROR - Failed to import: /home/hp/airflow/dags/create_dag_dag_migrator.py
+Traceback (most recent call last):
+  File "/home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/hp/airflow/dags/create_dag_dag_migrator.py", line 139, in <module>
+    task3 = PythonOperator(
+  File "/home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 764, in __init__
+    task_group.add(self)
+  File "/home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/utils/task_group.py", line 210, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'create_schema_and_migrate_data' has already been added to the DAG
+[2022-07-30 23:25:19,904] {processor.py:653} WARNING - No viable dags retrieved from /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 23:25:19,916] {processor.py:161} INFO - Processing /home/hp/airflow/dags/create_dag_dag_migrator.py took 0.203 seconds
+[2022-07-30 23:25:37,153] {processor.py:153} INFO - Started process (PID=10921) to work on /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 23:25:37,154] {processor.py:641} INFO - Processing file /home/hp/airflow/dags/create_dag_dag_migrator.py for tasks to queue
+[2022-07-30 23:25:37,154] {logging_mixin.py:115} INFO - [2022-07-30 23:25:37,154] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 23:25:37,325] {processor.py:651} INFO - DAG(s) dict_keys(['migrate_data']) retrieved from /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 23:25:37,359] {logging_mixin.py:115} INFO - [2022-07-30 23:25:37,359] {manager.py:508} INFO - Created Permission View: can delete on DAG:migrate_data
+[2022-07-30 23:25:37,366] {logging_mixin.py:115} INFO - [2022-07-30 23:25:37,366] {manager.py:508} INFO - Created Permission View: can edit on DAG:migrate_data
+[2022-07-30 23:25:37,373] {logging_mixin.py:115} INFO - [2022-07-30 23:25:37,373] {manager.py:508} INFO - Created Permission View: can read on DAG:migrate_data
+[2022-07-30 23:25:37,373] {logging_mixin.py:115} INFO - [2022-07-30 23:25:37,373] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:25:37,377] {logging_mixin.py:115} WARNING - /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/configuration.py:532 DeprecationWarning: The dag_concurrency option in [core] has been renamed to max_active_tasks_per_dag - the old setting has been used, but please update your config.
+[2022-07-30 23:25:37,377] {logging_mixin.py:115} INFO - [2022-07-30 23:25:37,377] {dag.py:2439} INFO - Creating ORM DAG for migrate_data
+[2022-07-30 23:25:37,381] {logging_mixin.py:115} INFO - [2022-07-30 23:25:37,381] {dag.py:2968} INFO - Setting next_dagrun for migrate_data to 2022-07-06T02:00:00+00:00, run_after=2022-07-06T02:00:00+00:00
+[2022-07-30 23:25:37,400] {processor.py:161} INFO - Processing /home/hp/airflow/dags/create_dag_dag_migrator.py took 0.249 seconds
+[2022-07-30 23:26:13,826] {processor.py:153} INFO - Started process (PID=11340) to work on /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 23:26:13,827] {processor.py:641} INFO - Processing file /home/hp/airflow/dags/create_dag_dag_migrator.py for tasks to queue
+[2022-07-30 23:26:13,827] {logging_mixin.py:115} INFO - [2022-07-30 23:26:13,827] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 23:26:13,994] {processor.py:651} INFO - DAG(s) dict_keys(['migrate_data']) retrieved from /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 23:26:13,999] {logging_mixin.py:115} INFO - [2022-07-30 23:26:13,999] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:26:14,006] {logging_mixin.py:115} INFO - [2022-07-30 23:26:14,006] {dag.py:2968} INFO - Setting next_dagrun for migrate_data to None, run_after=None
+[2022-07-30 23:26:14,016] {processor.py:161} INFO - Processing /home/hp/airflow/dags/create_dag_dag_migrator.py took 0.191 seconds
+[2022-07-30 23:26:49,559] {processor.py:153} INFO - Started process (PID=11866) to work on /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 23:26:49,559] {processor.py:641} INFO - Processing file /home/hp/airflow/dags/create_dag_dag_migrator.py for tasks to queue
+[2022-07-30 23:26:49,559] {logging_mixin.py:115} INFO - [2022-07-30 23:26:49,559] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 23:26:49,720] {processor.py:651} INFO - DAG(s) dict_keys(['migrate_data']) retrieved from /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 23:26:49,726] {logging_mixin.py:115} INFO - [2022-07-30 23:26:49,726] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:26:49,732] {logging_mixin.py:115} INFO - [2022-07-30 23:26:49,732] {dag.py:2968} INFO - Setting next_dagrun for migrate_data to None, run_after=None
+[2022-07-30 23:26:49,742] {processor.py:161} INFO - Processing /home/hp/airflow/dags/create_dag_dag_migrator.py took 0.185 seconds
+[2022-07-30 23:27:26,713] {processor.py:153} INFO - Started process (PID=12451) to work on /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 23:27:26,713] {processor.py:641} INFO - Processing file /home/hp/airflow/dags/create_dag_dag_migrator.py for tasks to queue
+[2022-07-30 23:27:26,714] {logging_mixin.py:115} INFO - [2022-07-30 23:27:26,714] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 23:27:26,873] {processor.py:651} INFO - DAG(s) dict_keys(['migrate_data']) retrieved from /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 23:27:26,878] {logging_mixin.py:115} INFO - [2022-07-30 23:27:26,878] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:27:26,885] {logging_mixin.py:115} INFO - [2022-07-30 23:27:26,885] {dag.py:2968} INFO - Setting next_dagrun for migrate_data to None, run_after=None
+[2022-07-30 23:27:26,895] {processor.py:161} INFO - Processing /home/hp/airflow/dags/create_dag_dag_migrator.py took 0.183 seconds
+[2022-07-30 23:28:06,329] {processor.py:153} INFO - Started process (PID=12835) to work on /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 23:28:06,330] {processor.py:641} INFO - Processing file /home/hp/airflow/dags/create_dag_dag_migrator.py for tasks to queue
+[2022-07-30 23:28:06,330] {logging_mixin.py:115} INFO - [2022-07-30 23:28:06,330] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 23:28:06,492] {processor.py:651} INFO - DAG(s) dict_keys(['migrate_data']) retrieved from /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 23:28:06,498] {logging_mixin.py:115} INFO - [2022-07-30 23:28:06,497] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:28:06,504] {logging_mixin.py:115} INFO - [2022-07-30 23:28:06,504] {dag.py:2968} INFO - Setting next_dagrun for migrate_data to None, run_after=None
+[2022-07-30 23:28:06,514] {processor.py:161} INFO - Processing /home/hp/airflow/dags/create_dag_dag_migrator.py took 0.189 seconds
+[2022-07-30 23:28:41,061] {processor.py:153} INFO - Started process (PID=13227) to work on /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 23:28:41,062] {processor.py:641} INFO - Processing file /home/hp/airflow/dags/create_dag_dag_migrator.py for tasks to queue
+[2022-07-30 23:28:41,063] {logging_mixin.py:115} INFO - [2022-07-30 23:28:41,062] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 23:28:41,229] {processor.py:651} INFO - DAG(s) dict_keys(['migrate_data']) retrieved from /home/hp/airflow/dags/create_dag_dag_migrator.py
+[2022-07-30 23:28:41,234] {logging_mixin.py:115} INFO - [2022-07-30 23:28:41,234] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:28:41,241] {logging_mixin.py:115} INFO - [2022-07-30 23:28:41,241] {dag.py:2968} INFO - Setting next_dagrun for migrate_data to None, run_after=None
+[2022-07-30 23:28:41,251] {processor.py:161} INFO - Processing /home/hp/airflow/dags/create_dag_dag_migrator.py took 0.194 seconds

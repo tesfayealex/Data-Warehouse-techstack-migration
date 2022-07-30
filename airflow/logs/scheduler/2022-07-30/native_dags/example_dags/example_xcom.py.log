@@ -1,0 +1,1112 @@
+[2022-07-30 21:47:54,943] {processor.py:153} INFO - Started process (PID=31674) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 21:47:54,943] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-07-30 21:47:54,944] {logging_mixin.py:115} INFO - [2022-07-30 21:47:54,944] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 21:47:54,955] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 21:47:54,965] {logging_mixin.py:115} WARNING - /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py:610 DeprecationWarning: DAG.full_filepath is deprecated in favour of fileloc
+[2022-07-30 21:47:54,967] {logging_mixin.py:115} INFO - [2022-07-30 21:47:54,965] {dagbag.py:610} ERROR - Failed to write serialized DAG: /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+Traceback (most recent call last):
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 605, in _serialize_dag_capturing_errors
+    self._sync_perm_for_dag(dag, session=session)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/utils/session.py", line 68, in wrapper
+    return func(*args, **kwargs)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 660, in _sync_perm_for_dag
+    if dag.access_control or needs_perms(root_dag_id):
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 650, in needs_perms
+    session.query(Permission)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2046, in query
+    return self._query_cls(entities, self, **kwargs)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 173, in __init__
+    self._set_entities(entities)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 180, in _set_entities
+    self._raw_columns = [
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 181, in <listcomp>
+    coercions.expect(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/coercions.py", line 160, in expect
+    insp._post_inspect
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 1162, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 2097, in _post_inspect
+    self._check_configure()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 1874, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 3381, in _configure_registries
+    _do_configure_registries(registries, cascade)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 3420, in _do_configure_registries
+    mapper._post_configure_properties()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 1891, in _post_configure_properties
+    prop.init()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/interfaces.py", line 227, in init
+    self.do_init()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2133, in do_init
+    self._setup_join_conditions()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2229, in _setup_join_conditions
+    self._join_condition = jc = JoinCondition(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2624, in __init__
+    self._determine_joins()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2720, in _determine_joins
+    self.secondaryjoin = join_condition(
+  File "<string>", line 2, in join_condition
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/selectable.py", line 1186, in _join_condition
+    constraints = cls._joincond_scan_left_right(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/selectable.py", line 1255, in _joincond_scan_left_right
+    col = fk.get_referent(left)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/schema.py", line 2232, in get_referent
+    return table.corresponding_column(self.column)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 1095, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/schema.py", line 2373, in column
+    raise exc.NoReferencedTableError(
+sqlalchemy.exc.NoReferencedTableError: Foreign key associated with column 'ab_permission_view_role.permission_view_id' could not find table 'ab_permission_view' with which to generate a foreign key to target column 'id'
+[2022-07-30 21:47:54,967] {logging_mixin.py:115} INFO - [2022-07-30 21:47:54,967] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:47:54,975] {logging_mixin.py:115} INFO - [2022-07-30 21:47:54,975] {dag.py:2968} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-07-30 21:47:54,988] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.047 seconds
+[2022-07-30 21:48:37,251] {processor.py:153} INFO - Started process (PID=31991) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 21:48:37,252] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-07-30 21:48:37,253] {logging_mixin.py:115} INFO - [2022-07-30 21:48:37,252] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 21:48:37,269] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 21:48:37,280] {logging_mixin.py:115} WARNING - /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py:610 DeprecationWarning: DAG.full_filepath is deprecated in favour of fileloc
+[2022-07-30 21:48:37,283] {logging_mixin.py:115} INFO - [2022-07-30 21:48:37,280] {dagbag.py:610} ERROR - Failed to write serialized DAG: /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+Traceback (most recent call last):
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 605, in _serialize_dag_capturing_errors
+    self._sync_perm_for_dag(dag, session=session)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/utils/session.py", line 68, in wrapper
+    return func(*args, **kwargs)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 660, in _sync_perm_for_dag
+    if dag.access_control or needs_perms(root_dag_id):
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 650, in needs_perms
+    session.query(Permission)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2046, in query
+    return self._query_cls(entities, self, **kwargs)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 173, in __init__
+    self._set_entities(entities)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 180, in _set_entities
+    self._raw_columns = [
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 181, in <listcomp>
+    coercions.expect(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/coercions.py", line 160, in expect
+    insp._post_inspect
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 1162, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 2097, in _post_inspect
+    self._check_configure()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 1874, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 3381, in _configure_registries
+    _do_configure_registries(registries, cascade)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 3420, in _do_configure_registries
+    mapper._post_configure_properties()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 1891, in _post_configure_properties
+    prop.init()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/interfaces.py", line 227, in init
+    self.do_init()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2133, in do_init
+    self._setup_join_conditions()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2229, in _setup_join_conditions
+    self._join_condition = jc = JoinCondition(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2624, in __init__
+    self._determine_joins()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2720, in _determine_joins
+    self.secondaryjoin = join_condition(
+  File "<string>", line 2, in join_condition
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/selectable.py", line 1186, in _join_condition
+    constraints = cls._joincond_scan_left_right(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/selectable.py", line 1255, in _joincond_scan_left_right
+    col = fk.get_referent(left)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/schema.py", line 2232, in get_referent
+    return table.corresponding_column(self.column)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 1095, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/schema.py", line 2373, in column
+    raise exc.NoReferencedTableError(
+sqlalchemy.exc.NoReferencedTableError: Foreign key associated with column 'ab_permission_view_role.permission_view_id' could not find table 'ab_permission_view' with which to generate a foreign key to target column 'id'
+[2022-07-30 21:48:37,283] {logging_mixin.py:115} INFO - [2022-07-30 21:48:37,283] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:48:37,292] {logging_mixin.py:115} INFO - [2022-07-30 21:48:37,292] {dag.py:2968} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-07-30 21:48:37,312] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.065 seconds
+[2022-07-30 21:49:17,615] {processor.py:153} INFO - Started process (PID=32149) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 21:49:17,616] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-07-30 21:49:17,616] {logging_mixin.py:115} INFO - [2022-07-30 21:49:17,616] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 21:49:17,631] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 21:49:17,640] {logging_mixin.py:115} WARNING - /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py:610 DeprecationWarning: DAG.full_filepath is deprecated in favour of fileloc
+[2022-07-30 21:49:17,643] {logging_mixin.py:115} INFO - [2022-07-30 21:49:17,641] {dagbag.py:610} ERROR - Failed to write serialized DAG: /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+Traceback (most recent call last):
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 605, in _serialize_dag_capturing_errors
+    self._sync_perm_for_dag(dag, session=session)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/utils/session.py", line 68, in wrapper
+    return func(*args, **kwargs)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 660, in _sync_perm_for_dag
+    if dag.access_control or needs_perms(root_dag_id):
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 650, in needs_perms
+    session.query(Permission)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2046, in query
+    return self._query_cls(entities, self, **kwargs)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 173, in __init__
+    self._set_entities(entities)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 180, in _set_entities
+    self._raw_columns = [
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 181, in <listcomp>
+    coercions.expect(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/coercions.py", line 160, in expect
+    insp._post_inspect
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 1162, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 2097, in _post_inspect
+    self._check_configure()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 1874, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 3381, in _configure_registries
+    _do_configure_registries(registries, cascade)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 3420, in _do_configure_registries
+    mapper._post_configure_properties()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 1891, in _post_configure_properties
+    prop.init()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/interfaces.py", line 227, in init
+    self.do_init()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2133, in do_init
+    self._setup_join_conditions()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2229, in _setup_join_conditions
+    self._join_condition = jc = JoinCondition(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2624, in __init__
+    self._determine_joins()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2720, in _determine_joins
+    self.secondaryjoin = join_condition(
+  File "<string>", line 2, in join_condition
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/selectable.py", line 1186, in _join_condition
+    constraints = cls._joincond_scan_left_right(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/selectable.py", line 1255, in _joincond_scan_left_right
+    col = fk.get_referent(left)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/schema.py", line 2232, in get_referent
+    return table.corresponding_column(self.column)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 1095, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/schema.py", line 2373, in column
+    raise exc.NoReferencedTableError(
+sqlalchemy.exc.NoReferencedTableError: Foreign key associated with column 'ab_permission_view_role.permission_view_id' could not find table 'ab_permission_view' with which to generate a foreign key to target column 'id'
+[2022-07-30 21:49:17,643] {logging_mixin.py:115} INFO - [2022-07-30 21:49:17,643] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:49:17,651] {logging_mixin.py:115} INFO - [2022-07-30 21:49:17,651] {dag.py:2968} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-07-30 21:49:17,664] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.052 seconds
+[2022-07-30 21:49:57,019] {processor.py:153} INFO - Started process (PID=32351) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 21:49:57,020] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-07-30 21:49:57,020] {logging_mixin.py:115} INFO - [2022-07-30 21:49:57,020] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 21:49:57,032] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 21:49:57,039] {logging_mixin.py:115} INFO - [2022-07-30 21:49:57,039] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:49:57,047] {logging_mixin.py:115} INFO - [2022-07-30 21:49:57,047] {dag.py:2968} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-07-30 21:49:57,058] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.041 seconds
+[2022-07-30 21:50:39,516] {processor.py:153} INFO - Started process (PID=32742) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 21:50:39,517] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-07-30 21:50:39,518] {logging_mixin.py:115} INFO - [2022-07-30 21:50:39,518] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 21:50:39,537] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 21:50:39,544] {logging_mixin.py:115} INFO - [2022-07-30 21:50:39,544] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:50:39,552] {logging_mixin.py:115} INFO - [2022-07-30 21:50:39,552] {dag.py:2968} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-07-30 21:50:39,560] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.045 seconds
+[2022-07-30 21:51:21,545] {processor.py:153} INFO - Started process (PID=32942) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 21:51:21,546] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-07-30 21:51:21,546] {logging_mixin.py:115} INFO - [2022-07-30 21:51:21,546] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 21:51:21,561] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 21:51:21,571] {logging_mixin.py:115} WARNING - /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py:610 DeprecationWarning: DAG.full_filepath is deprecated in favour of fileloc
+[2022-07-30 21:51:21,573] {logging_mixin.py:115} INFO - [2022-07-30 21:51:21,571] {dagbag.py:610} ERROR - Failed to write serialized DAG: /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+Traceback (most recent call last):
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 605, in _serialize_dag_capturing_errors
+    self._sync_perm_for_dag(dag, session=session)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/utils/session.py", line 68, in wrapper
+    return func(*args, **kwargs)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 660, in _sync_perm_for_dag
+    if dag.access_control or needs_perms(root_dag_id):
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 650, in needs_perms
+    session.query(Permission)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2046, in query
+    return self._query_cls(entities, self, **kwargs)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 173, in __init__
+    self._set_entities(entities)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 180, in _set_entities
+    self._raw_columns = [
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 181, in <listcomp>
+    coercions.expect(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/coercions.py", line 160, in expect
+    insp._post_inspect
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 1162, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 2097, in _post_inspect
+    self._check_configure()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 1874, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 3381, in _configure_registries
+    _do_configure_registries(registries, cascade)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 3420, in _do_configure_registries
+    mapper._post_configure_properties()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 1891, in _post_configure_properties
+    prop.init()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/interfaces.py", line 227, in init
+    self.do_init()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2133, in do_init
+    self._setup_join_conditions()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2229, in _setup_join_conditions
+    self._join_condition = jc = JoinCondition(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2624, in __init__
+    self._determine_joins()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2720, in _determine_joins
+    self.secondaryjoin = join_condition(
+  File "<string>", line 2, in join_condition
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/selectable.py", line 1186, in _join_condition
+    constraints = cls._joincond_scan_left_right(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/selectable.py", line 1255, in _joincond_scan_left_right
+    col = fk.get_referent(left)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/schema.py", line 2232, in get_referent
+    return table.corresponding_column(self.column)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 1095, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/schema.py", line 2373, in column
+    raise exc.NoReferencedTableError(
+sqlalchemy.exc.NoReferencedTableError: Foreign key associated with column 'ab_permission_view_role.permission_view_id' could not find table 'ab_permission_view' with which to generate a foreign key to target column 'id'
+[2022-07-30 21:51:21,574] {logging_mixin.py:115} INFO - [2022-07-30 21:51:21,574] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:51:21,581] {logging_mixin.py:115} INFO - [2022-07-30 21:51:21,581] {dag.py:2968} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-07-30 21:51:21,594] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.052 seconds
+[2022-07-30 21:52:01,962] {processor.py:153} INFO - Started process (PID=33362) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 21:52:01,963] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-07-30 21:52:01,964] {logging_mixin.py:115} INFO - [2022-07-30 21:52:01,963] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 21:52:01,975] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 21:52:01,989] {logging_mixin.py:115} WARNING - /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py:610 DeprecationWarning: DAG.full_filepath is deprecated in favour of fileloc
+[2022-07-30 21:52:01,992] {logging_mixin.py:115} INFO - [2022-07-30 21:52:01,989] {dagbag.py:610} ERROR - Failed to write serialized DAG: /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+Traceback (most recent call last):
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 605, in _serialize_dag_capturing_errors
+    self._sync_perm_for_dag(dag, session=session)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/utils/session.py", line 68, in wrapper
+    return func(*args, **kwargs)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 660, in _sync_perm_for_dag
+    if dag.access_control or needs_perms(root_dag_id):
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 650, in needs_perms
+    session.query(Permission)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2046, in query
+    return self._query_cls(entities, self, **kwargs)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 173, in __init__
+    self._set_entities(entities)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 180, in _set_entities
+    self._raw_columns = [
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 181, in <listcomp>
+    coercions.expect(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/coercions.py", line 160, in expect
+    insp._post_inspect
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 1162, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 2097, in _post_inspect
+    self._check_configure()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 1874, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 3381, in _configure_registries
+    _do_configure_registries(registries, cascade)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 3420, in _do_configure_registries
+    mapper._post_configure_properties()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 1891, in _post_configure_properties
+    prop.init()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/interfaces.py", line 227, in init
+    self.do_init()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2133, in do_init
+    self._setup_join_conditions()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2229, in _setup_join_conditions
+    self._join_condition = jc = JoinCondition(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2624, in __init__
+    self._determine_joins()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2720, in _determine_joins
+    self.secondaryjoin = join_condition(
+  File "<string>", line 2, in join_condition
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/selectable.py", line 1186, in _join_condition
+    constraints = cls._joincond_scan_left_right(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/selectable.py", line 1255, in _joincond_scan_left_right
+    col = fk.get_referent(left)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/schema.py", line 2232, in get_referent
+    return table.corresponding_column(self.column)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 1095, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/schema.py", line 2373, in column
+    raise exc.NoReferencedTableError(
+sqlalchemy.exc.NoReferencedTableError: Foreign key associated with column 'ab_permission_view_role.permission_view_id' could not find table 'ab_permission_view' with which to generate a foreign key to target column 'id'
+[2022-07-30 21:52:01,992] {logging_mixin.py:115} INFO - [2022-07-30 21:52:01,992] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:52:02,003] {logging_mixin.py:115} INFO - [2022-07-30 21:52:02,003] {dag.py:2968} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-07-30 21:52:02,019] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.059 seconds
+[2022-07-30 21:52:44,205] {processor.py:153} INFO - Started process (PID=33834) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 21:52:44,205] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-07-30 21:52:44,206] {logging_mixin.py:115} INFO - [2022-07-30 21:52:44,206] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 21:52:44,218] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 21:52:44,229] {logging_mixin.py:115} WARNING - /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py:610 DeprecationWarning: DAG.full_filepath is deprecated in favour of fileloc
+[2022-07-30 21:52:44,232] {logging_mixin.py:115} INFO - [2022-07-30 21:52:44,229] {dagbag.py:610} ERROR - Failed to write serialized DAG: /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+Traceback (most recent call last):
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 605, in _serialize_dag_capturing_errors
+    self._sync_perm_for_dag(dag, session=session)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/utils/session.py", line 68, in wrapper
+    return func(*args, **kwargs)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 660, in _sync_perm_for_dag
+    if dag.access_control or needs_perms(root_dag_id):
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 650, in needs_perms
+    session.query(Permission)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2046, in query
+    return self._query_cls(entities, self, **kwargs)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 173, in __init__
+    self._set_entities(entities)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 180, in _set_entities
+    self._raw_columns = [
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 181, in <listcomp>
+    coercions.expect(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/coercions.py", line 160, in expect
+    insp._post_inspect
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 1162, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 2097, in _post_inspect
+    self._check_configure()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 1874, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 3381, in _configure_registries
+    _do_configure_registries(registries, cascade)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 3420, in _do_configure_registries
+    mapper._post_configure_properties()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 1891, in _post_configure_properties
+    prop.init()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/interfaces.py", line 227, in init
+    self.do_init()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2133, in do_init
+    self._setup_join_conditions()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2229, in _setup_join_conditions
+    self._join_condition = jc = JoinCondition(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2624, in __init__
+    self._determine_joins()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2720, in _determine_joins
+    self.secondaryjoin = join_condition(
+  File "<string>", line 2, in join_condition
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/selectable.py", line 1186, in _join_condition
+    constraints = cls._joincond_scan_left_right(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/selectable.py", line 1255, in _joincond_scan_left_right
+    col = fk.get_referent(left)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/schema.py", line 2232, in get_referent
+    return table.corresponding_column(self.column)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 1095, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/schema.py", line 2373, in column
+    raise exc.NoReferencedTableError(
+sqlalchemy.exc.NoReferencedTableError: Foreign key associated with column 'ab_permission_view_role.permission_view_id' could not find table 'ab_permission_view' with which to generate a foreign key to target column 'id'
+[2022-07-30 21:52:44,232] {logging_mixin.py:115} INFO - [2022-07-30 21:52:44,232] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:52:44,240] {logging_mixin.py:115} INFO - [2022-07-30 21:52:44,240] {dag.py:2968} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-07-30 21:52:44,255] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.051 seconds
+[2022-07-30 21:53:24,882] {processor.py:153} INFO - Started process (PID=34200) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 21:53:24,883] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-07-30 21:53:24,884] {logging_mixin.py:115} INFO - [2022-07-30 21:53:24,883] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 21:53:24,902] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 21:53:24,909] {logging_mixin.py:115} INFO - [2022-07-30 21:53:24,909] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:53:24,917] {logging_mixin.py:115} INFO - [2022-07-30 21:53:24,917] {dag.py:2968} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-07-30 21:53:24,929] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.048 seconds
+[2022-07-30 21:54:04,149] {processor.py:153} INFO - Started process (PID=34475) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 21:54:04,150] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-07-30 21:54:04,152] {logging_mixin.py:115} INFO - [2022-07-30 21:54:04,151] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 21:54:04,165] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 21:54:04,172] {logging_mixin.py:115} INFO - [2022-07-30 21:54:04,172] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:54:04,181] {logging_mixin.py:115} INFO - [2022-07-30 21:54:04,181] {dag.py:2968} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-07-30 21:54:04,191] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.046 seconds
+[2022-07-30 21:54:45,750] {processor.py:153} INFO - Started process (PID=34801) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 21:54:45,751] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-07-30 21:54:45,751] {logging_mixin.py:115} INFO - [2022-07-30 21:54:45,751] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 21:54:45,764] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 21:54:45,778] {logging_mixin.py:115} WARNING - /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py:610 DeprecationWarning: DAG.full_filepath is deprecated in favour of fileloc
+[2022-07-30 21:54:45,781] {logging_mixin.py:115} INFO - [2022-07-30 21:54:45,778] {dagbag.py:610} ERROR - Failed to write serialized DAG: /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+Traceback (most recent call last):
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 605, in _serialize_dag_capturing_errors
+    self._sync_perm_for_dag(dag, session=session)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/utils/session.py", line 68, in wrapper
+    return func(*args, **kwargs)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 660, in _sync_perm_for_dag
+    if dag.access_control or needs_perms(root_dag_id):
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 650, in needs_perms
+    session.query(Permission)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2046, in query
+    return self._query_cls(entities, self, **kwargs)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 173, in __init__
+    self._set_entities(entities)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 180, in _set_entities
+    self._raw_columns = [
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 181, in <listcomp>
+    coercions.expect(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/coercions.py", line 160, in expect
+    insp._post_inspect
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 1162, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 2097, in _post_inspect
+    self._check_configure()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 1874, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 3381, in _configure_registries
+    _do_configure_registries(registries, cascade)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 3420, in _do_configure_registries
+    mapper._post_configure_properties()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 1891, in _post_configure_properties
+    prop.init()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/interfaces.py", line 227, in init
+    self.do_init()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2133, in do_init
+    self._setup_join_conditions()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2229, in _setup_join_conditions
+    self._join_condition = jc = JoinCondition(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2624, in __init__
+    self._determine_joins()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2720, in _determine_joins
+    self.secondaryjoin = join_condition(
+  File "<string>", line 2, in join_condition
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/selectable.py", line 1186, in _join_condition
+    constraints = cls._joincond_scan_left_right(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/selectable.py", line 1255, in _joincond_scan_left_right
+    col = fk.get_referent(left)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/schema.py", line 2232, in get_referent
+    return table.corresponding_column(self.column)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 1095, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/schema.py", line 2373, in column
+    raise exc.NoReferencedTableError(
+sqlalchemy.exc.NoReferencedTableError: Foreign key associated with column 'ab_permission_view_role.permission_view_id' could not find table 'ab_permission_view' with which to generate a foreign key to target column 'id'
+[2022-07-30 21:54:45,781] {logging_mixin.py:115} INFO - [2022-07-30 21:54:45,781] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:54:45,789] {logging_mixin.py:115} INFO - [2022-07-30 21:54:45,789] {dag.py:2968} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-07-30 21:54:45,804] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.058 seconds
+[2022-07-30 21:55:25,478] {processor.py:153} INFO - Started process (PID=35037) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 21:55:25,479] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-07-30 21:55:25,480] {logging_mixin.py:115} INFO - [2022-07-30 21:55:25,480] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 21:55:25,497] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 21:55:25,504] {logging_mixin.py:115} INFO - [2022-07-30 21:55:25,504] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:55:25,512] {logging_mixin.py:115} INFO - [2022-07-30 21:55:25,512] {dag.py:2968} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-07-30 21:55:25,530] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.056 seconds
+[2022-07-30 21:56:06,982] {processor.py:153} INFO - Started process (PID=35283) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 21:56:06,983] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-07-30 21:56:06,983] {logging_mixin.py:115} INFO - [2022-07-30 21:56:06,983] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 21:56:07,001] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 21:56:07,008] {logging_mixin.py:115} INFO - [2022-07-30 21:56:07,008] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:56:07,015] {logging_mixin.py:115} INFO - [2022-07-30 21:56:07,015] {dag.py:2968} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-07-30 21:56:07,023] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.043 seconds
+[2022-07-30 21:56:50,354] {processor.py:153} INFO - Started process (PID=35720) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 21:56:50,355] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-07-30 21:56:50,356] {logging_mixin.py:115} INFO - [2022-07-30 21:56:50,356] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 21:56:50,370] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 21:56:50,384] {logging_mixin.py:115} INFO - [2022-07-30 21:56:50,384] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:56:50,396] {logging_mixin.py:115} INFO - [2022-07-30 21:56:50,396] {dag.py:2968} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-07-30 21:56:50,431] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.079 seconds
+[2022-07-30 21:57:31,684] {processor.py:153} INFO - Started process (PID=36011) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 21:57:31,684] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-07-30 21:57:31,684] {logging_mixin.py:115} INFO - [2022-07-30 21:57:31,684] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 21:57:31,694] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 21:57:31,705] {logging_mixin.py:115} WARNING - /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py:610 DeprecationWarning: DAG.full_filepath is deprecated in favour of fileloc
+[2022-07-30 21:57:31,707] {logging_mixin.py:115} INFO - [2022-07-30 21:57:31,705] {dagbag.py:610} ERROR - Failed to write serialized DAG: /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+Traceback (most recent call last):
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 605, in _serialize_dag_capturing_errors
+    self._sync_perm_for_dag(dag, session=session)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/utils/session.py", line 68, in wrapper
+    return func(*args, **kwargs)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 660, in _sync_perm_for_dag
+    if dag.access_control or needs_perms(root_dag_id):
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 650, in needs_perms
+    session.query(Permission)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2046, in query
+    return self._query_cls(entities, self, **kwargs)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 173, in __init__
+    self._set_entities(entities)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 180, in _set_entities
+    self._raw_columns = [
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 181, in <listcomp>
+    coercions.expect(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/coercions.py", line 160, in expect
+    insp._post_inspect
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 1162, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 2097, in _post_inspect
+    self._check_configure()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 1874, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 3381, in _configure_registries
+    _do_configure_registries(registries, cascade)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 3420, in _do_configure_registries
+    mapper._post_configure_properties()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 1891, in _post_configure_properties
+    prop.init()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/interfaces.py", line 227, in init
+    self.do_init()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2133, in do_init
+    self._setup_join_conditions()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2229, in _setup_join_conditions
+    self._join_condition = jc = JoinCondition(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2624, in __init__
+    self._determine_joins()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2720, in _determine_joins
+    self.secondaryjoin = join_condition(
+  File "<string>", line 2, in join_condition
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/selectable.py", line 1186, in _join_condition
+    constraints = cls._joincond_scan_left_right(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/selectable.py", line 1255, in _joincond_scan_left_right
+    col = fk.get_referent(left)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/schema.py", line 2232, in get_referent
+    return table.corresponding_column(self.column)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 1095, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/schema.py", line 2373, in column
+    raise exc.NoReferencedTableError(
+sqlalchemy.exc.NoReferencedTableError: Foreign key associated with column 'ab_permission_view_role.permission_view_id' could not find table 'ab_permission_view' with which to generate a foreign key to target column 'id'
+[2022-07-30 21:57:31,708] {logging_mixin.py:115} INFO - [2022-07-30 21:57:31,708] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:57:31,716] {logging_mixin.py:115} INFO - [2022-07-30 21:57:31,716] {dag.py:2968} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-07-30 21:57:31,733] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.050 seconds
+[2022-07-30 21:58:38,028] {processor.py:153} INFO - Started process (PID=36703) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 21:58:38,028] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-07-30 21:58:38,028] {logging_mixin.py:115} INFO - [2022-07-30 21:58:38,028] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 21:58:38,046] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 21:58:38,080] {logging_mixin.py:115} WARNING - /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py:610 DeprecationWarning: DAG.full_filepath is deprecated in favour of fileloc
+[2022-07-30 21:58:38,086] {logging_mixin.py:115} INFO - [2022-07-30 21:58:38,080] {dagbag.py:610} ERROR - Failed to write serialized DAG: /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+Traceback (most recent call last):
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 605, in _serialize_dag_capturing_errors
+    self._sync_perm_for_dag(dag, session=session)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/utils/session.py", line 68, in wrapper
+    return func(*args, **kwargs)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 660, in _sync_perm_for_dag
+    if dag.access_control or needs_perms(root_dag_id):
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 650, in needs_perms
+    session.query(Permission)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2046, in query
+    return self._query_cls(entities, self, **kwargs)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 173, in __init__
+    self._set_entities(entities)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 180, in _set_entities
+    self._raw_columns = [
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 181, in <listcomp>
+    coercions.expect(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/coercions.py", line 160, in expect
+    insp._post_inspect
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 1162, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 2097, in _post_inspect
+    self._check_configure()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 1874, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 3381, in _configure_registries
+    _do_configure_registries(registries, cascade)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 3420, in _do_configure_registries
+    mapper._post_configure_properties()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 1891, in _post_configure_properties
+    prop.init()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/interfaces.py", line 227, in init
+    self.do_init()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2133, in do_init
+    self._setup_join_conditions()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2229, in _setup_join_conditions
+    self._join_condition = jc = JoinCondition(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2624, in __init__
+    self._determine_joins()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2720, in _determine_joins
+    self.secondaryjoin = join_condition(
+  File "<string>", line 2, in join_condition
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/selectable.py", line 1186, in _join_condition
+    constraints = cls._joincond_scan_left_right(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/selectable.py", line 1255, in _joincond_scan_left_right
+    col = fk.get_referent(left)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/schema.py", line 2232, in get_referent
+    return table.corresponding_column(self.column)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 1095, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/schema.py", line 2373, in column
+    raise exc.NoReferencedTableError(
+sqlalchemy.exc.NoReferencedTableError: Foreign key associated with column 'ab_permission_view_role.permission_view_id' could not find table 'ab_permission_view' with which to generate a foreign key to target column 'id'
+[2022-07-30 21:58:38,086] {logging_mixin.py:115} INFO - [2022-07-30 21:58:38,086] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:58:38,114] {logging_mixin.py:115} INFO - [2022-07-30 21:58:38,114] {dag.py:2968} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-07-30 21:58:38,184] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.158 seconds
+[2022-07-30 21:59:19,240] {processor.py:153} INFO - Started process (PID=37084) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 21:59:19,241] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-07-30 21:59:19,241] {logging_mixin.py:115} INFO - [2022-07-30 21:59:19,241] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 21:59:19,254] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 21:59:19,263] {logging_mixin.py:115} WARNING - /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py:610 DeprecationWarning: DAG.full_filepath is deprecated in favour of fileloc
+[2022-07-30 21:59:19,266] {logging_mixin.py:115} INFO - [2022-07-30 21:59:19,263] {dagbag.py:610} ERROR - Failed to write serialized DAG: /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+Traceback (most recent call last):
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 605, in _serialize_dag_capturing_errors
+    self._sync_perm_for_dag(dag, session=session)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/utils/session.py", line 68, in wrapper
+    return func(*args, **kwargs)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 660, in _sync_perm_for_dag
+    if dag.access_control or needs_perms(root_dag_id):
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 650, in needs_perms
+    session.query(Permission)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2046, in query
+    return self._query_cls(entities, self, **kwargs)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 173, in __init__
+    self._set_entities(entities)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 180, in _set_entities
+    self._raw_columns = [
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 181, in <listcomp>
+    coercions.expect(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/coercions.py", line 160, in expect
+    insp._post_inspect
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 1162, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 2097, in _post_inspect
+    self._check_configure()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 1874, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 3381, in _configure_registries
+    _do_configure_registries(registries, cascade)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 3420, in _do_configure_registries
+    mapper._post_configure_properties()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 1891, in _post_configure_properties
+    prop.init()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/interfaces.py", line 227, in init
+    self.do_init()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2133, in do_init
+    self._setup_join_conditions()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2229, in _setup_join_conditions
+    self._join_condition = jc = JoinCondition(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2624, in __init__
+    self._determine_joins()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2720, in _determine_joins
+    self.secondaryjoin = join_condition(
+  File "<string>", line 2, in join_condition
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/selectable.py", line 1186, in _join_condition
+    constraints = cls._joincond_scan_left_right(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/selectable.py", line 1255, in _joincond_scan_left_right
+    col = fk.get_referent(left)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/schema.py", line 2232, in get_referent
+    return table.corresponding_column(self.column)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 1095, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/schema.py", line 2373, in column
+    raise exc.NoReferencedTableError(
+sqlalchemy.exc.NoReferencedTableError: Foreign key associated with column 'ab_permission_view_role.permission_view_id' could not find table 'ab_permission_view' with which to generate a foreign key to target column 'id'
+[2022-07-30 21:59:19,266] {logging_mixin.py:115} INFO - [2022-07-30 21:59:19,266] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:59:19,274] {logging_mixin.py:115} INFO - [2022-07-30 21:59:19,274] {dag.py:2968} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-07-30 21:59:19,288] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.050 seconds
+[2022-07-30 21:59:52,516] {processor.py:153} INFO - Started process (PID=37253) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 21:59:52,517] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-07-30 21:59:52,517] {logging_mixin.py:115} INFO - [2022-07-30 21:59:52,517] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 21:59:52,535] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 21:59:52,542] {logging_mixin.py:115} INFO - [2022-07-30 21:59:52,542] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:59:52,550] {logging_mixin.py:115} INFO - [2022-07-30 21:59:52,550] {dag.py:2968} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-07-30 21:59:52,561] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.048 seconds
+[2022-07-30 22:00:29,639] {processor.py:153} INFO - Started process (PID=37601) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 22:00:29,640] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-07-30 22:00:29,640] {logging_mixin.py:115} INFO - [2022-07-30 22:00:29,640] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 22:00:29,652] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 22:00:29,663] {logging_mixin.py:115} WARNING - /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py:610 DeprecationWarning: DAG.full_filepath is deprecated in favour of fileloc
+[2022-07-30 22:00:29,665] {logging_mixin.py:115} INFO - [2022-07-30 22:00:29,663] {dagbag.py:610} ERROR - Failed to write serialized DAG: /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+Traceback (most recent call last):
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 605, in _serialize_dag_capturing_errors
+    self._sync_perm_for_dag(dag, session=session)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/utils/session.py", line 68, in wrapper
+    return func(*args, **kwargs)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 660, in _sync_perm_for_dag
+    if dag.access_control or needs_perms(root_dag_id):
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 650, in needs_perms
+    session.query(Permission)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2046, in query
+    return self._query_cls(entities, self, **kwargs)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 173, in __init__
+    self._set_entities(entities)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 180, in _set_entities
+    self._raw_columns = [
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 181, in <listcomp>
+    coercions.expect(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/coercions.py", line 160, in expect
+    insp._post_inspect
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 1162, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 2097, in _post_inspect
+    self._check_configure()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 1874, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 3381, in _configure_registries
+    _do_configure_registries(registries, cascade)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 3420, in _do_configure_registries
+    mapper._post_configure_properties()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 1891, in _post_configure_properties
+    prop.init()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/interfaces.py", line 227, in init
+    self.do_init()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2133, in do_init
+    self._setup_join_conditions()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2229, in _setup_join_conditions
+    self._join_condition = jc = JoinCondition(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2624, in __init__
+    self._determine_joins()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2720, in _determine_joins
+    self.secondaryjoin = join_condition(
+  File "<string>", line 2, in join_condition
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/selectable.py", line 1186, in _join_condition
+    constraints = cls._joincond_scan_left_right(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/selectable.py", line 1255, in _joincond_scan_left_right
+    col = fk.get_referent(left)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/schema.py", line 2232, in get_referent
+    return table.corresponding_column(self.column)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 1095, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/schema.py", line 2373, in column
+    raise exc.NoReferencedTableError(
+sqlalchemy.exc.NoReferencedTableError: Foreign key associated with column 'ab_permission_view_role.permission_view_id' could not find table 'ab_permission_view' with which to generate a foreign key to target column 'id'
+[2022-07-30 22:00:29,665] {logging_mixin.py:115} INFO - [2022-07-30 22:00:29,665] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 22:00:29,674] {logging_mixin.py:115} INFO - [2022-07-30 22:00:29,673] {dag.py:2968} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-07-30 22:00:29,689] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.053 seconds
+[2022-07-30 22:01:03,975] {processor.py:153} INFO - Started process (PID=37866) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 22:01:03,976] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-07-30 22:01:03,976] {logging_mixin.py:115} INFO - [2022-07-30 22:01:03,976] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 22:01:03,987] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 22:01:03,997] {logging_mixin.py:115} WARNING - /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py:610 DeprecationWarning: DAG.full_filepath is deprecated in favour of fileloc
+[2022-07-30 22:01:03,999] {logging_mixin.py:115} INFO - [2022-07-30 22:01:03,997] {dagbag.py:610} ERROR - Failed to write serialized DAG: /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+Traceback (most recent call last):
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 605, in _serialize_dag_capturing_errors
+    self._sync_perm_for_dag(dag, session=session)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/utils/session.py", line 68, in wrapper
+    return func(*args, **kwargs)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 660, in _sync_perm_for_dag
+    if dag.access_control or needs_perms(root_dag_id):
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 650, in needs_perms
+    session.query(Permission)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2046, in query
+    return self._query_cls(entities, self, **kwargs)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 173, in __init__
+    self._set_entities(entities)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 180, in _set_entities
+    self._raw_columns = [
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 181, in <listcomp>
+    coercions.expect(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/coercions.py", line 160, in expect
+    insp._post_inspect
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 1162, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 2097, in _post_inspect
+    self._check_configure()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 1874, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 3381, in _configure_registries
+    _do_configure_registries(registries, cascade)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 3420, in _do_configure_registries
+    mapper._post_configure_properties()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 1891, in _post_configure_properties
+    prop.init()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/interfaces.py", line 227, in init
+    self.do_init()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2133, in do_init
+    self._setup_join_conditions()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2229, in _setup_join_conditions
+    self._join_condition = jc = JoinCondition(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2624, in __init__
+    self._determine_joins()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2720, in _determine_joins
+    self.secondaryjoin = join_condition(
+  File "<string>", line 2, in join_condition
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/selectable.py", line 1186, in _join_condition
+    constraints = cls._joincond_scan_left_right(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/selectable.py", line 1255, in _joincond_scan_left_right
+    col = fk.get_referent(left)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/schema.py", line 2232, in get_referent
+    return table.corresponding_column(self.column)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 1095, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/schema.py", line 2373, in column
+    raise exc.NoReferencedTableError(
+sqlalchemy.exc.NoReferencedTableError: Foreign key associated with column 'ab_permission_view_role.permission_view_id' could not find table 'ab_permission_view' with which to generate a foreign key to target column 'id'
+[2022-07-30 22:01:04,000] {logging_mixin.py:115} INFO - [2022-07-30 22:01:04,000] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 22:01:04,012] {logging_mixin.py:115} INFO - [2022-07-30 22:01:04,012] {dag.py:2968} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-07-30 22:01:04,035] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.061 seconds
+[2022-07-30 22:01:43,990] {processor.py:153} INFO - Started process (PID=38299) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 22:01:43,991] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-07-30 22:01:43,992] {logging_mixin.py:115} INFO - [2022-07-30 22:01:43,992] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 22:01:44,009] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 22:01:44,018] {logging_mixin.py:115} WARNING - /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py:610 DeprecationWarning: DAG.full_filepath is deprecated in favour of fileloc
+[2022-07-30 22:01:44,021] {logging_mixin.py:115} INFO - [2022-07-30 22:01:44,018] {dagbag.py:610} ERROR - Failed to write serialized DAG: /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+Traceback (most recent call last):
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 605, in _serialize_dag_capturing_errors
+    self._sync_perm_for_dag(dag, session=session)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/utils/session.py", line 68, in wrapper
+    return func(*args, **kwargs)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 660, in _sync_perm_for_dag
+    if dag.access_control or needs_perms(root_dag_id):
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 650, in needs_perms
+    session.query(Permission)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2046, in query
+    return self._query_cls(entities, self, **kwargs)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 173, in __init__
+    self._set_entities(entities)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 180, in _set_entities
+    self._raw_columns = [
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 181, in <listcomp>
+    coercions.expect(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/coercions.py", line 160, in expect
+    insp._post_inspect
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 1162, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 2097, in _post_inspect
+    self._check_configure()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 1874, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 3381, in _configure_registries
+    _do_configure_registries(registries, cascade)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 3420, in _do_configure_registries
+    mapper._post_configure_properties()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 1891, in _post_configure_properties
+    prop.init()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/interfaces.py", line 227, in init
+    self.do_init()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2133, in do_init
+    self._setup_join_conditions()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2229, in _setup_join_conditions
+    self._join_condition = jc = JoinCondition(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2624, in __init__
+    self._determine_joins()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2720, in _determine_joins
+    self.secondaryjoin = join_condition(
+  File "<string>", line 2, in join_condition
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/selectable.py", line 1186, in _join_condition
+    constraints = cls._joincond_scan_left_right(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/selectable.py", line 1255, in _joincond_scan_left_right
+    col = fk.get_referent(left)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/schema.py", line 2232, in get_referent
+    return table.corresponding_column(self.column)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 1095, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/schema.py", line 2373, in column
+    raise exc.NoReferencedTableError(
+sqlalchemy.exc.NoReferencedTableError: Foreign key associated with column 'ab_permission_view_role.permission_view_id' could not find table 'ab_permission_view' with which to generate a foreign key to target column 'id'
+[2022-07-30 22:01:44,021] {logging_mixin.py:115} INFO - [2022-07-30 22:01:44,021] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 22:01:44,028] {logging_mixin.py:115} INFO - [2022-07-30 22:01:44,028] {dag.py:2968} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-07-30 22:01:44,043] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.057 seconds
+[2022-07-30 22:02:20,017] {processor.py:153} INFO - Started process (PID=38623) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 22:02:20,018] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-07-30 22:02:20,018] {logging_mixin.py:115} INFO - [2022-07-30 22:02:20,018] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 22:02:20,035] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 22:02:20,045] {logging_mixin.py:115} WARNING - /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py:610 DeprecationWarning: DAG.full_filepath is deprecated in favour of fileloc
+[2022-07-30 22:02:20,047] {logging_mixin.py:115} INFO - [2022-07-30 22:02:20,045] {dagbag.py:610} ERROR - Failed to write serialized DAG: /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+Traceback (most recent call last):
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 605, in _serialize_dag_capturing_errors
+    self._sync_perm_for_dag(dag, session=session)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/utils/session.py", line 68, in wrapper
+    return func(*args, **kwargs)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 660, in _sync_perm_for_dag
+    if dag.access_control or needs_perms(root_dag_id):
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 650, in needs_perms
+    session.query(Permission)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2046, in query
+    return self._query_cls(entities, self, **kwargs)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 173, in __init__
+    self._set_entities(entities)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 180, in _set_entities
+    self._raw_columns = [
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 181, in <listcomp>
+    coercions.expect(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/coercions.py", line 160, in expect
+    insp._post_inspect
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 1162, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 2097, in _post_inspect
+    self._check_configure()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 1874, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 3381, in _configure_registries
+    _do_configure_registries(registries, cascade)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 3420, in _do_configure_registries
+    mapper._post_configure_properties()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 1891, in _post_configure_properties
+    prop.init()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/interfaces.py", line 227, in init
+    self.do_init()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2133, in do_init
+    self._setup_join_conditions()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2229, in _setup_join_conditions
+    self._join_condition = jc = JoinCondition(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2624, in __init__
+    self._determine_joins()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2720, in _determine_joins
+    self.secondaryjoin = join_condition(
+  File "<string>", line 2, in join_condition
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/selectable.py", line 1186, in _join_condition
+    constraints = cls._joincond_scan_left_right(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/selectable.py", line 1255, in _joincond_scan_left_right
+    col = fk.get_referent(left)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/schema.py", line 2232, in get_referent
+    return table.corresponding_column(self.column)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 1095, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/schema.py", line 2373, in column
+    raise exc.NoReferencedTableError(
+sqlalchemy.exc.NoReferencedTableError: Foreign key associated with column 'ab_permission_view_role.permission_view_id' could not find table 'ab_permission_view' with which to generate a foreign key to target column 'id'
+[2022-07-30 22:02:20,047] {logging_mixin.py:115} INFO - [2022-07-30 22:02:20,047] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 22:02:20,056] {logging_mixin.py:115} INFO - [2022-07-30 22:02:20,056] {dag.py:2968} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-07-30 22:02:20,070] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.057 seconds
+[2022-07-30 22:02:54,953] {processor.py:153} INFO - Started process (PID=38917) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 22:02:54,954] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-07-30 22:02:54,955] {logging_mixin.py:115} INFO - [2022-07-30 22:02:54,955] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 22:02:54,971] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 22:02:54,978] {logging_mixin.py:115} INFO - [2022-07-30 22:02:54,978] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 22:02:54,986] {logging_mixin.py:115} INFO - [2022-07-30 22:02:54,986] {dag.py:2968} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-07-30 22:02:54,998] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.049 seconds
+[2022-07-30 22:03:32,513] {processor.py:153} INFO - Started process (PID=39136) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 22:03:32,514] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-07-30 22:03:32,514] {logging_mixin.py:115} INFO - [2022-07-30 22:03:32,514] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 22:03:32,525] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 22:03:32,537] {logging_mixin.py:115} WARNING - /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py:610 DeprecationWarning: DAG.full_filepath is deprecated in favour of fileloc
+[2022-07-30 22:03:32,540] {logging_mixin.py:115} INFO - [2022-07-30 22:03:32,537] {dagbag.py:610} ERROR - Failed to write serialized DAG: /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+Traceback (most recent call last):
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 605, in _serialize_dag_capturing_errors
+    self._sync_perm_for_dag(dag, session=session)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/utils/session.py", line 68, in wrapper
+    return func(*args, **kwargs)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 660, in _sync_perm_for_dag
+    if dag.access_control or needs_perms(root_dag_id):
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 650, in needs_perms
+    session.query(Permission)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2046, in query
+    return self._query_cls(entities, self, **kwargs)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 173, in __init__
+    self._set_entities(entities)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 180, in _set_entities
+    self._raw_columns = [
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 181, in <listcomp>
+    coercions.expect(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/coercions.py", line 160, in expect
+    insp._post_inspect
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 1162, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 2097, in _post_inspect
+    self._check_configure()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 1874, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 3381, in _configure_registries
+    _do_configure_registries(registries, cascade)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 3420, in _do_configure_registries
+    mapper._post_configure_properties()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 1891, in _post_configure_properties
+    prop.init()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/interfaces.py", line 227, in init
+    self.do_init()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2133, in do_init
+    self._setup_join_conditions()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2229, in _setup_join_conditions
+    self._join_condition = jc = JoinCondition(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2624, in __init__
+    self._determine_joins()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2720, in _determine_joins
+    self.secondaryjoin = join_condition(
+  File "<string>", line 2, in join_condition
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/selectable.py", line 1186, in _join_condition
+    constraints = cls._joincond_scan_left_right(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/selectable.py", line 1255, in _joincond_scan_left_right
+    col = fk.get_referent(left)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/schema.py", line 2232, in get_referent
+    return table.corresponding_column(self.column)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 1095, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/schema.py", line 2373, in column
+    raise exc.NoReferencedTableError(
+sqlalchemy.exc.NoReferencedTableError: Foreign key associated with column 'ab_permission_view_role.permission_view_id' could not find table 'ab_permission_view' with which to generate a foreign key to target column 'id'
+[2022-07-30 22:03:32,540] {logging_mixin.py:115} INFO - [2022-07-30 22:03:32,540] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 22:03:32,549] {logging_mixin.py:115} INFO - [2022-07-30 22:03:32,549] {dag.py:2968} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-07-30 22:03:32,562] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.050 seconds
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         [2022-07-30 23:14:34,302] {processor.py:153} INFO - Started process (PID=5548) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 23:14:34,303] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-07-30 23:14:34,304] {logging_mixin.py:115} INFO - [2022-07-30 23:14:34,304] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 23:14:34,317] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 23:14:34,341] {logging_mixin.py:115} INFO - [2022-07-30 23:14:34,341] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:14:34,351] {logging_mixin.py:115} INFO - [2022-07-30 23:14:34,351] {dag.py:2968} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-07-30 23:14:34,364] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.065 seconds
+[2022-07-30 23:15:09,163] {processor.py:153} INFO - Started process (PID=5664) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 23:15:09,164] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-07-30 23:15:09,165] {logging_mixin.py:115} INFO - [2022-07-30 23:15:09,165] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 23:15:09,178] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 23:15:09,203] {logging_mixin.py:115} INFO - [2022-07-30 23:15:09,203] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:15:09,211] {logging_mixin.py:115} INFO - [2022-07-30 23:15:09,211] {dag.py:2968} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-07-30 23:15:09,221] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.062 seconds
+[2022-07-30 23:15:47,425] {processor.py:153} INFO - Started process (PID=6911) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 23:15:47,425] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-07-30 23:15:47,426] {logging_mixin.py:115} INFO - [2022-07-30 23:15:47,426] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 23:15:47,440] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 23:15:47,464] {logging_mixin.py:115} INFO - [2022-07-30 23:15:47,464] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:15:47,473] {logging_mixin.py:115} INFO - [2022-07-30 23:15:47,473] {dag.py:2968} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-07-30 23:15:47,484] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.063 seconds
+[2022-07-30 23:16:24,383] {processor.py:153} INFO - Started process (PID=7144) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 23:16:24,384] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-07-30 23:16:24,384] {logging_mixin.py:115} INFO - [2022-07-30 23:16:24,384] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 23:16:24,398] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 23:16:24,424] {logging_mixin.py:115} INFO - [2022-07-30 23:16:24,424] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:16:24,435] {logging_mixin.py:115} INFO - [2022-07-30 23:16:24,434] {dag.py:2968} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-07-30 23:16:24,448] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.067 seconds
+[2022-07-30 23:17:00,563] {processor.py:153} INFO - Started process (PID=7439) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 23:17:00,563] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-07-30 23:17:00,564] {logging_mixin.py:115} INFO - [2022-07-30 23:17:00,564] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 23:17:00,575] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 23:17:00,600] {logging_mixin.py:115} INFO - [2022-07-30 23:17:00,600] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:17:00,609] {logging_mixin.py:115} INFO - [2022-07-30 23:17:00,609] {dag.py:2968} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-07-30 23:17:00,621] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.061 seconds
+[2022-07-30 23:17:39,552] {processor.py:153} INFO - Started process (PID=7735) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 23:17:39,552] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-07-30 23:17:39,552] {logging_mixin.py:115} INFO - [2022-07-30 23:17:39,552] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 23:17:39,568] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 23:17:39,596] {logging_mixin.py:115} INFO - [2022-07-30 23:17:39,596] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:17:39,605] {logging_mixin.py:115} INFO - [2022-07-30 23:17:39,604] {dag.py:2968} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-07-30 23:17:39,616] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.066 seconds
+[2022-07-30 23:18:14,338] {processor.py:153} INFO - Started process (PID=7982) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 23:18:14,339] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-07-30 23:18:14,339] {logging_mixin.py:115} INFO - [2022-07-30 23:18:14,339] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 23:18:14,354] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 23:18:14,363] {logging_mixin.py:115} INFO - [2022-07-30 23:18:14,363] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:18:14,375] {logging_mixin.py:115} INFO - [2022-07-30 23:18:14,375] {dag.py:2968} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-07-30 23:18:14,386] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.049 seconds
+[2022-07-30 23:20:13,487] {processor.py:153} INFO - Started process (PID=8852) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 23:20:13,487] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-07-30 23:20:13,488] {logging_mixin.py:115} INFO - [2022-07-30 23:20:13,488] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 23:20:13,497] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 23:20:13,522] {logging_mixin.py:115} INFO - [2022-07-30 23:20:13,522] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:20:13,531] {logging_mixin.py:115} INFO - [2022-07-30 23:20:13,531] {dag.py:2968} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-07-30 23:20:13,543] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.058 seconds
+[2022-07-30 23:20:49,536] {processor.py:153} INFO - Started process (PID=9145) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 23:20:49,537] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-07-30 23:20:49,537] {logging_mixin.py:115} INFO - [2022-07-30 23:20:49,537] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 23:20:49,557] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 23:20:49,592] {logging_mixin.py:115} INFO - [2022-07-30 23:20:49,592] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:20:49,608] {logging_mixin.py:115} INFO - [2022-07-30 23:20:49,608] {dag.py:2968} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-07-30 23:20:49,626] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.091 seconds
+[2022-07-30 23:24:56,875] {processor.py:153} INFO - Started process (PID=10633) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 23:24:56,876] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-07-30 23:24:56,876] {logging_mixin.py:115} INFO - [2022-07-30 23:24:56,876] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 23:24:56,885] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 23:24:56,907] {logging_mixin.py:115} INFO - [2022-07-30 23:24:56,907] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:24:56,915] {logging_mixin.py:115} INFO - [2022-07-30 23:24:56,915] {dag.py:2968} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-07-30 23:24:56,925] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.051 seconds
+[2022-07-30 23:25:31,722] {processor.py:153} INFO - Started process (PID=10838) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 23:25:31,723] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-07-30 23:25:31,724] {logging_mixin.py:115} INFO - [2022-07-30 23:25:31,724] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 23:25:31,736] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 23:25:31,760] {logging_mixin.py:115} INFO - [2022-07-30 23:25:31,760] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:25:31,768] {logging_mixin.py:115} INFO - [2022-07-30 23:25:31,768] {dag.py:2968} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-07-30 23:25:31,779] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.058 seconds
+[2022-07-30 23:25:49,499] {processor.py:153} INFO - Started process (PID=11033) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 23:25:49,500] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-07-30 23:25:49,500] {logging_mixin.py:115} INFO - [2022-07-30 23:25:49,500] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 23:25:49,511] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 23:25:49,517] {logging_mixin.py:115} INFO - [2022-07-30 23:25:49,517] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:25:49,532] {logging_mixin.py:115} INFO - [2022-07-30 23:25:49,532] {dag.py:2968} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-07-30 23:25:49,544] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.047 seconds
+[2022-07-30 23:26:24,697] {processor.py:153} INFO - Started process (PID=11682) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 23:26:24,698] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-07-30 23:26:24,698] {logging_mixin.py:115} INFO - [2022-07-30 23:26:24,698] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 23:26:24,711] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 23:26:24,733] {logging_mixin.py:115} INFO - [2022-07-30 23:26:24,733] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:26:24,740] {logging_mixin.py:115} INFO - [2022-07-30 23:26:24,740] {dag.py:2968} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-07-30 23:26:24,750] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.058 seconds
+[2022-07-30 23:27:03,243] {processor.py:153} INFO - Started process (PID=12181) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 23:27:03,244] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-07-30 23:27:03,244] {logging_mixin.py:115} INFO - [2022-07-30 23:27:03,244] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 23:27:03,261] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 23:27:03,282] {logging_mixin.py:115} INFO - [2022-07-30 23:27:03,282] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:27:03,288] {logging_mixin.py:115} INFO - [2022-07-30 23:27:03,288] {dag.py:2968} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-07-30 23:27:03,298] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.057 seconds
+[2022-07-30 23:27:39,304] {processor.py:153} INFO - Started process (PID=12561) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 23:27:39,305] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-07-30 23:27:39,305] {logging_mixin.py:115} INFO - [2022-07-30 23:27:39,305] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 23:27:39,314] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 23:27:39,338] {logging_mixin.py:115} INFO - [2022-07-30 23:27:39,337] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:27:39,345] {logging_mixin.py:115} INFO - [2022-07-30 23:27:39,345] {dag.py:2968} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-07-30 23:27:39,358] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.055 seconds
+[2022-07-30 23:28:17,622] {processor.py:153} INFO - Started process (PID=13008) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 23:28:17,623] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-07-30 23:28:17,623] {logging_mixin.py:115} INFO - [2022-07-30 23:28:17,623] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 23:28:17,636] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 23:28:17,663] {logging_mixin.py:115} INFO - [2022-07-30 23:28:17,663] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:28:17,672] {logging_mixin.py:115} INFO - [2022-07-30 23:28:17,672] {dag.py:2968} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-07-30 23:28:17,683] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.062 seconds
+[2022-07-30 23:28:53,351] {processor.py:153} INFO - Started process (PID=13396) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 23:28:53,352] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-07-30 23:28:53,353] {logging_mixin.py:115} INFO - [2022-07-30 23:28:53,353] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 23:28:53,365] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2022-07-30 23:28:53,390] {logging_mixin.py:115} INFO - [2022-07-30 23:28:53,390] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:28:53,400] {logging_mixin.py:115} INFO - [2022-07-30 23:28:53,400] {dag.py:2968} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-07-30 23:28:53,416] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.067 seconds

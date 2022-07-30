@@ -1,0 +1,307 @@
+[2022-07-30 21:48:09,782] {processor.py:153} INFO - Started process (PID=31760) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 21:48:09,782] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2022-07-30 21:48:09,782] {logging_mixin.py:115} INFO - [2022-07-30 21:48:09,782] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 21:48:09,789] {processor.py:651} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 21:48:09,802] {logging_mixin.py:115} INFO - [2022-07-30 21:48:09,802] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:48:09,813] {logging_mixin.py:115} INFO - [2022-07-30 21:48:09,813] {dag.py:2968} INFO - Setting next_dagrun for example_weekday_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 21:48:09,826] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.046 seconds
+[2022-07-30 21:48:50,404] {processor.py:153} INFO - Started process (PID=32035) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 21:48:50,405] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2022-07-30 21:48:50,405] {logging_mixin.py:115} INFO - [2022-07-30 21:48:50,405] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 21:48:50,411] {processor.py:651} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 21:48:50,420] {logging_mixin.py:115} INFO - [2022-07-30 21:48:50,420] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:48:50,429] {logging_mixin.py:115} INFO - [2022-07-30 21:48:50,429] {dag.py:2968} INFO - Setting next_dagrun for example_weekday_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 21:48:50,438] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.038 seconds
+[2022-07-30 21:49:31,491] {processor.py:153} INFO - Started process (PID=32229) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 21:49:31,491] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2022-07-30 21:49:31,492] {logging_mixin.py:115} INFO - [2022-07-30 21:49:31,491] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 21:49:31,498] {processor.py:651} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 21:49:31,508] {logging_mixin.py:115} INFO - [2022-07-30 21:49:31,508] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:49:31,517] {logging_mixin.py:115} INFO - [2022-07-30 21:49:31,517] {dag.py:2968} INFO - Setting next_dagrun for example_weekday_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 21:49:31,525] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.037 seconds
+[2022-07-30 21:50:12,656] {processor.py:153} INFO - Started process (PID=32399) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 21:50:12,657] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2022-07-30 21:50:12,658] {logging_mixin.py:115} INFO - [2022-07-30 21:50:12,658] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 21:50:12,667] {processor.py:651} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 21:50:12,678] {logging_mixin.py:115} INFO - [2022-07-30 21:50:12,678] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:50:12,688] {logging_mixin.py:115} INFO - [2022-07-30 21:50:12,687] {dag.py:2968} INFO - Setting next_dagrun for example_weekday_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 21:50:12,697] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.045 seconds
+[2022-07-30 21:50:53,825] {processor.py:153} INFO - Started process (PID=32792) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 21:50:53,826] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2022-07-30 21:50:53,826] {logging_mixin.py:115} INFO - [2022-07-30 21:50:53,826] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 21:50:53,830] {processor.py:651} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 21:50:53,839] {logging_mixin.py:115} INFO - [2022-07-30 21:50:53,839] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:50:53,848] {logging_mixin.py:115} INFO - [2022-07-30 21:50:53,848] {dag.py:2968} INFO - Setting next_dagrun for example_weekday_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 21:50:53,857] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.033 seconds
+[2022-07-30 21:51:35,723] {processor.py:153} INFO - Started process (PID=33050) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 21:51:35,725] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2022-07-30 21:51:35,725] {logging_mixin.py:115} INFO - [2022-07-30 21:51:35,725] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 21:51:35,734] {processor.py:651} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 21:51:35,744] {logging_mixin.py:115} INFO - [2022-07-30 21:51:35,744] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:51:35,753] {logging_mixin.py:115} INFO - [2022-07-30 21:51:35,753] {dag.py:2968} INFO - Setting next_dagrun for example_weekday_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 21:51:35,761] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.041 seconds
+[2022-07-30 21:52:16,147] {processor.py:153} INFO - Started process (PID=33493) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 21:52:16,148] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2022-07-30 21:52:16,148] {logging_mixin.py:115} INFO - [2022-07-30 21:52:16,148] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 21:52:16,158] {processor.py:651} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 21:52:16,168] {logging_mixin.py:115} INFO - [2022-07-30 21:52:16,168] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:52:16,177] {logging_mixin.py:115} INFO - [2022-07-30 21:52:16,177] {dag.py:2968} INFO - Setting next_dagrun for example_weekday_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 21:52:16,185] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.042 seconds
+[2022-07-30 21:52:57,366] {processor.py:153} INFO - Started process (PID=34001) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 21:52:57,367] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2022-07-30 21:52:57,368] {logging_mixin.py:115} INFO - [2022-07-30 21:52:57,367] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 21:52:57,381] {processor.py:651} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 21:52:57,388] {logging_mixin.py:115} INFO - [2022-07-30 21:52:57,388] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:52:57,396] {logging_mixin.py:115} INFO - [2022-07-30 21:52:57,396] {dag.py:2968} INFO - Setting next_dagrun for example_weekday_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 21:52:57,405] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.043 seconds
+[2022-07-30 21:53:38,041] {processor.py:153} INFO - Started process (PID=34265) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 21:53:38,042] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2022-07-30 21:53:38,043] {logging_mixin.py:115} INFO - [2022-07-30 21:53:38,043] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 21:53:38,050] {processor.py:651} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 21:53:38,057] {logging_mixin.py:115} INFO - [2022-07-30 21:53:38,057] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:53:38,067] {logging_mixin.py:115} INFO - [2022-07-30 21:53:38,067] {dag.py:2968} INFO - Setting next_dagrun for example_weekday_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 21:53:38,075] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.038 seconds
+[2022-07-30 21:54:18,249] {processor.py:153} INFO - Started process (PID=34585) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 21:54:18,250] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2022-07-30 21:54:18,250] {logging_mixin.py:115} INFO - [2022-07-30 21:54:18,250] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 21:54:18,256] {processor.py:651} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 21:54:18,263] {logging_mixin.py:115} INFO - [2022-07-30 21:54:18,263] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:54:18,273] {logging_mixin.py:115} INFO - [2022-07-30 21:54:18,273] {dag.py:2968} INFO - Setting next_dagrun for example_weekday_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 21:54:18,282] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.035 seconds
+[2022-07-30 21:55:00,432] {processor.py:153} INFO - Started process (PID=34857) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 21:55:00,434] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2022-07-30 21:55:00,434] {logging_mixin.py:115} INFO - [2022-07-30 21:55:00,434] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 21:55:00,447] {processor.py:651} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 21:55:00,454] {logging_mixin.py:115} INFO - [2022-07-30 21:55:00,454] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:55:00,463] {logging_mixin.py:115} INFO - [2022-07-30 21:55:00,463] {dag.py:2968} INFO - Setting next_dagrun for example_weekday_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 21:55:00,471] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.043 seconds
+[2022-07-30 21:55:39,776] {processor.py:153} INFO - Started process (PID=35152) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 21:55:39,777] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2022-07-30 21:55:39,778] {logging_mixin.py:115} INFO - [2022-07-30 21:55:39,778] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 21:55:39,792] {processor.py:651} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 21:55:39,799] {logging_mixin.py:115} INFO - [2022-07-30 21:55:39,799] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:55:39,808] {logging_mixin.py:115} INFO - [2022-07-30 21:55:39,808] {dag.py:2968} INFO - Setting next_dagrun for example_weekday_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 21:55:39,816] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.043 seconds
+[2022-07-30 21:56:21,538] {processor.py:153} INFO - Started process (PID=35497) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 21:56:21,539] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2022-07-30 21:56:21,539] {logging_mixin.py:115} INFO - [2022-07-30 21:56:21,539] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 21:56:21,552] {processor.py:651} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 21:56:21,560] {logging_mixin.py:115} INFO - [2022-07-30 21:56:21,560] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:56:21,569] {logging_mixin.py:115} INFO - [2022-07-30 21:56:21,569] {dag.py:2968} INFO - Setting next_dagrun for example_weekday_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 21:56:21,577] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.040 seconds
+[2022-07-30 21:57:04,689] {processor.py:153} INFO - Started process (PID=35804) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 21:57:04,690] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2022-07-30 21:57:04,690] {logging_mixin.py:115} INFO - [2022-07-30 21:57:04,690] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 21:57:04,702] {processor.py:651} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 21:57:04,710] {logging_mixin.py:115} INFO - [2022-07-30 21:57:04,710] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:57:04,718] {logging_mixin.py:115} INFO - [2022-07-30 21:57:04,718] {dag.py:2968} INFO - Setting next_dagrun for example_weekday_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 21:57:04,748] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.062 seconds
+[2022-07-30 21:57:45,999] {processor.py:153} INFO - Started process (PID=36178) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 21:57:46,000] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2022-07-30 21:57:46,000] {logging_mixin.py:115} INFO - [2022-07-30 21:57:46,000] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 21:57:46,005] {processor.py:651} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 21:57:46,017] {logging_mixin.py:115} WARNING - /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py:610 DeprecationWarning: DAG.full_filepath is deprecated in favour of fileloc
+[2022-07-30 21:57:46,019] {logging_mixin.py:115} INFO - [2022-07-30 21:57:46,017] {dagbag.py:610} ERROR - Failed to write serialized DAG: /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+Traceback (most recent call last):
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 605, in _serialize_dag_capturing_errors
+    self._sync_perm_for_dag(dag, session=session)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/utils/session.py", line 68, in wrapper
+    return func(*args, **kwargs)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 660, in _sync_perm_for_dag
+    if dag.access_control or needs_perms(root_dag_id):
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 650, in needs_perms
+    session.query(Permission)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2046, in query
+    return self._query_cls(entities, self, **kwargs)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 173, in __init__
+    self._set_entities(entities)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 180, in _set_entities
+    self._raw_columns = [
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 181, in <listcomp>
+    coercions.expect(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/coercions.py", line 160, in expect
+    insp._post_inspect
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 1162, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 2097, in _post_inspect
+    self._check_configure()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 1874, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 3381, in _configure_registries
+    _do_configure_registries(registries, cascade)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 3420, in _do_configure_registries
+    mapper._post_configure_properties()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/mapper.py", line 1891, in _post_configure_properties
+    prop.init()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/interfaces.py", line 227, in init
+    self.do_init()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2133, in do_init
+    self._setup_join_conditions()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2229, in _setup_join_conditions
+    self._join_condition = jc = JoinCondition(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2624, in __init__
+    self._determine_joins()
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/relationships.py", line 2720, in _determine_joins
+    self.secondaryjoin = join_condition(
+  File "<string>", line 2, in join_condition
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/selectable.py", line 1186, in _join_condition
+    constraints = cls._joincond_scan_left_right(
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/selectable.py", line 1255, in _joincond_scan_left_right
+    col = fk.get_referent(left)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/schema.py", line 2232, in get_referent
+    return table.corresponding_column(self.column)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 1095, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+  File "/home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/schema.py", line 2373, in column
+    raise exc.NoReferencedTableError(
+sqlalchemy.exc.NoReferencedTableError: Foreign key associated with column 'ab_permission_view_role.permission_view_id' could not find table 'ab_permission_view' with which to generate a foreign key to target column 'id'
+[2022-07-30 21:57:46,019] {logging_mixin.py:115} INFO - [2022-07-30 21:57:46,019] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:57:46,028] {logging_mixin.py:115} INFO - [2022-07-30 21:57:46,028] {dag.py:2968} INFO - Setting next_dagrun for example_weekday_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 21:57:46,041] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.044 seconds
+[2022-07-30 21:58:52,229] {processor.py:153} INFO - Started process (PID=36884) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 21:58:52,230] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2022-07-30 21:58:52,230] {logging_mixin.py:115} INFO - [2022-07-30 21:58:52,230] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 21:58:52,235] {processor.py:651} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 21:58:52,244] {logging_mixin.py:115} INFO - [2022-07-30 21:58:52,244] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:58:52,255] {logging_mixin.py:115} INFO - [2022-07-30 21:58:52,254] {dag.py:2968} INFO - Setting next_dagrun for example_weekday_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 21:58:52,266] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.038 seconds
+[2022-07-30 21:59:33,071] {processor.py:153} INFO - Started process (PID=37141) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 21:59:33,072] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2022-07-30 21:59:33,072] {logging_mixin.py:115} INFO - [2022-07-30 21:59:33,072] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 21:59:33,081] {processor.py:651} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 21:59:33,090] {logging_mixin.py:115} INFO - [2022-07-30 21:59:33,090] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 21:59:33,099] {logging_mixin.py:115} INFO - [2022-07-30 21:59:33,099] {dag.py:2968} INFO - Setting next_dagrun for example_weekday_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 21:59:33,108] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.039 seconds
+[2022-07-30 22:00:07,944] {processor.py:153} INFO - Started process (PID=37398) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 22:00:07,945] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2022-07-30 22:00:07,946] {logging_mixin.py:115} INFO - [2022-07-30 22:00:07,946] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 22:00:07,951] {processor.py:651} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 22:00:07,959] {logging_mixin.py:115} INFO - [2022-07-30 22:00:07,959] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 22:00:07,969] {logging_mixin.py:115} INFO - [2022-07-30 22:00:07,969] {dag.py:2968} INFO - Setting next_dagrun for example_weekday_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 22:00:07,978] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.037 seconds
+[2022-07-30 22:00:43,705] {processor.py:153} INFO - Started process (PID=37728) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 22:00:43,705] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2022-07-30 22:00:43,706] {logging_mixin.py:115} INFO - [2022-07-30 22:00:43,706] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 22:00:43,710] {processor.py:651} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 22:00:43,722] {logging_mixin.py:115} INFO - [2022-07-30 22:00:43,721] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 22:00:43,731] {logging_mixin.py:115} INFO - [2022-07-30 22:00:43,731] {dag.py:2968} INFO - Setting next_dagrun for example_weekday_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 22:00:43,740] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.036 seconds
+[2022-07-30 22:01:17,986] {processor.py:153} INFO - Started process (PID=38029) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 22:01:17,987] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2022-07-30 22:01:17,988] {logging_mixin.py:115} INFO - [2022-07-30 22:01:17,988] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 22:01:17,998] {processor.py:651} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 22:01:18,008] {logging_mixin.py:115} INFO - [2022-07-30 22:01:18,007] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 22:01:18,017] {logging_mixin.py:115} INFO - [2022-07-30 22:01:18,017] {dag.py:2968} INFO - Setting next_dagrun for example_weekday_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 22:01:18,025] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.043 seconds
+[2022-07-30 22:01:57,151] {processor.py:153} INFO - Started process (PID=38374) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 22:01:57,151] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2022-07-30 22:01:57,152] {logging_mixin.py:115} INFO - [2022-07-30 22:01:57,152] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 22:01:57,157] {processor.py:651} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 22:01:57,167] {logging_mixin.py:115} INFO - [2022-07-30 22:01:57,167] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 22:01:57,176] {logging_mixin.py:115} INFO - [2022-07-30 22:01:57,176] {dag.py:2968} INFO - Setting next_dagrun for example_weekday_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 22:01:57,185] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.036 seconds
+[2022-07-30 22:02:35,411] {processor.py:153} INFO - Started process (PID=38780) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 22:02:35,412] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2022-07-30 22:02:35,413] {logging_mixin.py:115} INFO - [2022-07-30 22:02:35,413] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 22:02:35,421] {processor.py:651} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 22:02:35,432] {logging_mixin.py:115} INFO - [2022-07-30 22:02:35,432] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 22:02:35,441] {logging_mixin.py:115} INFO - [2022-07-30 22:02:35,441] {dag.py:2968} INFO - Setting next_dagrun for example_weekday_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 22:02:35,450] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.043 seconds
+[2022-07-30 22:03:10,389] {processor.py:153} INFO - Started process (PID=38966) to work on /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 22:03:10,390] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2022-07-30 22:03:10,390] {logging_mixin.py:115} INFO - [2022-07-30 22:03:10,390] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 22:03:10,394] {processor.py:651} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 22:03:10,403] {logging_mixin.py:115} INFO - [2022-07-30 22:03:10,403] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 22:03:10,412] {logging_mixin.py:115} INFO - [2022-07-30 22:03:10,412] {dag.py:2968} INFO - Setting next_dagrun for example_weekday_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 22:03:10,420] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/airflow_env/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.033 seconds
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      [2022-07-30 23:14:46,856] {processor.py:153} INFO - Started process (PID=5582) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 23:14:46,857] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2022-07-30 23:14:46,857] {logging_mixin.py:115} INFO - [2022-07-30 23:14:46,857] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 23:14:46,863] {processor.py:651} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 23:14:46,900] {logging_mixin.py:115} INFO - [2022-07-30 23:14:46,900] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:14:46,918] {logging_mixin.py:115} INFO - [2022-07-30 23:14:46,918] {dag.py:2968} INFO - Setting next_dagrun for example_weekday_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 23:14:46,932] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.078 seconds
+[2022-07-30 23:15:23,456] {processor.py:153} INFO - Started process (PID=6383) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 23:15:23,457] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2022-07-30 23:15:23,457] {logging_mixin.py:115} INFO - [2022-07-30 23:15:23,457] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 23:15:23,467] {processor.py:651} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 23:15:23,480] {logging_mixin.py:115} INFO - [2022-07-30 23:15:23,480] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:15:23,493] {logging_mixin.py:115} INFO - [2022-07-30 23:15:23,493] {dag.py:2968} INFO - Setting next_dagrun for example_weekday_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 23:15:23,503] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.050 seconds
+[2022-07-30 23:16:00,787] {processor.py:153} INFO - Started process (PID=6996) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 23:16:00,788] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2022-07-30 23:16:00,788] {logging_mixin.py:115} INFO - [2022-07-30 23:16:00,788] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 23:16:00,794] {processor.py:651} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 23:16:00,803] {logging_mixin.py:115} INFO - [2022-07-30 23:16:00,803] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:16:00,813] {logging_mixin.py:115} INFO - [2022-07-30 23:16:00,813] {dag.py:2968} INFO - Setting next_dagrun for example_weekday_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 23:16:00,823] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.037 seconds
+[2022-07-30 23:16:38,382] {processor.py:153} INFO - Started process (PID=7326) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 23:16:38,383] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2022-07-30 23:16:38,384] {logging_mixin.py:115} INFO - [2022-07-30 23:16:38,384] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 23:16:38,390] {processor.py:651} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 23:16:38,400] {logging_mixin.py:115} INFO - [2022-07-30 23:16:38,400] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:16:38,410] {logging_mixin.py:115} INFO - [2022-07-30 23:16:38,410] {dag.py:2968} INFO - Setting next_dagrun for example_weekday_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 23:16:38,419] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.040 seconds
+[2022-07-30 23:17:13,748] {processor.py:153} INFO - Started process (PID=7491) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 23:17:13,748] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2022-07-30 23:17:13,749] {logging_mixin.py:115} INFO - [2022-07-30 23:17:13,749] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 23:17:13,760] {processor.py:651} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 23:17:13,769] {logging_mixin.py:115} INFO - [2022-07-30 23:17:13,769] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:17:13,783] {logging_mixin.py:115} INFO - [2022-07-30 23:17:13,782] {dag.py:2968} INFO - Setting next_dagrun for example_weekday_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 23:17:13,797] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.051 seconds
+[2022-07-30 23:17:52,070] {processor.py:153} INFO - Started process (PID=7802) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 23:17:52,071] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2022-07-30 23:17:52,072] {logging_mixin.py:115} INFO - [2022-07-30 23:17:52,072] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 23:17:52,077] {processor.py:651} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 23:17:52,090] {logging_mixin.py:115} INFO - [2022-07-30 23:17:52,090] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:17:52,100] {logging_mixin.py:115} INFO - [2022-07-30 23:17:52,100] {dag.py:2968} INFO - Setting next_dagrun for example_weekday_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 23:17:52,111] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.043 seconds
+[2022-07-30 23:20:26,030] {processor.py:153} INFO - Started process (PID=8928) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 23:20:26,031] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2022-07-30 23:20:26,031] {logging_mixin.py:115} INFO - [2022-07-30 23:20:26,031] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 23:20:26,036] {processor.py:651} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 23:20:26,045] {logging_mixin.py:115} INFO - [2022-07-30 23:20:26,045] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:20:26,054] {logging_mixin.py:115} INFO - [2022-07-30 23:20:26,054] {dag.py:2968} INFO - Setting next_dagrun for example_weekday_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 23:20:26,065] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.036 seconds
+[2022-07-30 23:25:09,426] {processor.py:153} INFO - Started process (PID=10733) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 23:25:09,427] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2022-07-30 23:25:09,428] {logging_mixin.py:115} INFO - [2022-07-30 23:25:09,428] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 23:25:09,435] {processor.py:651} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 23:25:09,443] {logging_mixin.py:115} INFO - [2022-07-30 23:25:09,443] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:25:09,452] {logging_mixin.py:115} INFO - [2022-07-30 23:25:09,452] {dag.py:2968} INFO - Setting next_dagrun for example_weekday_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 23:25:09,461] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.040 seconds
+[2022-07-30 23:26:03,641] {processor.py:153} INFO - Started process (PID=11196) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 23:26:03,642] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2022-07-30 23:26:03,642] {logging_mixin.py:115} INFO - [2022-07-30 23:26:03,642] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 23:26:03,648] {processor.py:651} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 23:26:03,658] {logging_mixin.py:115} INFO - [2022-07-30 23:26:03,658] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:26:03,668] {logging_mixin.py:115} INFO - [2022-07-30 23:26:03,667] {dag.py:2968} INFO - Setting next_dagrun for example_weekday_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 23:26:03,677] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.038 seconds
+[2022-07-30 23:26:38,716] {processor.py:153} INFO - Started process (PID=11803) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 23:26:38,717] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2022-07-30 23:26:38,717] {logging_mixin.py:115} INFO - [2022-07-30 23:26:38,717] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 23:26:38,724] {processor.py:651} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 23:26:38,731] {logging_mixin.py:115} INFO - [2022-07-30 23:26:38,731] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:26:38,739] {logging_mixin.py:115} INFO - [2022-07-30 23:26:38,739] {dag.py:2968} INFO - Setting next_dagrun for example_weekday_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 23:26:38,748] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.036 seconds
+[2022-07-30 23:27:16,399] {processor.py:153} INFO - Started process (PID=12366) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 23:27:16,399] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2022-07-30 23:27:16,400] {logging_mixin.py:115} INFO - [2022-07-30 23:27:16,400] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 23:27:16,406] {processor.py:651} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 23:27:16,415] {logging_mixin.py:115} INFO - [2022-07-30 23:27:16,415] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:27:16,423] {logging_mixin.py:115} INFO - [2022-07-30 23:27:16,423] {dag.py:2968} INFO - Setting next_dagrun for example_weekday_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 23:27:16,432] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.035 seconds
+[2022-07-30 23:27:53,312] {processor.py:153} INFO - Started process (PID=12673) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 23:27:53,314] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2022-07-30 23:27:53,314] {logging_mixin.py:115} INFO - [2022-07-30 23:27:53,314] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 23:27:53,324] {processor.py:651} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 23:27:53,331] {logging_mixin.py:115} INFO - [2022-07-30 23:27:53,331] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:27:53,340] {logging_mixin.py:115} INFO - [2022-07-30 23:27:53,340] {dag.py:2968} INFO - Setting next_dagrun for example_weekday_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 23:27:53,350] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.041 seconds
+[2022-07-30 23:28:29,649] {processor.py:153} INFO - Started process (PID=13118) to work on /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 23:28:29,650] {processor.py:641} INFO - Processing file /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2022-07-30 23:28:29,651] {logging_mixin.py:115} INFO - [2022-07-30 23:28:29,651] {dagbag.py:508} INFO - Filling up the DagBag from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 23:28:29,657] {processor.py:651} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2022-07-30 23:28:29,664] {logging_mixin.py:115} INFO - [2022-07-30 23:28:29,664] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-30 23:28:29,675] {logging_mixin.py:115} INFO - [2022-07-30 23:28:29,674] {dag.py:2968} INFO - Setting next_dagrun for example_weekday_branch_operator to 2022-07-29T00:00:00+00:00, run_after=2022-07-30T00:00:00+00:00
+[2022-07-30 23:28:29,684] {processor.py:161} INFO - Processing /home/hp/miniconda3/envs/checker/lib/python3.8/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.037 seconds
